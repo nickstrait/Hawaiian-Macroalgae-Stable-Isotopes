@@ -1,0 +1,39 @@
+```{r}
+nitrogen.data <- read.csv("./Data/Macroalgae_Nitrogen.csv")
+```
+
+```{r}
+library(dplyr)
+library(vegan)
+```
+
+```{r}
+## N15 matrix
+N15.matrix <- tapply(nitrogen.data$N15,
+              INDEX = list(nitrogen.data$ID, nitrogen.data$Genus),
+              mean)
+
+N15.matrix <- ifelse(is.na(N15.matrix), 0, N15.matrix)
+N15.matrix[1:5, 1:5]
+
+```
+
+```{r}
+## percent N martix
+percent.matrix <- tapply(nitrogen.data$Percent,
+              INDEX = list(nitrogen.data$ID, nitrogen.data$Genus),
+              mean)
+percent.matrix <- ifelse(is.na(percent.matrix), 0, percent.matrix)
+percent.matrix[1:5, 1:5]
+
+```
+
+```{r}
+cols_to_keep = c('Depth', 'Location', 'Region', 'Zone', 'Division')
+factors.matrix = aggregate(nitrogen.data[ ,cols_to_keep], by = list(nitrogen.data$ID), function(x) x[1])
+row.names(factors.matrix) = factors.matrix[ , 1]
+factors.matrix = factors.matrix[ , -1]
+head(factors.matrix)
+
+```
+
