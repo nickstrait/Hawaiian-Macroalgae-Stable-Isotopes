@@ -1,0 +1,86 @@
+```{r}
+library(ggplot2)
+
+#Plots of shallow N15 and %N by region
+
+ggplot(shallow, aes(x=Region, y=N15, fill=Region)) + geom_violin(trim = FALSE)
+
+ggplot(shallow, aes(x=Region, y=Percent, fill=Region)) + geom_violin(trim = FALSE)
+```
+
+```{r}
+#plot of mesophotic N15 and %N by region (Pacific is Johnston Atoll)
+
+ggplot(mesophotic, aes(x=Region, y=N15, fill=Region)) + geom_violin(trim = FALSE)
+
+ggplot(mesophotic, aes(x=Region, y=Percent, fill=Region)) + geom_violin(trim = FALSE)
+```
+
+```{r}
+#plots of N15 and %N from MHI 
+ggplot(MainHI, aes(x=Zone, y=N15, fill=Zone)) + geom_violin(trim = FALSE)
+
+ggplot(MainHI, aes(x=Zone, y=Percent, fill=Zone)) + geom_violin(trim = FALSE)
+
+ggplot(MainHI, aes(x=Zone, y=N15, fill=Location)) + geom_violin(trim = FALSE)
+
+ggplot(MainHI, aes(x=Zone, y=Percent, fill=Location)) + geom_violin(trim = FALSE)
+```
+
+```{r}
+#Plots of NWHI 
+ggplot(NwestHI, aes(x=Zone, y=N15, fill=Zone)) + geom_violin(trim = FALSE)
+
+ggplot(NwestHI, aes(x=Zone, y=Percent, fill=Zone)) + geom_violin(trim = FALSE)
+
+ggplot(NwestHI, aes(x=Zone, y=N15, fill=Location)) + geom_violin(trim = FALSE)
+
+ggplot(NwestHI, aes(x=Zone, y=Percent, fill=Location)) + geom_violin(trim = FALSE)
+```
+
+```{r}
+#Plots of shallow MHI
+
+ggplot(MHI.shlw, aes(x=Division, y=N15, fill=Genus)) + geom_violin(trim = FALSE)
+
+ggplot(MHI.shlw, aes(x=Division, y=Percent, fill=Genus)) + geom_violin(trim = FALSE)
+
+ggplot(MHI.shlw, aes(x=Location, y=N15, fill=Genus)) + geom_violin(trim = FALSE)
+
+ggplot(MHI.shlw, aes(x=Location, y=Percent, fill=Location)) + geom_violin(trim = FALSE)
+```
+
+```{r}
+#MHI mesophotic plots
+
+ggplot(MHI.meso, aes(x=Division, y=N15, fill=Division)) + geom_violin(trim = FALSE)
+
+ggplot(MHI.meso, aes(x=Division, y=Percent, fill=Genus)) + geom_violin(trim = FALSE)
+
+ggplot(MHI.meso, aes(x=Location, y=N15, fill=Location)) + geom_violin(trim = FALSE)
+
+ggplot(MHI.meso, aes(x=Location, y=Percent, fill=Location)) + geom_violin(trim = FALSE)
+```
+
+```{r}
+#Plots of shallow NWHI
+
+ggplot(NWHI.shlw, aes(x=Division, y=N15, fill=Division)) + geom_violin(trim = FALSE)
+
+ggplot(NWHI.shlw, aes(x=Division, y=Percent, fill=Genus)) + geom_violin(trim = FALSE)
+
+ggplot(NWHI.shlw, aes(x=Location, y=N15, fill=Genus)) + geom_violin(trim = FALSE)
+
+ggplot(NWHI.shlw, aes(x=Location, y=Percent, fill=Location)) + geom_violin(trim = FALSE)
+```
+
+```{r}
+ggplot(NWHI.meso, aes(x=Division, y=N15, fill=Division)) + geom_violin(trim = FALSE)
+
+ggplot(NWHI.meso, aes(x=Division, y=Percent, fill=Genus)) + geom_violin(trim = FALSE)
+
+ggplot(NWHI.meso, aes(x=Location, y=N15, fill=Genus)) + geom_violin(trim = FALSE)
+
+ggplot(NWHI.meso, aes(x=Location, y=Percent, fill=Location)) + geom_violin(trim = FALSE)
+```
+

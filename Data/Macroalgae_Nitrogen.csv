@@ -1,605 +1,844 @@
-ID,Genus,Percent,N15,Division,Depth,Zone,Location,Region
-P1A,H. kanaloana,0.04,3.81,Chlorophyta,1,S,Maui,MHI
-P1B,H. kanaloana,0.05,5.18,Chlorophyta,1,S,Maui,MHI
-P1C,H. kanaloana,0.03,4.59,Chlorophyta,1,S,Maui,MHI
-P1D,H. kanaloana,0.03,3.57,Chlorophyta,1,S,Maui,MHI
-P1E,H. kanaloana,0.01,4.93,Chlorophyta,1,S,Maui,MHI
-P1F,H. kanaloana,0.04,2.96,Chlorophyta,1,S,Maui,MHI
-HK 67,H. kanaloana,0.03,0.41,Chlorophyta,2,S,Maui,MHI
-HK 39+69,H. kanaloana,0.03,1.03,Chlorophyta,2,S,Maui,MHI
-HK 68,H. kanaloana,0.03,2.21,Chlorophyta,2,S,Maui,MHI
-NWHI-712a,Halimeda sp.,0.006782314,5.7,Chlorophyta,5,S,Lisianski,NWHI
-NWHI-712b,Halimeda sp.,0.003780782,6.2,Chlorophyta,5,S,Lisianski,NWHI
-NWHI-712c,Halimeda sp.,0.00542078,5.9,Chlorophyta,5,S,Lisianski,NWHI
-HD 1,Halimeda sp.,0.02,3.78,Chlorophyta,5,S,Maui,MHI
-HD 2,Halimeda sp.,0.03,3.21,Chlorophyta,5,S,Maui,MHI
-HD 3,Halimeda sp.,0.02,3.63,Chlorophyta,5,S,Maui,MHI
-HK 70,H. kanaloana,0.02,2.85,Chlorophyta,6,S,Maui,MHI
-HK 71,H. kanaloana,0.03,4.57,Chlorophyta,6,S,Maui,MHI
-HK 72,H. kanaloana,0.03,3.37,Chlorophyta,6,S,Maui,MHI
-Ha30-10,H. kanaloana,0.03,2.39,Chlorophyta,9,S,Maui,MHI
-Ha30-6,H. kanaloana,0.03,3.31,Chlorophyta,9,S,Maui,MHI
-Ha30-7,H. kanaloana,0.03,3.02,Chlorophyta,9,S,Maui,MHI
-Ha30-8,H. kanaloana,0.02,3.67,Chlorophyta,9,S,Maui,MHI
-Ha30-9,H. kanaloana,0.02,2.68,Chlorophyta,9,S,Maui,MHI
-HK30-1,H. kanaloana,0.03,5.21,Chlorophyta,9,S,Maui,MHI
-HK30-2,H. kanaloana,0.02,3.55,Chlorophyta,9,S,Maui,MHI
-HK30-3,H. kanaloana,0.02,2.83,Chlorophyta,9,S,Maui,MHI
-HK30-4,H. kanaloana,0.02,3.59,Chlorophyta,9,S,Maui,MHI
-HK30-5,H. kanaloana,0.04,3.05,Chlorophyta,9,S,Maui,MHI
-Hono-1,H. kanaloana,0.02,2.9,Chlorophyta,9,S,Maui,MHI
-Hono-2,H. kanaloana,0.02,3.39,Chlorophyta,9,S,Maui,MHI
-Hono-3,H. kanaloana,0.03,3.56,Chlorophyta,9,S,Maui,MHI
-Hono-4,H. kanaloana,0.02,3.09,Chlorophyta,9,S,Maui,MHI
-Hono-5,H. kanaloana,0.02,3.27,Chlorophyta,9,S,Maui,MHI
-NWHI-612a,Halimeda sp.,0.007889218,2.8,Chlorophyta,10,S,FFS,NWHI
-NWHI-612b,Halimeda sp.,0.008634485,3,Chlorophyta,10,S,FFS,NWHI
-NWHI-612c,Halimeda sp.,0.011948018,2.4,Chlorophyta,10,S,FFS,NWHI
-HK 10-1,H. kanaloana,0.02,2.49,Chlorophyta,10,S,Maui,MHI
-HK 10-2,H. kanaloana,0.02,1.95,Chlorophyta,10,S,Maui,MHI
-HK 10-3,H. kanaloana,0.03,0.52,Chlorophyta,10,S,Maui,MHI
-HK 10-4,H. kanaloana,0.02,3.15,Chlorophyta,10,S,Maui,MHI
-HK 10-5,H. kanaloana,0.03,1.13,Chlorophyta,10,S,Maui,MHI
-HK K 10-1,H. kanaloana,0.03,2.25,Chlorophyta,10,S,Maui,MHI
-HK K 10-2,H. kanaloana,0.04,3.02,Chlorophyta,10,S,Maui,MHI
-HK K 10-3,H. kanaloana,0.04,3.46,Chlorophyta,10,S,Maui,MHI
-HK K 10-4,H. kanaloana,0.04,3.06,Chlorophyta,10,S,Maui,MHI
-HK K 10-5,H. kanaloana,0.04,3.15,Chlorophyta,10,S,Maui,MHI
-K210-1,H. kanaloana,0.02,2.65,Chlorophyta,10,S,Maui,MHI
-K210-2,H. kanaloana,0.02,2.82,Chlorophyta,10,S,Maui,MHI
-K210-3,H. kanaloana,0.04,2.83,Chlorophyta,10,S,Maui,MHI
-K210-4,H. kanaloana,0.02,3.66,Chlorophyta,10,S,Maui,MHI
-K210-5,H. kanaloana,0.02,3.08,Chlorophyta,10,S,Maui,MHI
-P10-A,H. kanaloana,0.03,2.88,Chlorophyta,10,S,Maui,MHI
-P10-B,H. kanaloana,0.02,3.61,Chlorophyta,10,S,Maui,MHI
-P10-C,H. kanaloana,0.03,1.42,Chlorophyta,10,S,Maui,MHI
-P10-D,H. kanaloana,0.02,3.34,Chlorophyta,10,S,Maui,MHI
-P10-E,H. kanaloana,0.02,2.64,Chlorophyta,10,S,Maui,MHI
-P10-F,H. kanaloana,0.02,3.63,Chlorophyta,10,S,Maui,MHI
-P10-G,H. kanaloana,0.02,3.9,Chlorophyta,10,S,Maui,MHI
-P10-H,H. kanaloana,0.02,3.18,Chlorophyta,10,S,Maui,MHI
-NWHI-608a,Halimeda sp.,0.021615547,2.5,Chlorophyta,11,S,FFS,NWHI
-NWHI-608b,Halimeda sp.,0.02412779,1.5,Chlorophyta,11,S,FFS,NWHI
-NWHI-608c,Halimeda sp.,0.022951033,0.9,Chlorophyta,11,S,FFS,NWHI
-NWHI-753a,Halimeda sp.,0.005615161,2.6,Chlorophyta,11,S,Lisianski,NWHI
-NWHI-753b,Halimeda sp.,0.009109378,2.3,Chlorophyta,11,S,Lisianski,NWHI
-NWHI-753c,Halimeda sp.,0.008362891,1.9,Chlorophyta,11,S,Lisianski,NWHI
-ML1,H. kanaloana,0.02,2.56,Chlorophyta,11,S,Maui,MHI
-ML2,H. kanaloana,0.02,3.87,Chlorophyta,11,S,Maui,MHI
-ML3,H. kanaloana,0.03,3.58,Chlorophyta,11,S,Maui,MHI
-ML4,H. kanaloana,0.02,3.25,Chlorophyta,11,S,Maui,MHI
-ML5,H. kanaloana,0.02,3.47,Chlorophyta,11,S,Maui,MHI
-NWHI-609a,Microdictyon sp.,0.011534118,-0.2,Chlorophyta,11,S,FFS,NWHI
-NWHI-609b,Microdictyon sp.,0.009834027,1.5,Chlorophyta,11,S,FFS,NWHI
-NWHI-609c,Microdictyon sp.,0.011528523,2.7,Chlorophyta,11,S,FFS,NWHI
-NWHI-752a,Microdictyon sp.,0.009923724,3,Chlorophyta,11,S,Lisianski,NWHI
-NWHI-752b,Microdictyon sp.,0.010817308,2,Chlorophyta,11,S,Lisianski,NWHI
-NWHI-752c,Microdictyon sp.,0.010054881,2.8,Chlorophyta,11,S,Lisianski,NWHI
-NWHI-878a,Halimeda sp.,0.008552697,3.7,Chlorophyta,12,S,Pearl & Hermes,NWHI
-NWHI-878b,Halimeda sp.,0.00960215,2.5,Chlorophyta,12,S,Pearl & Hermes,NWHI
-NWHI-878c,Halimeda sp.,0.007555761,4.8,Chlorophyta,12,S,Pearl & Hermes,NWHI
-NWHI-641a,Halimeda sp.,0.006423634,2.4,Chlorophyta,14,S,FFS,NWHI
-NWHI-641b,Halimeda sp.,0.007767635,2.4,Chlorophyta,14,S,FFS,NWHI
-NWHI-641c,Halimeda sp.,0.006471434,2.7,Chlorophyta,14,S,FFS,NWHI
-NWHI-642a,Halimeda sp.,0.016931321,2.2,Chlorophyta,14,S,FFS,NWHI
-NWHI-642b,Halimeda sp.,0.023061971,2.9,Chlorophyta,14,S,FFS,NWHI
-NWHI-642c,Halimeda sp.,0.018415049,2.8,Chlorophyta,14,S,FFS,NWHI
-HK 40,H. kanaloana,0.02,1.97,Chlorophyta,14,S,Maui,MHI
-HK 41,H. kanaloana,0.02,3.17,Chlorophyta,14,S,Maui,MHI
-HK 42,H. kanaloana,0.03,-0.37,Chlorophyta,14,S,Maui,MHI
-HK 43,H. kanaloana,0.03,2,Chlorophyta,14,S,Maui,MHI
-HK 44,H. kanaloana,0.03,2,Chlorophyta,14,S,Maui,MHI
-HK 45,H. kanaloana,0.03,0.57,Chlorophyta,14,S,Maui,MHI
-HK 46,H. kanaloana,0.04,1.63,Chlorophyta,14,S,Maui,MHI
-HK 47,H. kanaloana,0.03,1.1,Chlorophyta,14,S,Maui,MHI
-HK 48,H. kanaloana,0.03,1.7,Chlorophyta,14,S,Maui,MHI
-HK 49,H. kanaloana,0.02,3.28,Chlorophyta,14,S,Maui,MHI
-HK 50,H. kanaloana,0.02,1.21,Chlorophyta,14,S,Maui,MHI
-HK 51,H. kanaloana,0.03,0.28,Chlorophyta,14,S,Maui,MHI
-HK 52,H. kanaloana,0.03,1.44,Chlorophyta,14,S,Maui,MHI
-HK 53,H. kanaloana,0.03,1.82,Chlorophyta,14,S,Maui,MHI
-HK 54,H. kanaloana,0.03,2.1,Chlorophyta,14,S,Maui,MHI
-HK 55,H. kanaloana,0.05,1.85,Chlorophyta,14,S,Maui,MHI
-HK 56,H. kanaloana,0.04,1.79,Chlorophyta,14,S,Maui,MHI
-HK 57,H. kanaloana,0.03,2.11,Chlorophyta,14,S,Maui,MHI
-HK 58,H. kanaloana,0.03,1.61,Chlorophyta,14,S,Maui,MHI
-HK 59,H. kanaloana,0.03,0.41,Chlorophyta,14,S,Maui,MHI
-HK 60,H. kanaloana,0.04,2.21,Chlorophyta,14,S,Maui,MHI
-HK 61,H. kanaloana,0.03,2.12,Chlorophyta,14,S,Maui,MHI
-HK 62,H. kanaloana,0.04,1.77,Chlorophyta,14,S,Maui,MHI
-HK 63,H. kanaloana,0.03,1.1,Chlorophyta,14,S,Maui,MHI
-HK 64,H. kanaloana,0.03,1.57,Chlorophyta,14,S,Maui,MHI
-HK 65,H. kanaloana,0.02,3.18,Chlorophyta,14,S,Maui,MHI
-HK 66,H. kanaloana,0.03,0.45,Chlorophyta,14,S,Maui,MHI
-HK 73,H. kanaloana,0.03,2.35,Chlorophyta,14,S,Maui,MHI
-HK 74,H. kanaloana,0.03,2.91,Chlorophyta,14,S,Maui,MHI
-HK 75,H. kanaloana,0.03,2.34,Chlorophyta,14,S,Maui,MHI
-NWHI-230-1,Halimeda sp.,0.01,4.6,Chlorophyta,15,S,Johnston Atoll,NWHI
-NWHI-974a,Microdictyon sp.,0.0089332,1.2,Chlorophyta,15,S,Pearl & Hermes,NWHI
-NWHI-974b,Microdictyon sp.,0.009416792,1.2,Chlorophyta,15,S,Pearl & Hermes,NWHI
-NWHI-974c,Microdictyon sp.,0.008649029,1.4,Chlorophyta,15,S,Pearl & Hermes,NWHI
-MHI-168,Halimeda sp.,0.007761464,1.5,Chlorophyta,17,S,Niihau,MHI
-Ha60-10,H. kanaloana,0.03,4.27,Chlorophyta,18,S,Maui,MHI
-Ha60-6,H. kanaloana,0.03,2.32,Chlorophyta,18,S,Maui,MHI
-Ha60-7,H. kanaloana,0.02,2.34,Chlorophyta,18,S,Maui,MHI
-Ha60-8,H. kanaloana,0.03,1.78,Chlorophyta,18,S,Maui,MHI
-HK 10,H. kanaloana,0.03,2.1,Chlorophyta,18,S,Maui,MHI
-HK 12,H. kanaloana,0.03,2.23,Chlorophyta,18,S,Maui,MHI
-HK 13,H. kanaloana,0.04,1.57,Chlorophyta,18,S,Maui,MHI
-HK 17,H. kanaloana,0.03,2.29,Chlorophyta,18,S,Maui,MHI
-HK 19,H. kanaloana,0.03,1.59,Chlorophyta,18,S,Maui,MHI
-HK 2,H. kanaloana,0.04,1.9,Chlorophyta,18,S,Maui,MHI
-HK 20,H. kanaloana,0.03,2.22,Chlorophyta,18,S,Maui,MHI
-HK 3,H. kanaloana,0.03,2.15,Chlorophyta,18,S,Maui,MHI
-HK 5,H. kanaloana,0.02,1.98,Chlorophyta,18,S,Maui,MHI
-HK 6,H. kanaloana,0.02,3.48,Chlorophyta,18,S,Maui,MHI
-HK 7,H. kanaloana,0.02,2.2,Chlorophyta,18,S,Maui,MHI
-HK 8,H. kanaloana,0.02,1.99,Chlorophyta,18,S,Maui,MHI
-HK60-1,H. kanaloana,0.03,2.3,Chlorophyta,18,S,Maui,MHI
-HK60-2,H. kanaloana,0.03,2.01,Chlorophyta,18,S,Maui,MHI
-HK60-3,H. kanaloana,0.03,2.01,Chlorophyta,18,S,Maui,MHI
-HK60-4,H. kanaloana,0.02,2.32,Chlorophyta,18,S,Maui,MHI
-Hono-7,H. kanaloana,0.02,2.59,Chlorophyta,18,S,Maui,MHI
-Ha60-9,H. kanaloana,0.03,-2.42,Chlorophyta,18,S,Maui,MHI
-HK 1,H. kanaloana,0.02,2.87,Chlorophyta,18,S,Maui,MHI
-HK 11,H. kanaloana,0.02,3.01,Chlorophyta,18,S,Maui,MHI
-HK 14,H. kanaloana,0.03,-0.77,Chlorophyta,18,S,Maui,MHI
-HK 15,H. kanaloana,0.02,3.18,Chlorophyta,18,S,Maui,MHI
-HK 16,H. kanaloana,0.02,3,Chlorophyta,18,S,Maui,MHI
-HK 18,H. kanaloana,0.02,2.9,Chlorophyta,18,S,Maui,MHI
-HK 4,H. kanaloana,0.01,2.72,Chlorophyta,18,S,Maui,MHI
-HK60-5,H. kanaloana,0.02,3.07,Chlorophyta,18,S,Maui,MHI
-Hono-10,H. kanaloana,0.02,2.87,Chlorophyta,18,S,Maui,MHI
-Hono-6,H. kanaloana,0.04,-1.14,Chlorophyta,18,S,Maui,MHI
-Hono-8,H. kanaloana,0.03,3.13,Chlorophyta,18,S,Maui,MHI
-Hono-9,H. kanaloana,0.04,2.72,Chlorophyta,18,S,Maui,MHI
-Ha 28a,Halimeda sp.,0.02,3.31,Chlorophyta,18,S,Oahu,MHI
-Ha 28b,Halimeda sp.,0.02,4.36,Chlorophyta,18,S,Oahu,MHI
-OP-AV1,Avrainvillea sp.,0.03,2.64,Chlorophyta,18,S,Oahu,MHI
-OP-AV2,Avrainvillea sp.,0.03,1.2,Chlorophyta,18,S,Oahu,MHI
-OP-AV3,Avrainvillea sp.,0.03,1.55,Chlorophyta,18,S,Oahu,MHI
-OP-AV4,Avrainvillea sp.,0.02,-0.49,Chlorophyta,18,S,Oahu,MHI
-OP-AV5,Avrainvillea sp.,0.03,1.55,Chlorophyta,18,S,Oahu,MHI
-HK 20-1,H. kanaloana,0.03,2.15,Chlorophyta,20,S,Maui,MHI
-HK 20-2,H. kanaloana,0.02,2.02,Chlorophyta,20,S,Maui,MHI
-HK 20-3,H. kanaloana,0.03,3.32,Chlorophyta,20,S,Maui,MHI
-HK 20-4,H. kanaloana,0.02,2.15,Chlorophyta,20,S,Maui,MHI
-HK 20-5,H. kanaloana,0.02,2.03,Chlorophyta,20,S,Maui,MHI
-HK K 20-1,H. kanaloana,0.04,1.83,Chlorophyta,20,S,Maui,MHI
-HK K 20-2,H. kanaloana,0.02,1.3,Chlorophyta,20,S,Maui,MHI
-HK K 20-3,H. kanaloana,0.03,1.46,Chlorophyta,20,S,Maui,MHI
-HK K 20-4,H. kanaloana,0.02,2,Chlorophyta,20,S,Maui,MHI
-HK K 20-5,H. kanaloana,0.02,2.49,Chlorophyta,20,S,Maui,MHI
-HK L-1,H. kanaloana,0.04,1.4,Chlorophyta,20,S,Maui,MHI
-HK L-2,H. kanaloana,0.02,1.6,Chlorophyta,20,S,Maui,MHI
-HK L-5,H. kanaloana,0.03,3.36,Chlorophyta,20,S,Maui,MHI
-HK M-1,H. kanaloana,0.02,3.01,Chlorophyta,20,S,Maui,MHI
-HK M-2,H. kanaloana,0.02,0.45,Chlorophyta,20,S,Maui,MHI
-HK M-3,H. kanaloana,0.02,2.99,Chlorophyta,20,S,Maui,MHI
-HK M-4,H. kanaloana,0.02,1.68,Chlorophyta,20,S,Maui,MHI
-HK M-5,H. kanaloana,0.02,2.08,Chlorophyta,20,S,Maui,MHI
-HK P-1,H. kanaloana,0.02,2.15,Chlorophyta,20,S,Maui,MHI
-HK P-2,H. kanaloana,0.03,1.82,Chlorophyta,20,S,Maui,MHI
-HK P-3,H. kanaloana,0.03,1.84,Chlorophyta,20,S,Maui,MHI
-HK P-4,H. kanaloana,0.03,1.98,Chlorophyta,20,S,Maui,MHI
-HK P-5,H. kanaloana,0.02,2.47,Chlorophyta,20,S,Maui,MHI
-K20-A,H. kanaloana,0.02,2.15,Chlorophyta,20,S,Maui,MHI
-K20-B,H. kanaloana,0.03,2,Chlorophyta,20,S,Maui,MHI
-K20-C,H. kanaloana,0.03,2.03,Chlorophyta,20,S,Maui,MHI
-K20-D,H. kanaloana,0.05,-0.34,Chlorophyta,20,S,Maui,MHI
-K20-E,H. kanaloana,0.02,1.69,Chlorophyta,20,S,Maui,MHI
-K20-F,H. kanaloana,0.02,2.31,Chlorophyta,20,S,Maui,MHI
-K20-G,H. kanaloana,0.02,3.13,Chlorophyta,20,S,Maui,MHI
-K20-H,H. kanaloana,0.02,0.63,Chlorophyta,20,S,Maui,MHI
-K20-I,H. kanaloana,0.03,2.88,Chlorophyta,20,S,Maui,MHI
-K20-J,H. kanaloana,0.02,2.78,Chlorophyta,20,S,Maui,MHI
-K220-1,H. kanaloana,0.02,3.05,Chlorophyta,20,S,Maui,MHI
-K220-2,H. kanaloana,0.02,3.2,Chlorophyta,20,S,Maui,MHI
-K220-3,H. kanaloana,0.03,1.14,Chlorophyta,20,S,Maui,MHI
-K220-4,H. kanaloana,0.03,2.05,Chlorophyta,20,S,Maui,MHI
-K220-5,H. kanaloana,0.02,2.44,Chlorophyta,20,S,Maui,MHI
-P20-A,H. kanaloana,0.02,1.97,Chlorophyta,20,S,Maui,MHI
-P20-B,H. kanaloana,0.04,2.6,Chlorophyta,20,S,Maui,MHI
-P20-C,H. kanaloana,0.02,2.25,Chlorophyta,20,S,Maui,MHI
-P20-D,H. kanaloana,0.03,3.29,Chlorophyta,20,S,Maui,MHI
-P20-E,H. kanaloana,0.03,2.3,Chlorophyta,20,S,Maui,MHI
-P20-F,H. kanaloana,0.02,2.65,Chlorophyta,20,S,Maui,MHI
-P20-G,H. kanaloana,0.01,2.01,Chlorophyta,20,S,Maui,MHI
-P20-H,H. kanaloana,0.02,2.4,Chlorophyta,20,S,Maui,MHI
-P20-I,H. kanaloana,0.02,1.65,Chlorophyta,20,S,Maui,MHI
-P20-J,H. kanaloana,0.02,2.57,Chlorophyta,20,S,Maui,MHI
-P20-K,H. kanaloana,0.01,1.51,Chlorophyta,20,S,Maui,MHI
-NWHI-1070a,Halimeda sp.,0.006231756,2.2,Chlorophyta,20,S,Pearl & Hermes,NWHI
-NWHI-1070b,Halimeda sp.,0.007227551,1.8,Chlorophyta,20,S,Pearl & Hermes,NWHI
-NWHI-1070c,Halimeda sp.,0.007936244,2,Chlorophyta,20,S,Pearl & Hermes,NWHI
-AV 89B,Avrainvillea sp.,0.04,0.92,Chlorophyta,20,S,Oahu,MHI
-AV 89C,Avrainvillea sp.,0.05,1.19,Chlorophyta,20,S,Oahu,MHI
-NWHI-1069a,Microdictyon sp.,0.011103959,1,Chlorophyta,20,S,Pearl & Hermes,NWHI
-NWHI-1069b,Microdictyon sp.,0.010244534,0.8,Chlorophyta,20,S,Pearl & Hermes,NWHI
-NWHI-1069c,Microdictyon sp.,0.011854225,1.5,Chlorophyta,20,S,Pearl & Hermes,NWHI
-NWHI-1071a,Halimeda sp.,0.005800236,1.5,Chlorophyta,23,S,Pearl & Hermes,NWHI
-NWHI-1071b,Halimeda sp.,0.011372202,2.1,Chlorophyta,23,S,Pearl & Hermes,NWHI
-NWHI-1071c,Halimeda sp.,0.007540832,1.7,Chlorophyta,23,S,Pearl & Hermes,NWHI
-Ha 11a,Halimeda sp.,0.02,3.12,Chlorophyta,24,S,Oahu,MHI
-Ha 11b,Halimeda sp.,0.03,1.77,Chlorophyta,24,S,Oahu,MHI
-Ha 11c,Halimeda sp.,0.02,3.06,Chlorophyta,24,S,Oahu,MHI
-Ha 35a,Halimeda sp.,0.02,4.01,Chlorophyta,24,S,Oahu,MHI
-Ha 35b,Halimeda sp.,0.02,3.38,Chlorophyta,24,S,Oahu,MHI
-Ha 35c,Halimeda sp.,0.02,3.01,Chlorophyta,24,S,Oahu,MHI
-NWHI-1072a,Halimeda sp.,0.015480188,2.7,Chlorophyta,24,S,Pearl & Hermes,NWHI
-NWHI-1072b,Halimeda sp.,0.016104219,3,Chlorophyta,24,S,Pearl & Hermes,NWHI
-NWHI-1072c,Halimeda sp.,0.016953625,2.7,Chlorophyta,24,S,Pearl & Hermes,NWHI
-Av 34a,Avrainvillea sp.,0.03,2.23,Chlorophyta,24,S,Oahu,MHI
-Av 34c,Avrainvillea sp.,0.04,1.72,Chlorophyta,24,S,Oahu,MHI
-NWHI-1073a,Microdictyon sp.,0.019453739,2.5,Chlorophyta,25,S,Pearl & Hermes,NWHI
-NWHI-1073b,Microdictyon sp.,0.020090407,2.2,Chlorophyta,25,S,Pearl & Hermes,NWHI
-NWHI-1073c,Microdictyon sp.,0.019883511,2.2,Chlorophyta,25,S,Pearl & Hermes,NWHI
-Ha90-10,H. kanaloana,0.02,2.65,Chlorophyta,27,S,Maui,MHI
-Ha90-6,H. kanaloana,0.02,2.52,Chlorophyta,27,S,Maui,MHI
-Ha90-7,H. kanaloana,0.02,2.66,Chlorophyta,27,S,Maui,MHI
-Ha90-8,H. kanaloana,0.02,2.93,Chlorophyta,27,S,Maui,MHI
-Ha90-9,H. kanaloana,0.02,2.45,Chlorophyta,27,S,Maui,MHI
-HK 21,H. kanaloana,0.02,2.46,Chlorophyta,27,S,Maui,MHI
-HK 22,H. kanaloana,0.02,2.63,Chlorophyta,27,S,Maui,MHI
-HK 24,H. kanaloana,0.02,2.17,Chlorophyta,27,S,Maui,MHI
-HK 25,H. kanaloana,0.01,3.13,Chlorophyta,27,S,Maui,MHI
-HK 26,H. kanaloana,0.03,-1.45,Chlorophyta,27,S,Maui,MHI
-HK 27,H. kanaloana,0.03,0.48,Chlorophyta,27,S,Maui,MHI
-HK 28,H. kanaloana,0.02,2.71,Chlorophyta,27,S,Maui,MHI
-HK 29,H. kanaloana,0.02,2.97,Chlorophyta,27,S,Maui,MHI
-HK 30,H. kanaloana,0.03,2.18,Chlorophyta,27,S,Maui,MHI
-HK 31,H. kanaloana,0.01,3.82,Chlorophyta,27,S,Maui,MHI
-HK 32,H. kanaloana,0.03,-1.12,Chlorophyta,27,S,Maui,MHI
-HK 33,H. kanaloana,0.02,0.19,Chlorophyta,27,S,Maui,MHI
-HK 34,H. kanaloana,0.02,1.9,Chlorophyta,27,S,Maui,MHI
-HK 35,H. kanaloana,0.02,1.87,Chlorophyta,27,S,Maui,MHI
-HK 36,H. kanaloana,0.01,3.58,Chlorophyta,27,S,Maui,MHI
-HK 37,H. kanaloana,0.02,2.71,Chlorophyta,27,S,Maui,MHI
-HK 38,H. kanaloana,0.02,2.79,Chlorophyta,27,S,Maui,MHI
-HK90-1,H. kanaloana,0.03,2.33,Chlorophyta,27,S,Maui,MHI
-HK90-2,H. kanaloana,0.03,2.56,Chlorophyta,27,S,Maui,MHI
-HK90-3,H. kanaloana,0.03,2,Chlorophyta,27,S,Maui,MHI
-HK90-4,H. kanaloana,0.03,2.38,Chlorophyta,27,S,Maui,MHI
-HK90-5,H. kanaloana,0.02,2.28,Chlorophyta,27,S,Maui,MHI
-HK 30-1,H. kanaloana,0.02,2.72,Chlorophyta,30,S,Maui,MHI
-HK 30-2,H. kanaloana,0.03,2.47,Chlorophyta,30,S,Maui,MHI
-HK 30-3,H. kanaloana,0.02,2.23,Chlorophyta,30,S,Maui,MHI
-HK 30-4,H. kanaloana,0.02,1.97,Chlorophyta,30,S,Maui,MHI
-HK 30-5,H. kanaloana,0.02,1.92,Chlorophyta,30,S,Maui,MHI
-HK K 30-1,H. kanaloana,0.02,3.18,Chlorophyta,30,S,Maui,MHI
-HK K 30-2,H. kanaloana,0.02,3.34,Chlorophyta,30,S,Maui,MHI
-HK K 30-3,H. kanaloana,0.02,1.85,Chlorophyta,30,S,Maui,MHI
-HK K 30-4,H. kanaloana,0.02,2.71,Chlorophyta,30,S,Maui,MHI
-HK K 30-5,H. kanaloana,0.02,2.43,Chlorophyta,30,S,Maui,MHI
-K230-1,H. kanaloana,0.02,2.22,Chlorophyta,30,S,Maui,MHI
-K230-2,H. kanaloana,0.02,1.86,Chlorophyta,30,S,Maui,MHI
-K230-3,H. kanaloana,0.02,2.07,Chlorophyta,30,S,Maui,MHI
-K230-4,H. kanaloana,0.02,2.05,Chlorophyta,30,S,Maui,MHI
-K230-5,H. kanaloana,0.02,2.48,Chlorophyta,30,S,Maui,MHI
-K30-A,H. kanaloana,0.03,2.56,Chlorophyta,30,S,Maui,MHI
-K30-B,H. kanaloana,0.03,2.56,Chlorophyta,30,S,Maui,MHI
-K30-C,H. kanaloana,0.03,3.01,Chlorophyta,30,S,Maui,MHI
-K30-D,H. kanaloana,0.03,2.91,Chlorophyta,30,S,Maui,MHI
-K30-E,H. kanaloana,0.03,2.29,Chlorophyta,30,S,Maui,MHI
-K30-F,H. kanaloana,0.02,1.25,Chlorophyta,30,S,Maui,MHI
-K30-G,H. kanaloana,0.02,2.4,Chlorophyta,30,S,Maui,MHI
-K30-H,H. kanaloana,0.03,2.44,Chlorophyta,30,S,Maui,MHI
-K30-I,H. kanaloana,0.03,3.35,Chlorophyta,30,S,Maui,MHI
-K30-J,H. kanaloana,0.02,2.29,Chlorophyta,30,S,Maui,MHI
-K30-K,H. kanaloana,0.03,2.91,Chlorophyta,30,S,Maui,MHI
-K30-L,H. kanaloana,0.04,2.29,Chlorophyta,30,S,Maui,MHI
-AV 73-1,Avrainvillea sp.,0.03,0.85,Chlorophyta,30,S,Oahu,MHI
-AV 73-2,Avrainvillea sp.,0.03,1.29,Chlorophyta,30,S,Oahu,MHI
-AV 73-3,Avrainvillea sp.,0.03,0.2,Chlorophyta,30,S,Oahu,MHI
-HA 91A,Halimeda sp.,0.023535663,1.68,Chlorophyta,38,M,Oahu,MHI
-HA 91B,Halimeda sp.,0.024251565,0.98,Chlorophyta,38,M,Oahu,MHI
-HA 91C,Halimeda sp.,0.025874312,1.26,Chlorophyta,38,M,Oahu,MHI
-K-H1,Halimeda sp.,0.014407727,1.3,Chlorophyta,38,M,Oahu,MHI
-K-H2,Halimeda sp.,0.015043774,1.46,Chlorophyta,38,M,Oahu,MHI
-K-H3,Halimeda sp.,0.01452652,3.35,Chlorophyta,38,M,Oahu,MHI
-K-H4,Halimeda sp.,0.017404905,1.53,Chlorophyta,38,M,Oahu,MHI
-AV 90A,Avrainvillea sp.,0.050637121,1.19,Chlorophyta,38,M,Oahu,MHI
-AV 90B,Avrainvillea sp.,0.051909646,0.8,Chlorophyta,38,M,Oahu,MHI
-AV 90C,Avrainvillea sp.,0.052646649,0.95,Chlorophyta,38,M,Oahu,MHI
-K-AV1,Avrainvillea sp.,0.043318961,1.26,Chlorophyta,38,M,Oahu,MHI
-K-AV2,Avrainvillea sp.,0.045438968,0.31,Chlorophyta,38,M,Oahu,MHI
-K-AV3,Avrainvillea sp.,0.046068206,2.22,Chlorophyta,38,M,Oahu,MHI
-K-AV4,Avrainvillea sp.,0.047788261,1.42,Chlorophyta,38,M,Oahu,MHI
-K-AV5,Avrainvillea sp.,0.039690415,0.99,Chlorophyta,38,M,Oahu,MHI
-K-AV6,Avrainvillea sp.,0.04872758,1.87,Chlorophyta,38,M,Oahu,MHI
-K-AV7,Avrainvillea sp.,0.040526982,1.72,Chlorophyta,38,M,Oahu,MHI
-127A,H. kanaloana,0.018215631,3.22,Chlorophyta,39,M,Maui,MHI
-127B,H. kanaloana,0.019124783,2.15,Chlorophyta,39,M,Maui,MHI
-127C,H. kanaloana,0.017189081,2.41,Chlorophyta,39,M,Maui,MHI
-127D,H. kanaloana,0.015607747,3.36,Chlorophyta,39,M,Maui,MHI
-127E,H. kanaloana,0.016003285,2.82,Chlorophyta,39,M,Maui,MHI
-Ha 2a,Halimeda sp.,0.014071967,2.2,Chlorophyta,40,M,Oahu,MHI
-Ha 2b,Halimeda sp.,0.017295896,2.25,Chlorophyta,40,M,Oahu,MHI
-Ha 2c,Halimeda sp.,0.017037455,4.68,Chlorophyta,40,M,Oahu,MHI
-Ha 15a,Halimeda sp.,0.026639839,3.81,Chlorophyta,40,M,Oahu,MHI
-Ha 15b,Halimeda sp.,0.015158899,2.7,Chlorophyta,40,M,Oahu,MHI
-AV661,Avrainvillea sp.,0.05291622,1.06,Chlorophyta,40,M,Oahu,MHI
-AV666,Avrainvillea sp.,0.044769433,0.95,Chlorophyta,40,M,Oahu,MHI
-AV667,Avrainvillea sp.,0.044552952,1.71,Chlorophyta,40,M,Oahu,MHI
-AV668,Avrainvillea sp.,0.051467346,1.25,Chlorophyta,40,M,Oahu,MHI
-AV681,Avrainvillea sp.,0.05040118,1.18,Chlorophyta,40,M,Oahu,MHI
-AV682,Avrainvillea sp.,0.047254162,1.41,Chlorophyta,40,M,Oahu,MHI
-AV683,Avrainvillea sp.,0.05452414,1.19,Chlorophyta,40,M,Oahu,MHI
-AV684,Avrainvillea sp.,0.049347363,1.21,Chlorophyta,40,M,Oahu,MHI
-AV685,Avrainvillea sp.,0.053444613,1.62,Chlorophyta,40,M,Oahu,MHI
-AV686,Avrainvillea sp.,0.043456695,1.72,Chlorophyta,40,M,Oahu,MHI
-AV687,Avrainvillea sp.,0.046843157,1.3,Chlorophyta,40,M,Oahu,MHI
-AV691,Avrainvillea sp.,0.046845533,1.56,Chlorophyta,40,M,Oahu,MHI
-AV692,Avrainvillea sp.,0.046639604,1.86,Chlorophyta,40,M,Oahu,MHI
-AV694,Avrainvillea sp.,0.053547804,1.42,Chlorophyta,40,M,Oahu,MHI
-AV696,Avrainvillea sp.,0.04743197,1.53,Chlorophyta,40,M,Oahu,MHI
-AV697,Avrainvillea sp.,0.045141193,1.75,Chlorophyta,40,M,Oahu,MHI
-AV699,Avrainvillea sp.,0.054442435,1.07,Chlorophyta,40,M,Oahu,MHI
-NWHI-224,Halimeda sp.,0.0075086,3.6,Chlorophyta,46,M,Johnston Atoll,NWHI
-D1 UJ,Udotea sp.,0.004161858,3.22,Chlorophyta,47,M,Oahu,MHI
-D1 UM,Udotea sp.,0.007933026,2.5,Chlorophyta,47,M,Oahu,MHI
-D1 UN,Udotea sp.,0.004562415,3.91,Chlorophyta,47,M,Oahu,MHI
-D1 UO,Udotea sp.,0.009810765,2.46,Chlorophyta,47,M,Oahu,MHI
-D1 UP,Udotea sp.,0.005789945,3.01,Chlorophyta,47,M,Oahu,MHI
-D1 UR,Udotea sp.,0.007217611,3.15,Chlorophyta,47,M,Oahu,MHI
-AV6121,Avrainvillea sp.,0.052136588,1.52,Chlorophyta,48,M,Oahu,MHI
-AV61210,Avrainvillea sp.,0.057442265,1.25,Chlorophyta,48,M,Oahu,MHI
-AV61211,Avrainvillea sp.,0.043883733,1.31,Chlorophyta,48,M,Oahu,MHI
-AV61212,Avrainvillea sp.,0.041376372,2.25,Chlorophyta,48,M,Oahu,MHI
-AV61213,Avrainvillea sp.,0.052869303,1.15,Chlorophyta,48,M,Oahu,MHI
-AV6122,Avrainvillea sp.,0.052166517,1.38,Chlorophyta,48,M,Oahu,MHI
-AV6123,Avrainvillea sp.,0.053712862,1.02,Chlorophyta,48,M,Oahu,MHI
-AV6124,Avrainvillea sp.,0.053457318,1.52,Chlorophyta,48,M,Oahu,MHI
-AV6125,Avrainvillea sp.,0.052571639,0.69,Chlorophyta,48,M,Oahu,MHI
-AV6126,Avrainvillea sp.,0.054867207,1.11,Chlorophyta,48,M,Oahu,MHI
-AV6127,Avrainvillea sp.,0.043224165,2.18,Chlorophyta,48,M,Oahu,MHI
-AV6128,Avrainvillea sp.,0.045562782,1.7,Chlorophyta,48,M,Oahu,MHI
-AV6129,Avrainvillea sp.,0.054020184,0.86,Chlorophyta,48,M,Oahu,MHI
-P4-188 AV1,Avrainvillea sp.,0.048348617,0.88,Chlorophyta,51,M,Oahu,MHI
-P4-188 AV2,Avrainvillea sp.,0.038596098,1.5,Chlorophyta,51,M,Oahu,MHI
-P4-188 AV3,Avrainvillea sp.,0.040057652,0.87,Chlorophyta,51,M,Oahu,MHI
-P4-188 AV4,Avrainvillea sp.,0.045834822,0.99,Chlorophyta,51,M,Oahu,MHI
-P4-188 AV5,Avrainvillea sp.,0.046639429,0.65,Chlorophyta,51,M,Oahu,MHI
-P4-188 AV6,Avrainvillea sp.,0.041391204,1.54,Chlorophyta,51,M,Oahu,MHI
-P4-188 UD13,Udotea sp.,0.009320166,2.42,Chlorophyta,51,M,Oahu,MHI
-P4-188 UD14,Udotea sp.,0.004295369,2.99,Chlorophyta,51,M,Oahu,MHI
-P4-188 UD15,Udotea sp.,0.013570198,2.42,Chlorophyta,51,M,Oahu,MHI
-P4-188 UD16,Udotea sp.,0.014997887,2.31,Chlorophyta,51,M,Oahu,MHI
-P4-188 UD17,Udotea sp.,0.015491785,2.47,Chlorophyta,51,M,Oahu,MHI
-P4-188 UD18,Udotea sp.,0.005572927,2.85,Chlorophyta,51,M,Oahu,MHI
-NWHI-957a,Codium sp.,0.008446146,4.3,Chlorophyta,52,M,Pearl & Hermes,NWHI
-NWHI-957b,Codium sp.,0.009077216,4.3,Chlorophyta,52,M,Pearl & Hermes,NWHI
-NWHI-957c,Codium sp.,0.010408139,4.5,Chlorophyta,52,M,Pearl & Hermes,NWHI
-NWHI-465,Halimeda sp.,0.017917559,2,Chlorophyta,54,M,Pioneer,NWHI
-COA-D2,Codium sp.,0.012991519,3.72,Chlorophyta,54,M,Oahu,MHI
-NWHI-467,Microdictyon sp.,0.009800098,2.6,Chlorophyta,54,M,Pioneer,NWHI
-NWHI-90,Codium sp.,0.012690642,4.9,Chlorophyta,55,M,Midway,NWHI
-NWHI-100,Microdictyon sp.,0.01244739,2.7,Chlorophyta,55,M,Lisianski,NWHI
-NWHI-92,Microdictyon sp.,0.014395792,2.4,Chlorophyta,55,M,Midway,NWHI
-NWHI-186-1,Halimeda sp.,0.014333507,2.8,Chlorophyta,55,M,FFS,NWHI
-NWHI-228-1,Halimeda sp.,0.008137913,3.7,Chlorophyta,55,M,Johnston Atoll,NWHI
-NWHI-843a,Halimeda sp.,0.017263789,2.7,Chlorophyta,55,M,Lisianski,NWHI
-NWHI-843b,Halimeda sp.,0.014008693,2.3,Chlorophyta,55,M,Lisianski,NWHI
-NWHI-843c,Halimeda sp.,0.01828675,2.5,Chlorophyta,55,M,Lisianski,NWHI
-NWHI-317,Codium sp.,0.006743062,4.3,Chlorophyta,55,M,Midway,NWHI
-NWHI-848a,Microdictyon sp.,0.010890152,1.8,Chlorophyta,55,M,Lisianski,NWHI
-NWHI-848b,Microdictyon sp.,0.010796695,5.2,Chlorophyta,55,M,Lisianski,NWHI
-NWHI-848c,Microdictyon sp.,0.010689723,2.4,Chlorophyta,55,M,Lisianski,NWHI
-NWHI-278,Codium sp.,0.012238798,4.7,Chlorophyta,55,M,Pearl & Hermes,NWHI
-NWHI-251,Codium sp.,0.007569858,2.7,Chlorophyta,56,M,Lisianski,NWHI
-NWHI-252,Codium sp.,0.009097134,4,Chlorophyta,56,M,Lisianski,NWHI
-NWHI-85,Halimeda sp.,0.019264279,2.8,Chlorophyta,56,M,Pearl & Hermes,NWHI
-NWHI-86,Codium sp.,0.011803136,4.5,Chlorophyta,56,M,Pearl & Hermes,NWHI
-NWHI-87,Codium sp.,0.006048424,4.4,Chlorophyta,56,M,Pearl & Hermes,NWHI
-NWHI-384,Microdictyon sp.,0.010150542,3,Chlorophyta,57,M,Kure,NWHI
-NWHI-84,Halimeda sp.,0.002282442,1.9,Chlorophyta,58,M,Pearl & Hermes,NWHI
-NWHI-77,Codium sp.,0.005054823,3,Chlorophyta,58,M,Pearl & Hermes,NWHI
-NWHI-104,Codium sp.,0.015575549,1.8,Chlorophyta,58,M,Lisianski,NWHI
-NWHI-80,Microdictyon sp.,0.011205592,2.7,Chlorophyta,58,M,Pearl & Hermes,NWHI
-NWHI-202-1,Microdictyon sp.,0.007577634,1.5,Chlorophyta,58,M,Laysan,NWHI
-NWHI-247,Halimeda sp.,0.013782305,2.5,Chlorophyta,59,M,Lisianski,NWHI
-NWHI-249,Codium sp.,0.009765317,2.9,Chlorophyta,59,M,Lisianski,NWHI
-D1 AA,Avrainvillea sp.,0.043042014,2.76,Chlorophyta,60,M,Oahu,MHI
-D1 AB,Avrainvillea sp.,0.036977125,3.01,Chlorophyta,60,M,Oahu,MHI
-D1 AC,Avrainvillea sp.,0.038530191,2.22,Chlorophyta,60,M,Oahu,MHI
-D1 AD,Avrainvillea sp.,0.042094936,2.1,Chlorophyta,60,M,Oahu,MHI
-D1 AE,Avrainvillea sp.,0.037473899,2.74,Chlorophyta,60,M,Oahu,MHI
-D1 AF,Avrainvillea sp.,0.040988531,1.69,Chlorophyta,60,M,Oahu,MHI
-D1 UI,Udotea sp.,0.003713868,3.25,Chlorophyta,60,M,Oahu,MHI
-D1 UL,Udotea sp.,0.005426643,3.19,Chlorophyta,60,M,Oahu,MHI
-NWHI-68,Halimeda sp.,0.001824712,2.1,Chlorophyta,61,M,FFS,NWHI
-NWHI-66,Halimeda sp.,0.002860418,2.8,Chlorophyta,61,M,Nihoa,NWHI
-NWHI-205-1,Halimeda sp.,0.011643302,2.6,Chlorophyta,61,M,Laysan,NWHI
-NWHI-209-1,Halimeda sp.,0.011056659,3.4,Chlorophyta,61,M,Laysan,NWHI
-NWHI-212-1,Halimeda sp.,0.003308743,1.1,Chlorophyta,61,M,Laysan,NWHI
-AV-15A,Avrainvillea sp.,0.045206178,-0.08,Chlorophyta,61,M,Oahu,MHI
-AV-15B,Avrainvillea sp.,0.042051552,0.62,Chlorophyta,61,M,Oahu,MHI
-AV-15C,Avrainvillea sp.,0.035934653,1.33,Chlorophyta,61,M,Oahu,MHI
-AV-16A,Avrainvillea sp.,0.036801936,1.66,Chlorophyta,61,M,Oahu,MHI
-AV-16B,Avrainvillea sp.,0.041589421,1.5,Chlorophyta,61,M,Oahu,MHI
-AV-16C,Avrainvillea sp.,0.041616266,1.73,Chlorophyta,61,M,Oahu,MHI
-NWHI-206-1,Codium sp.,0.005765432,1.3,Chlorophyta,61,M,Laysan,NWHI
-NWHI-329,Microdictyon sp.,0.009264706,-0.6,Chlorophyta,61,M,FFS,NWHI
-P4-188 HD1,Halimeda sp.,0.018473952,1.21,Chlorophyta,62,M,Oahu,MHI
-P4-188 HD2,Halimeda sp.,0.018088827,1.45,Chlorophyta,62,M,Oahu,MHI
-P4-188 HD3,Halimeda sp.,0.016194613,1.47,Chlorophyta,62,M,Oahu,MHI
-P4-188 HD4,Halimeda sp.,0.007854933,2.01,Chlorophyta,62,M,Oahu,MHI
-P4-188 HD5,Halimeda sp.,0.008433676,2.45,Chlorophyta,62,M,Oahu,MHI
-P4-188 HD6,Halimeda sp.,0.009034582,2.46,Chlorophyta,62,M,Oahu,MHI
-NWHI-74,Codium sp.,0.00606345,2.9,Chlorophyta,62,M,FFS,NWHI
-NWHI-373,Microdictyon sp.,0.011425913,2.6,Chlorophyta,63,M,Pearl & Hermes,NWHI
-NWHI-219-1,Halimeda sp.,0.005950566,4.3,Chlorophyta,64,M,Johnston Atoll,NWHI
-NWHI-656,Cladophora sp.,0.011289364,2.5,Chlorophyta,64,M,FFS,NWHI
-NWHI-272,Cladophora sp.,0.011084396,4.2,Chlorophyta,64,M,Lisianski,NWHI
-NWHI-271,Codium sp.,0.010148019,2.4,Chlorophyta,64,M,Lisianski,NWHI
-NWHI-162-1,Codium sp.,0.011045499,4.2,Chlorophyta,64,M,Nihoa,NWHI
-NWHI-273,Microdictyon sp.,0.007420173,1.5,Chlorophyta,64,M,Lisianski,NWHI
-NWHI-655b,Microdictyon sp.,0.011949932,2.5,Chlorophyta,64,M,FFS,NWHI
-NWHI-655c,Microdictyon sp.,0.012025418,0.3,Chlorophyta,64,M,FFS,NWHI
-NWHI-102,Halimeda sp.,0.022832178,4.4,Chlorophyta,64,M,Lisianski,NWHI
-D1 HF,Halimeda sp.,0.002070359,3.02,Chlorophyta,65,M,Oahu,MHI
-D1 HG,Halimeda sp.,0.005379313,2.07,Chlorophyta,65,M,Oahu,MHI
-D1 HH,Halimeda sp.,0.004291895,2.8,Chlorophyta,65,M,Oahu,MHI
-D1 HI,Halimeda sp.,0.002596508,2.86,Chlorophyta,65,M,Oahu,MHI
-D1 HJ,Halimeda sp.,0.004859245,2.14,Chlorophyta,65,M,Oahu,MHI
-NWHI-303,Codium sp.,0.008407399,4.7,Chlorophyta,65,M,Midway,NWHI
-D1 UG,Udotea sp.,0.00286496,3.74,Chlorophyta,66,M,Oahu,MHI
-D1 UH,Udotea sp.,0.003640176,3.27,Chlorophyta,66,M,Oahu,MHI
-D1 UK,Udotea sp.,0.005019696,3.62,Chlorophyta,66,M,Oahu,MHI
-NWHI-215-1,Halimeda sp.,0.010328798,3.6,Chlorophyta,67,M,FFS,NWHI
-NWHI-225-1,Halimeda sp.,0.00708114,3.8,Chlorophyta,67,M,Johnston Atoll,NWHI
-AV-18A,Avrainvillea sp.,0.045124109,0.75,Chlorophyta,67,M,Oahu,MHI
-AV-18B,Avrainvillea sp.,0.043238531,1.53,Chlorophyta,67,M,Oahu,MHI
-AV-18C,Avrainvillea sp.,0.042217574,1,Chlorophyta,67,M,Oahu,MHI
-NWHI-216,Codium sp.,0.008604053,3.5,Chlorophyta,67,M,FFS,NWHI
-NWHI-621a,Halimeda sp.,0.008360044,0.3,Chlorophyta,68,M,FFS,NWHI
-NWHI-621b,Halimeda sp.,0.010011234,1.6,Chlorophyta,68,M,FFS,NWHI
-NWHI-621c,Halimeda sp.,0.005780731,0.8,Chlorophyta,68,M,FFS,NWHI
-NWHI-625a,Cladophora sp.,0.01252599,3.1,Chlorophyta,68,M,FFS,NWHI
-NWHI-625b,Cladophora sp.,0.009776396,3,Chlorophyta,68,M,FFS,NWHI
-NWHI-625c,Cladophora sp.,0.0091095,3.2,Chlorophyta,68,M,FFS,NWHI
-P4-189 HB-10,Halimeda sp.,0.007310467,4.89,Chlorophyta,69,M,Molokai,MHI
-P4-189 HB-11,Halimeda sp.,0.015212329,3.68,Chlorophyta,69,M,Molokai,MHI
-P4-189 HB-12,Halimeda sp.,0.011647497,4.24,Chlorophyta,69,M,Molokai,MHI
-P4-189 HB-7,Halimeda sp.,0.013424749,4.35,Chlorophyta,69,M,Molokai,MHI
-P4-189 HB-8,Halimeda sp.,0.010881835,4.07,Chlorophyta,69,M,Molokai,MHI
-P4-189 HB-9,Halimeda sp.,0.019626961,3.89,Chlorophyta,69,M,Molokai,MHI
-NWHI-322,Codium sp.,0.010781823,1.8,Chlorophyta,69,M,Pearl & Hermes,NWHI
-P4-188 UD10,Udotea sp.,0.003202872,3.97,Chlorophyta,70,M,Oahu,MHI
-P4-188 UD7,Udotea sp.,0.004525072,2.86,Chlorophyta,70,M,Oahu,MHI
-P4-188 UD8,Udotea sp.,0.009255432,2.13,Chlorophyta,70,M,Oahu,MHI
-P4-188 UD9,Udotea sp.,0.01660217,1.29,Chlorophyta,70,M,Oahu,MHI
-NWHI-375,Halimeda sp.,0.014319713,5.3,Chlorophyta,70,M,Pearl & Hermes,NWHI
-NWHI-377,Codium sp.,0.006486641,4.2,Chlorophyta,70,M,Pearl & Hermes,NWHI
-NWHI-379,Microdictyon sp.,0.009581588,3.3,Chlorophyta,70,M,Pearl & Hermes,NWHI
-P4-233-1B,Halimeda sp.,0.009709037,1.7,Chlorophyta,77,M,Maui,MHI
-NWHI-674a,Cladophora sp.,0.015831781,4.1,Chlorophyta,77,M,FFS,NWHI
-NWHI-674b,Cladophora sp.,0.016793191,3.5,Chlorophyta,77,M,FFS,NWHI
-NWHI-674c,Cladophora sp.,0.016854316,3.5,Chlorophyta,77,M,FFS,NWHI
-NWHI-682c,Cladophora sp.,0.024507192,3.4,Chlorophyta,77,M,FFS,NWHI
-D1 HA,Halimeda sp.,0.002551189,1.78,Chlorophyta,78,M,Oahu,MHI
-D1 HC,Halimeda sp.,0.002990677,1.74,Chlorophyta,78,M,Oahu,MHI
-D1 HC3B,Halimeda sp.,0.003324111,1.68,Chlorophyta,78,M,Oahu,MHI
-D1 HD,Halimeda sp.,0.002280281,1.44,Chlorophyta,78,M,Oahu,MHI
-D1 HE,Halimeda sp.,0.003022676,1.18,Chlorophyta,78,M,Oahu,MHI
-D1 UC2A,Udotea sp.,0.005938184,2.2,Chlorophyta,78,M,Oahu,MHI
-D1 UC2B,Udotea sp.,0.006045915,3.77,Chlorophyta,78,M,Oahu,MHI
-D1 UC2C,Udotea sp.,0.004364395,3.91,Chlorophyta,78,M,Oahu,MHI
-D1 UC2D,Udotea sp.,0.003383727,3.71,Chlorophyta,78,M,Oahu,MHI
-D1 UC2E,Udotea sp.,0.014199078,1.98,Chlorophyta,78,M,Oahu,MHI
-D1 UC2F,Udotea sp.,0.006523709,3.21,Chlorophyta,78,M,Oahu,MHI
-D1 UC3A,Udotea sp.,0.004330347,3.1,Chlorophyta,78,M,Oahu,MHI
-NWHI-360,Cladophora sp.,0.019755259,2.5,Chlorophyta,79,M,Pioneer,NWHI
-P4-189 HA-13,Halimeda sp.,0.003064492,1.43,Chlorophyta,80,M,Molokai,MHI
-P4-189 HA-14,Halimeda sp.,0.004002469,2.13,Chlorophyta,80,M,Molokai,MHI
-P4-189 HA-15,Halimeda sp.,0.002086788,1.93,Chlorophyta,80,M,Molokai,MHI
-P4-189 HA-16,Halimeda sp.,0.002605066,1.84,Chlorophyta,80,M,Molokai,MHI
-P4-189 HA-17,Halimeda sp.,0.002443229,1.79,Chlorophyta,80,M,Molokai,MHI
-P4-189 HA-18,Halimeda sp.,0.002555879,1.81,Chlorophyta,80,M,Molokai,MHI
-P4-189 HB-1,Halimeda sp.,0.023366714,2.34,Chlorophyta,80,M,Molokai,MHI
-P4-189 HB-2,Halimeda sp.,0.012347113,4.78,Chlorophyta,80,M,Molokai,MHI
-P4-189 HB-3,Halimeda sp.,0.008035568,2.82,Chlorophyta,80,M,Molokai,MHI
-P4-189 HB-4,Halimeda sp.,0.018125839,0.86,Chlorophyta,80,M,Molokai,MHI
-P4-189 HB-5,Halimeda sp.,0.010077475,4.73,Chlorophyta,80,M,Molokai,MHI
-P4-189 HB-6,Halimeda sp.,0.018113346,4.34,Chlorophyta,80,M,Molokai,MHI
-P4-190 HK1,H. kanaloana,0.021279319,2.17,Chlorophyta,82,M,Maui,MHI
-P4-190 HK2,H. kanaloana,0.01933059,2.26,Chlorophyta,82,M,Maui,MHI
-P4-190 HK3,H. kanaloana,0.023767121,1.88,Chlorophyta,82,M,Maui,MHI
-P4-190 HK4,H. kanaloana,0.018011341,2.05,Chlorophyta,82,M,Maui,MHI
-P4-190 HK5,H. kanaloana,0.025883006,1.4,Chlorophyta,82,M,Maui,MHI
-P4-190 HK6,H. kanaloana,0.026785427,2.21,Chlorophyta,82,M,Maui,MHI
-NWHI-340,Cladophora sp.,0.016801668,2.8,Chlorophyta,82,M,FFS,NWHI
-NWHI-342,Cladophora sp.,0.017074333,3.2,Chlorophyta,82,M,FFS,NWHI
-NWHI-341,Microdictyon sp.,0.008108507,0.6,Chlorophyta,82,M,FFS,NWHI
-NWHI-356,Cladophora sp.,0.030601394,3.2,Chlorophyta,84,M,Pioneer,NWHI
-P5-736 57,Codium sp.,0.011506977,2.56,Chlorophyta,84,M,Maui,MHI
-NWHI-355,Microdictyon sp.,0.008572797,0.8,Chlorophyta,84,M,Pioneer,NWHI
-P4-233-4C,Halimeda sp.,0.002694,2.8,Chlorophyta,85,M,Maui,MHI
-P4-233-5,Halimeda sp.,0.002346528,2.3,Chlorophyta,85,M,Maui,MHI
-P4-188 HA1,Halimeda sp.,0.001525933,2.47,Chlorophyta,87,M,Oahu,MHI
-P4-188 HA2,Halimeda sp.,0.004801145,1.69,Chlorophyta,87,M,Oahu,MHI
-P4-188 HA3,Halimeda sp.,0.00285823,2.36,Chlorophyta,87,M,Oahu,MHI
-P4-188 HA4,Halimeda sp.,0.002797569,1.73,Chlorophyta,87,M,Oahu,MHI
-P4-188 HA5,Halimeda sp.,0.003107914,1.83,Chlorophyta,87,M,Oahu,MHI
-P4-188 HA6,Halimeda sp.,0.001881187,2.93,Chlorophyta,87,M,Oahu,MHI
-P5-736 47,Codium sp.,0.019856672,3.65,Chlorophyta,87,M,Maui,MHI
-P4-188 UD1,Udotea sp.,0.005022692,3.54,Chlorophyta,87,M,Oahu,MHI
-P4-188 UD2,Udotea sp.,0.005109921,3,Chlorophyta,87,M,Oahu,MHI
-P4-188 UD3,Udotea sp.,0.005759165,2.78,Chlorophyta,87,M,Oahu,MHI
-P4-188 UD4,Udotea sp.,0.011398694,1.89,Chlorophyta,87,M,Oahu,MHI
-P4-188 UD5,Udotea sp.,0.00385697,3.55,Chlorophyta,87,M,Oahu,MHI
-P4-188 UD6,Udotea sp.,0.004110449,2.81,Chlorophyta,87,M,Oahu,MHI
-NWHI-358,Cladophora sp.,0.007542501,-0.3,Chlorophyta,88,M,Pioneer,NWHI
-NWHI-232,Codium sp.,0.018768428,3.4,Chlorophyta,88,M,FFS,NWHI
-NWHI-359,Microdictyon sp.,0.008178475,2.4,Chlorophyta,88,M,Pioneer,NWHI
-NWHI-446,Halimeda sp.,0.014848128,4.5,Chlorophyta,88,M,Kure,NWHI
-NWHI-448,Microdictyon sp.,0.029824736,4.1,Chlorophyta,88,M,Kure,NWHI
-P5-736 85,Cladophora sp.,0.020620995,3.11,Chlorophyta,89,M,Maui,MHI
-P5-734 9,Halimeda sp.,0.006538312,2.16,Chlorophyta,90,M,Maui,MHI
-NWHI-461,Cladophora sp.,0.012968242,3.8,Chlorophyta,90,M,Pioneer,NWHI
-NWHI-394,Codium sp.,0.012534507,5.5,Chlorophyta,91,M,Kure,NWHI
-NWHI-396,Codium sp.,0.006898081,4.9,Chlorophyta,91,M,Kure,NWHI
-NWHI-403,Codium sp.,0.00854958,3.6,Chlorophyta,91,M,Kure,NWHI
-NWHI-433,Codium sp.,0.015303325,4.6,Chlorophyta,91,M,Salmon,NWHI
-NWHI-431,Codium sp.,0.00695704,5.1,Chlorophyta,91,M,Salmon,NWHI
-NWHI-348,Codium sp.,0.015590409,1.1,Chlorophyta,91,M,FFS,NWHI
-NWHI-430,Microdictyon sp.,0.013837361,4.5,Chlorophyta,91,M,Salmon,NWHI
-P5-734 2,Halimeda sp.,0.012068495,0.89,Chlorophyta,92,M,Maui,MHI
-P5-734 20,Halimeda sp.,0.002138665,1.91,Chlorophyta,92,M,Maui,MHI
-P5-734 30,Halimeda sp.,0.00854226,1.34,Chlorophyta,92,M,Maui,MHI
-P5-734 6,Halimeda sp.,0.007756431,2.17,Chlorophyta,92,M,Maui,MHI
-P5-734 24a,Codium sp.,0.007116738,3.58,Chlorophyta,92,M,Maui,MHI
-P5-734 24b,Codium sp.,0.008928121,3.23,Chlorophyta,92,M,Maui,MHI
-P5-734 27a,Codium sp.,0.008529623,3.25,Chlorophyta,92,M,Maui,MHI
-P5-734 27b,Codium sp.,0.014676523,2.25,Chlorophyta,92,M,Maui,MHI
-NWHI-765a,Cladophora sp.,0.016521943,4,Chlorophyta,98,M,Lisianski,NWHI
-NWHI-765b,Cladophora sp.,0.017425164,4.3,Chlorophyta,98,M,Lisianski,NWHI
-NWHI-765c,Cladophora sp.,0.015661983,4.3,Chlorophyta,98,M,Lisianski,NWHI
-NWHI-839a,Cladophora sp.,0.014851001,4.6,Chlorophyta,98,M,Lisianski,NWHI
-NWHI-839b,Cladophora sp.,0.015950137,4.4,Chlorophyta,98,M,Lisianski,NWHI
-NWHI-839c,Cladophora sp.,0.013946934,4.6,Chlorophyta,98,M,Lisianski,NWHI
-P5-736 67,Halimeda sp.,0.006217509,1.85,Chlorophyta,104,M,Maui,MHI
-P5-736 79,Halimeda sp.,0.00604779,2.73,Chlorophyta,104,M,Maui,MHI
-P5-738 103,Halimeda sp.,0.011745377,0.23,Chlorophyta,109,M,Maui,MHI
-P5-738 111,Halimeda sp.,0.009353624,0.96,Chlorophyta,109,M,Maui,MHI
-P5-738 112a,Codium sp.,0.010818508,-0.39,Chlorophyta,109,M,Maui,MHI
-P5-738 112b,Codium sp.,0.01493183,0.18,Chlorophyta,109,M,Maui,MHI
-P5-736 100,Halimeda sp.,0.010780639,0.05,Chlorophyta,111,M,Maui,MHI
-P5-738 109,Halimeda sp.,0.003981565,1.76,Chlorophyta,117,M,Maui,MHI
-P5-738 108a,Codium sp.,0.017187024,-0.01,Chlorophyta,117,M,Maui,MHI
-P5-738 108c,Codium sp.,0.013908828,1.6,Chlorophyta,117,M,Maui,MHI
-P5-738 78,Codium sp.,0.017896327,-0.38,Chlorophyta,117,M,Maui,MHI
-P4-232 3A,Halimeda sp.,0.002201641,2,Chlorophyta,102-103,M,Maui,MHI
-P4-232 3B,Halimeda sp.,0.002309848,2.6,Chlorophyta,102-103,M,Maui,MHI
-P4-232 3F,Halimeda sp.,0.002829707,2.1,Chlorophyta,102-103,M,Maui,MHI
-P4-232 4C,Halimeda sp.,0.001527181,3.2,Chlorophyta,102-103,M,Maui,MHI
-P4-232 4D,Halimeda sp.,0.002473418,2.9,Chlorophyta,102-103,M,Maui,MHI
-AV C2,Avrainvillea sp.,0.03,3.16,Chlorophyta,intertidal,S,Oahu,MHI
-AV C3,Avrainvillea sp.,0.03,1.49,Chlorophyta,intertidal,S,Oahu,MHI
-AV C6,Avrainvillea sp.,0.03,2.58,Chlorophyta,intertidal,S,Oahu,MHI
-AV SE2,Avrainvillea sp.,0.03,0.56,Chlorophyta,intertidal,S,Oahu,MHI
-AV SE3,Avrainvillea sp.,0.03,-1.66,Chlorophyta,intertidal,S,Oahu,MHI
-AV SE5,Avrainvillea sp.,0.03,0.29,Chlorophyta,intertidal,S,Oahu,MHI
-AV SEC1,Avrainvillea sp.,0.03,2.81,Chlorophyta,intertidal,S,Oahu,MHI
-AV SEC5,Avrainvillea sp.,0.03,1.85,Chlorophyta,intertidal,S,Oahu,MHI
-AV WE1,Avrainvillea sp.,0.03,1.95,Chlorophyta,intertidal,S,Oahu,MHI
-AV WE2,Avrainvillea sp.,0.02,2.38,Chlorophyta,intertidal,S,Oahu,MHI
-AV WE3,Avrainvillea sp.,0.03,1.9,Chlorophyta,intertidal,S,Oahu,MHI
-AV WE5,Avrainvillea sp.,0.03,2.16,Chlorophyta,intertidal,S,Oahu,MHI
-AV2 C1,Avrainvillea sp.,0.03,0.86,Chlorophyta,intertidal,S,Oahu,MHI
-AV2 C2,Avrainvillea sp.,0.03,0.89,Chlorophyta,intertidal,S,Oahu,MHI
-AV2 C3,Avrainvillea sp.,0.03,1,Chlorophyta,intertidal,S,Oahu,MHI
-AV2 C4,Avrainvillea sp.,0.03,0.48,Chlorophyta,intertidal,S,Oahu,MHI
-AV2 C5,Avrainvillea sp.,0.03,0.74,Chlorophyta,intertidal,S,Oahu,MHI
-AV2 C6a,Avrainvillea sp.,0.02,1.65,Chlorophyta,intertidal,S,Oahu,MHI
-AV2 C6b,Avrainvillea sp.,0.02,1.46,Chlorophyta,intertidal,S,Oahu,MHI
-AV2 SE1,Avrainvillea sp.,0.03,-1.58,Chlorophyta,intertidal,S,Oahu,MHI
-AV2 SE2,Avrainvillea sp.,0.03,1.11,Chlorophyta,intertidal,S,Oahu,MHI
-AV2 SE3,Avrainvillea sp.,0.04,-0.08,Chlorophyta,intertidal,S,Oahu,MHI
-AV2 SE4,Avrainvillea sp.,0.03,1.1,Chlorophyta,intertidal,S,Oahu,MHI
-AV2 SE5a,Avrainvillea sp.,0.02,0.4,Chlorophyta,intertidal,S,Oahu,MHI
-AV2 WE1,Avrainvillea sp.,0.04,0.5,Chlorophyta,intertidal,S,Oahu,MHI
-AV2 WE2,Avrainvillea sp.,0.03,0.34,Chlorophyta,intertidal,S,Oahu,MHI
-AV2 WE3,Avrainvillea sp.,0.03,0.87,Chlorophyta,intertidal,S,Oahu,MHI
-AV2 WE4a,Avrainvillea sp.,0.03,0.57,Chlorophyta,intertidal,S,Oahu,MHI
-AV2 WE4b,Avrainvillea sp.,0.03,0.73,Chlorophyta,intertidal,S,Oahu,MHI
+ID,Genus,Division,Percent,N15,Depth,Zone,Location,Region,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+P1B,H. kanaloana,Chlorophyta,4.63,5.18,1,S,Maui,MHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+P1F,H. kanaloana,Chlorophyta,3.92,2.96,1,S,Maui,MHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+P1A,H. kanaloana,Chlorophyta,3.55,3.81,1,S,Maui,MHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+P1C,H. kanaloana,Chlorophyta,3.03,4.59,1,S,Maui,MHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+P1D,H. kanaloana,Chlorophyta,2.53,3.57,1,S,Maui,MHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+P1E,H. kanaloana,Chlorophyta,0.90,4.93,1,S,Maui,MHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+HK 67,H. kanaloana,Chlorophyta,3.46,0.41,2,S,Maui,MHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+HK 68,H. kanaloana,Chlorophyta,3.45,2.21,2,S,Maui,MHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+HK 39+69,H. kanaloana,Chlorophyta,3.30,1.03,2,S,Maui,MHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+HD 2,Halimeda sp.,Chlorophyta,2.78,3.21,5,S,Maui,MHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+HD 1,Halimeda sp.,Chlorophyta,1.93,3.78,5,S,Maui,MHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+HD 3,Halimeda sp.,Chlorophyta,1.78,3.63,5,S,Maui,MHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+NWHI-712a,Halimeda sp.,Chlorophyta,0.678231381,5.7,5,S,Lisianski,NWHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+NWHI-712c,Halimeda sp.,Chlorophyta,0.542077966,5.9,5,S,Lisianski,NWHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+NWHI-712b,Halimeda sp.,Chlorophyta,0.378078158,6.2,5,S,Lisianski,NWHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+HK 71,H. kanaloana,Chlorophyta,3.17,4.57,6,S,Maui,MHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+HK 72,H. kanaloana,Chlorophyta,2.94,3.37,6,S,Maui,MHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+HK 70,H. kanaloana,Chlorophyta,2.24,2.85,6,S,Maui,MHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+HK30-5,H. kanaloana,Chlorophyta,3.59,3.05,9,S,Maui,MHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Ha30-10,H. kanaloana,Chlorophyta,3.42,2.39,9,S,Maui,MHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Hono-3,H. kanaloana,Chlorophyta,3.24,3.56,9,S,Maui,MHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Ha30-6,H. kanaloana,Chlorophyta,3.06,3.31,9,S,Maui,MHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Ha30-7,H. kanaloana,Chlorophyta,2.96,3.02,9,S,Maui,MHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+HK30-1,H. kanaloana,Chlorophyta,2.94,5.21,9,S,Maui,MHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Ha30-9,H. kanaloana,Chlorophyta,2.44,2.68,9,S,Maui,MHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+HK30-2,H. kanaloana,Chlorophyta,2.43,3.55,9,S,Maui,MHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+HK30-3,H. kanaloana,Chlorophyta,2.32,2.83,9,S,Maui,MHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Ha30-8,H. kanaloana,Chlorophyta,2.13,3.67,9,S,Maui,MHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Hono-4,H. kanaloana,Chlorophyta,2.03,3.09,9,S,Maui,MHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+HK30-4,H. kanaloana,Chlorophyta,1.97,3.59,9,S,Maui,MHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Hono-1,H. kanaloana,Chlorophyta,1.95,2.90,9,S,Maui,MHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Hono-5,H. kanaloana,Chlorophyta,1.88,3.27,9,S,Maui,MHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Hono-2,H. kanaloana,Chlorophyta,1.87,3.39,9,S,Maui,MHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+HK K 10-3,H. kanaloana,Chlorophyta,4.14,3.46,10,S,Maui,MHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+HK K 10-2,H. kanaloana,Chlorophyta,4.03,3.02,10,S,Maui,MHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+K210-3,H. kanaloana,Chlorophyta,3.78,2.83,10,S,Maui,MHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+HK K 10-5,H. kanaloana,Chlorophyta,3.73,3.15,10,S,Maui,MHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+HK K 10-4,H. kanaloana,Chlorophyta,3.72,3.06,10,S,Maui,MHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+P10-C,H. kanaloana,Chlorophyta,3.35,1.42,10,S,Maui,MHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+P10-A,H. kanaloana,Chlorophyta,3.15,2.88,10,S,Maui,MHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+HK K 10-1,H. kanaloana,Chlorophyta,3.13,2.25,10,S,Maui,MHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+HK 10-3,H. kanaloana,Chlorophyta,2.67,0.52,10,S,Maui,MHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+HK 10-5,H. kanaloana,Chlorophyta,2.64,1.13,10,S,Maui,MHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+HK 10-2,H. kanaloana,Chlorophyta,2.46,1.95,10,S,Maui,MHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+P10-E,H. kanaloana,Chlorophyta,2.42,2.64,10,S,Maui,MHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+K210-2,H. kanaloana,Chlorophyta,2.40,2.82,10,S,Maui,MHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+HK 10-4,H. kanaloana,Chlorophyta,2.35,3.15,10,S,Maui,MHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+P10-B,H. kanaloana,Chlorophyta,2.24,3.61,10,S,Maui,MHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+P10-D,H. kanaloana,Chlorophyta,2.15,3.34,10,S,Maui,MHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+P10-G,H. kanaloana,Chlorophyta,2.12,3.90,10,S,Maui,MHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+K210-4,H. kanaloana,Chlorophyta,2.02,3.66,10,S,Maui,MHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+K210-1,H. kanaloana,Chlorophyta,2.00,2.65,10,S,Maui,MHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+HK 10-1,H. kanaloana,Chlorophyta,1.91,2.49,10,S,Maui,MHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+P10-F,H. kanaloana,Chlorophyta,1.90,3.63,10,S,Maui,MHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+P10-H,H. kanaloana,Chlorophyta,1.86,3.18,10,S,Maui,MHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+K210-5,H. kanaloana,Chlorophyta,1.79,3.08,10,S,Maui,MHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+NWHI-612c,Halimeda sp.,Chlorophyta,1.194801794,2.4,10,S,FFS,NWHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+NWHI-612b,Halimeda sp.,Chlorophyta,0.86344846,3.0,10,S,FFS,NWHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+NWHI-612a,Halimeda sp.,Chlorophyta,0.788921807,2.8,10,S,FFS,NWHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+ML3,H. kanaloana,Chlorophyta,2.91,3.58,11,S,Maui,MHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+ML4,H. kanaloana,Chlorophyta,2.48,3.25,11,S,Maui,MHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+ML1,H. kanaloana,Chlorophyta,2.02,2.56,11,S,Maui,MHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+ML2,H. kanaloana,Chlorophyta,1.99,3.87,11,S,Maui,MHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+ML5,H. kanaloana,Chlorophyta,1.91,3.47,11,S,Maui,MHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+NWHI-608b,Halimeda sp.,Chlorophyta,2.41277904,1.5,11,S,FFS,NWHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+NWHI-608c,Halimeda sp.,Chlorophyta,2.295103345,0.9,11,S,FFS,NWHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+NWHI-608a,Halimeda sp.,Chlorophyta,2.161554733,2.5,11,S,FFS,NWHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+NWHI-753b,Halimeda sp.,Chlorophyta,0.910937807,2.3,11,S,Lisianski,NWHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+NWHI-753c,Halimeda sp.,Chlorophyta,0.836289089,1.9,11,S,Lisianski,NWHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+NWHI-753a,Halimeda sp.,Chlorophyta,0.561516093,2.6,11,S,Lisianski,NWHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+NWHI-609a,Microdictyon sp.,Chlorophyta,1.153411841,-0.2,11,S,FFS,NWHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+NWHI-609c,Microdictyon sp.,Chlorophyta,1.152852316,2.7,11,S,FFS,NWHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+NWHI-752b,Microdictyon sp.,Chlorophyta,1.081730769,2.0,11,S,Lisianski,NWHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+NWHI-752c,Microdictyon sp.,Chlorophyta,1.005488122,2.8,11,S,Lisianski,NWHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+NWHI-752a,Microdictyon sp.,Chlorophyta,0.992372354,3.0,11,S,Lisianski,NWHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+NWHI-609b,Microdictyon sp.,Chlorophyta,0.983402651,1.5,11,S,FFS,NWHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+NWHI-609a,Microdictyon sp.,Chlorophyta,1.153411841,-0.2,11,S,FFS,NWHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+NWHI-609b,Microdictyon sp.,Chlorophyta,0.983402651,1.5,11,S,FFS,NWHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+NWHI-609c,Microdictyon sp.,Chlorophyta,1.152852316,2.7,11,S,FFS,NWHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+NWHI-752a,Microdictyon sp.,Chlorophyta,0.992372354,3.0,11,S,Lisianski,NWHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+NWHI-752b,Microdictyon sp.,Chlorophyta,1.081730769,2.0,11,S,Lisianski,NWHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+NWHI-752c,Microdictyon sp.,Chlorophyta,1.005488122,2.8,11,S,Lisianski,NWHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+NWHI-221,Caulerpa sp.,Chlorophyta,1.13,5.9,12,S,Johnston Atoll,Pacfic,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+NWHI-878b,Halimeda sp.,Chlorophyta,0.960214983,2.5,12,S,Pearl & Hermes,NWHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+NWHI-878a,Halimeda sp.,Chlorophyta,0.855269726,3.7,12,S,Pearl & Hermes,NWHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+NWHI-878c,Halimeda sp.,Chlorophyta,0.755576086,4.8,12,S,Pearl & Hermes,NWHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+HK 55,H. kanaloana,Chlorophyta,5.22,1.85,14,S,Maui,MHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+HK 46,H. kanaloana,Chlorophyta,4.11,1.63,14,S,Maui,MHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+HK 60,H. kanaloana,Chlorophyta,3.66,2.21,14,S,Maui,MHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+HK 62,H. kanaloana,Chlorophyta,3.51,1.77,14,S,Maui,MHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+HK 56,H. kanaloana,Chlorophyta,3.50,1.79,14,S,Maui,MHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+HK 53,H. kanaloana,Chlorophyta,3.48,1.82,14,S,Maui,MHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+HK 75,H. kanaloana,Chlorophyta,3.42,2.34,14,S,Maui,MHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+HK 51,H. kanaloana,Chlorophyta,3.39,0.28,14,S,Maui,MHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+HK 42,H. kanaloana,Chlorophyta,3.32,-0.37,14,S,Maui,MHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+HK 54,H. kanaloana,Chlorophyta,3.19,2.10,14,S,Maui,MHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+HK 59,H. kanaloana,Chlorophyta,3.13,0.41,14,S,Maui,MHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+HK 47,H. kanaloana,Chlorophyta,3.12,1.10,14,S,Maui,MHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+HK 74,H. kanaloana,Chlorophyta,3.05,2.91,14,S,Maui,MHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+HK 58,H. kanaloana,Chlorophyta,3.01,1.61,14,S,Maui,MHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+HK 63,H. kanaloana,Chlorophyta,3.00,1.10,14,S,Maui,MHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+HK 44,H. kanaloana,Chlorophyta,2.99,2.00,14,S,Maui,MHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+HK 48,H. kanaloana,Chlorophyta,2.93,1.70,14,S,Maui,MHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+HK 66,H. kanaloana,Chlorophyta,2.88,0.45,14,S,Maui,MHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+HK 45,H. kanaloana,Chlorophyta,2.86,0.57,14,S,Maui,MHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+HK 57,H. kanaloana,Chlorophyta,2.83,2.11,14,S,Maui,MHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+HK 64,H. kanaloana,Chlorophyta,2.82,1.57,14,S,Maui,MHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+HK 61,H. kanaloana,Chlorophyta,2.82,2.12,14,S,Maui,MHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+HK 43,H. kanaloana,Chlorophyta,2.74,2.00,14,S,Maui,MHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+HK 73,H. kanaloana,Chlorophyta,2.73,2.35,14,S,Maui,MHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+HK 52,H. kanaloana,Chlorophyta,2.51,1.44,14,S,Maui,MHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+HK 40,H. kanaloana,Chlorophyta,2.49,1.97,14,S,Maui,MHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+HK 65,H. kanaloana,Chlorophyta,2.11,3.18,14,S,Maui,MHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+HK 41,H. kanaloana,Chlorophyta,2.02,3.17,14,S,Maui,MHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+HK 49,H. kanaloana,Chlorophyta,1.97,3.28,14,S,Maui,MHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+HK 50,H. kanaloana,Chlorophyta,1.54,1.21,14,S,Maui,MHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+NWHI-642b,Halimeda sp.,Chlorophyta,2.306197081,2.9,14,S,FFS,NWHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+NWHI-642c,Halimeda sp.,Chlorophyta,1.841504943,2.8,14,S,FFS,NWHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+NWHI-642a,Halimeda sp.,Chlorophyta,1.69313213,2.2,14,S,FFS,NWHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+NWHI-641b,Halimeda sp.,Chlorophyta,0.776763485,2.4,14,S,FFS,NWHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+NWHI-641c,Halimeda sp.,Chlorophyta,0.647143417,2.7,14,S,FFS,NWHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+NWHI-641a,Halimeda sp.,Chlorophyta,0.642363376,2.4,14,S,FFS,NWHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+NWHI-230-1,Halimeda sp.,Chlorophyta,1.42,4.6,15,S,Johnston Atoll,NWHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+NWHI-974b,Microdictyon sp.,Chlorophyta,0.941679196,1.2,15,S,Pearl & Hermes,NWHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+NWHI-974a,Microdictyon sp.,Chlorophyta,0.89332004,1.2,15,S,Pearl & Hermes,NWHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+NWHI-974c,Microdictyon sp.,Chlorophyta,0.864902943,1.4,15,S,Pearl & Hermes,NWHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+NWHI-974a,Microdictyon sp.,Chlorophyta,0.89332004,1.2,15,S,Pearl & Hermes,NWHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+NWHI-974b,Microdictyon sp.,Chlorophyta,0.941679196,1.2,15,S,Pearl & Hermes,NWHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+NWHI-974c,Microdictyon sp.,Chlorophyta,0.864902943,1.4,15,S,Pearl & Hermes,NWHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+MHI-168,Halimeda sp.,Chlorophyta,0.776146433,1.5,17,S,Niihau,MHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+MHI-158,Microdictyon sp.,Chlorophyta,1.695624869,1.2,17,S,Niihau,MHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+OP-AV5,Avrainvillea sp.,Chlorophyta,3.48,1.55,18,S,Oahu,MHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+OP-AV3,Avrainvillea sp.,Chlorophyta,3.47,1.55,18,S,Oahu,MHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+OP-AV2,Avrainvillea sp.,Chlorophyta,3.44,1.20,18,S,Oahu,MHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+OP-AV1,Avrainvillea sp.,Chlorophyta,3.09,2.64,18,S,Oahu,MHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+OP-AV4,Avrainvillea sp.,Chlorophyta,2.39,-0.49,18,S,Oahu,MHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+HK 2,H. kanaloana,Chlorophyta,3.99,1.90,18,S,Maui,MHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Hono-9,H. kanaloana,Chlorophyta,3.98,2.72,18,S,Maui,MHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+HK 13,H. kanaloana,Chlorophyta,3.61,1.57,18,S,Maui,MHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Hono-6,H. kanaloana,Chlorophyta,3.56,-1.14,18,S,Maui,MHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+HK 19,H. kanaloana,Chlorophyta,3.33,1.59,18,S,Maui,MHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+HK 12,H. kanaloana,Chlorophyta,3.26,2.23,18,S,Maui,MHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+HK60-1,H. kanaloana,Chlorophyta,3.07,2.30,18,S,Maui,MHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+HK 14,H. kanaloana,Chlorophyta,3.06,-0.77,18,S,Maui,MHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+HK 20,H. kanaloana,Chlorophyta,3.00,2.22,18,S,Maui,MHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+HK 17,H. kanaloana,Chlorophyta,2.92,2.29,18,S,Maui,MHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Ha60-8,H. kanaloana,Chlorophyta,2.82,1.78,18,S,Maui,MHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+HK60-3,H. kanaloana,Chlorophyta,2.78,2.01,18,S,Maui,MHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Ha60-9,H. kanaloana,Chlorophyta,2.77,-2.42,18,S,Maui,MHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+HK60-2,H. kanaloana,Chlorophyta,2.73,2.01,18,S,Maui,MHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Ha60-6,H. kanaloana,Chlorophyta,2.69,2.32,18,S,Maui,MHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+HK 10,H. kanaloana,Chlorophyta,2.60,2.10,18,S,Maui,MHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+HK 3,H. kanaloana,Chlorophyta,2.57,2.15,18,S,Maui,MHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Hono-8,H. kanaloana,Chlorophyta,2.52,3.13,18,S,Maui,MHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Ha60-10,H. kanaloana,Chlorophyta,2.51,4.27,18,S,Maui,MHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+HK 8,H. kanaloana,Chlorophyta,2.44,1.99,18,S,Maui,MHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+HK 1,H. kanaloana,Chlorophyta,2.38,2.87,18,S,Maui,MHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Hono-7,H. kanaloana,Chlorophyta,2.23,2.59,18,S,Maui,MHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+HK 15,H. kanaloana,Chlorophyta,2.19,3.18,18,S,Maui,MHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Ha60-7,H. kanaloana,Chlorophyta,2.15,2.34,18,S,Maui,MHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+HK 16,H. kanaloana,Chlorophyta,2.12,3.00,18,S,Maui,MHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+HK 11,H. kanaloana,Chlorophyta,2.09,3.01,18,S,Maui,MHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+HK 18,H. kanaloana,Chlorophyta,2.08,2.90,18,S,Maui,MHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+HK60-4,H. kanaloana,Chlorophyta,1.98,2.32,18,S,Maui,MHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Hono-10,H. kanaloana,Chlorophyta,1.91,2.87,18,S,Maui,MHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+HK 7,H. kanaloana,Chlorophyta,1.91,2.20,18,S,Maui,MHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+HK60-5,H. kanaloana,Chlorophyta,1.76,3.07,18,S,Maui,MHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+HK 5,H. kanaloana,Chlorophyta,1.70,1.98,18,S,Maui,MHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+HK 6,H. kanaloana,Chlorophyta,1.65,3.48,18,S,Maui,MHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+HK 4,H. kanaloana,Chlorophyta,1.11,2.72,18,S,Maui,MHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Ha 28b,Halimeda sp.,Chlorophyta,1.72,4.36,18,S,Oahu,MHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Ha 28a,Halimeda sp.,Chlorophyta,1.68,3.31,18,S,Oahu,MHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+AV 89C,Avrainvillea sp.,Chlorophyta,4.68,1.19,20,S,Oahu,MHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+AV 89B,Avrainvillea sp.,Chlorophyta,3.61,0.92,20,S,Oahu,MHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+K20-D,H. kanaloana,Chlorophyta,4.64,-0.34,20,S,Maui,MHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+HK L-1,H. kanaloana,Chlorophyta,4.25,1.40,20,S,Maui,MHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+HK K 20-1,H. kanaloana,Chlorophyta,3.60,1.83,20,S,Maui,MHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+P20-B,H. kanaloana,Chlorophyta,3.57,2.60,20,S,Maui,MHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+HK L-5,H. kanaloana,Chlorophyta,3.47,3.36,20,S,Maui,MHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+HK P-4,H. kanaloana,Chlorophyta,3.44,1.98,20,S,Maui,MHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+K20-I,H. kanaloana,Chlorophyta,3.29,2.88,20,S,Maui,MHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+P20-E,H. kanaloana,Chlorophyta,3.19,2.30,20,S,Maui,MHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+K20-C,H. kanaloana,Chlorophyta,3.19,2.03,20,S,Maui,MHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+HK 20-3,H. kanaloana,Chlorophyta,3.02,3.32,20,S,Maui,MHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+HK P-2,H. kanaloana,Chlorophyta,2.89,1.82,20,S,Maui,MHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+K20-B,H. kanaloana,Chlorophyta,2.87,2.00,20,S,Maui,MHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+HK P-3,H. kanaloana,Chlorophyta,2.85,1.84,20,S,Maui,MHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+HK 20-1,H. kanaloana,Chlorophyta,2.82,2.15,20,S,Maui,MHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+P20-D,H. kanaloana,Chlorophyta,2.66,3.29,20,S,Maui,MHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+K220-4,H. kanaloana,Chlorophyta,2.66,2.05,20,S,Maui,MHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+K220-3,H. kanaloana,Chlorophyta,2.55,1.14,20,S,Maui,MHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+HK K 20-3,H. kanaloana,Chlorophyta,2.54,1.46,20,S,Maui,MHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+K20-E,H. kanaloana,Chlorophyta,2.45,1.69,20,S,Maui,MHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+HK M-4,H. kanaloana,Chlorophyta,2.43,1.68,20,S,Maui,MHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+P20-A,H. kanaloana,Chlorophyta,2.34,1.97,20,S,Maui,MHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+HK M-2,H. kanaloana,Chlorophyta,2.32,0.45,20,S,Maui,MHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+HK L-2,H. kanaloana,Chlorophyta,2.24,1.60,20,S,Maui,MHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+HK 20-4,H. kanaloana,Chlorophyta,2.20,2.15,20,S,Maui,MHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+K220-1,H. kanaloana,Chlorophyta,2.19,3.05,20,S,Maui,MHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+HK P-1,H. kanaloana,Chlorophyta,2.19,2.15,20,S,Maui,MHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+HK P-5,H. kanaloana,Chlorophyta,2.12,2.47,20,S,Maui,MHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+K220-2,H. kanaloana,Chlorophyta,2.11,3.20,20,S,Maui,MHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+HK K 20-4,H. kanaloana,Chlorophyta,2.07,2.00,20,S,Maui,MHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+K220-5,H. kanaloana,Chlorophyta,2.07,2.44,20,S,Maui,MHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+HK K 20-5,H. kanaloana,Chlorophyta,2.04,2.49,20,S,Maui,MHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+K20-F,H. kanaloana,Chlorophyta,2.04,2.31,20,S,Maui,MHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+HK 20-5,H. kanaloana,Chlorophyta,2.03,2.03,20,S,Maui,MHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+P20-I,H. kanaloana,Chlorophyta,2.03,1.65,20,S,Maui,MHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+K20-J,H. kanaloana,Chlorophyta,2.03,2.78,20,S,Maui,MHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+P20-F,H. kanaloana,Chlorophyta,2.02,2.65,20,S,Maui,MHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+HK M-5,H. kanaloana,Chlorophyta,1.96,2.08,20,S,Maui,MHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+K20-G,H. kanaloana,Chlorophyta,1.94,3.13,20,S,Maui,MHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+K20-H,H. kanaloana,Chlorophyta,1.86,0.63,20,S,Maui,MHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+HK M-1,H. kanaloana,Chlorophyta,1.86,3.01,20,S,Maui,MHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+HK M-3,H. kanaloana,Chlorophyta,1.85,2.99,20,S,Maui,MHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+P20-C,H. kanaloana,Chlorophyta,1.84,2.25,20,S,Maui,MHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+K20-A,H. kanaloana,Chlorophyta,1.83,2.15,20,S,Maui,MHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+HK K 20-2,H. kanaloana,Chlorophyta,1.81,1.30,20,S,Maui,MHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+P20-H,H. kanaloana,Chlorophyta,1.77,2.40,20,S,Maui,MHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+HK 20-2,H. kanaloana,Chlorophyta,1.73,2.02,20,S,Maui,MHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+P20-J,H. kanaloana,Chlorophyta,1.58,2.57,20,S,Maui,MHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+P20-K,H. kanaloana,Chlorophyta,1.44,1.51,20,S,Maui,MHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+P20-G,H. kanaloana,Chlorophyta,1.34,2.01,20,S,Maui,MHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+NWHI-1070c,Halimeda sp.,Chlorophyta,0.79362444,2.0,20,S,Pearl & Hermes,NWHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+NWHI-1070b,Halimeda sp.,Chlorophyta,0.722755129,1.8,20,S,Pearl & Hermes,NWHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+NWHI-1070a,Halimeda sp.,Chlorophyta,0.623175572,2.2,20,S,Pearl & Hermes,NWHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+NWHI-1069c,Microdictyon sp.,Chlorophyta,1.185422507,1.5,20,S,Pearl & Hermes,NWHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+NWHI-1069a,Microdictyon sp.,Chlorophyta,1.11039588,1.0,20,S,Pearl & Hermes,NWHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+NWHI-1069b,Microdictyon sp.,Chlorophyta,1.024453429,0.8,20,S,Pearl & Hermes,NWHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+NWHI-1069a,Microdictyon sp.,Chlorophyta,1.11039588,1.0,20,S,Pearl & Hermes,NWHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+NWHI-1069b,Microdictyon sp.,Chlorophyta,1.024453429,0.8,20,S,Pearl & Hermes,NWHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+NWHI-1069c,Microdictyon sp.,Chlorophyta,1.185422507,1.5,20,S,Pearl & Hermes,NWHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+NWHI-1071b,Halimeda sp.,Chlorophyta,1.137220201,2.1,23,S,Pearl & Hermes,NWHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+NWHI-1071c,Halimeda sp.,Chlorophyta,0.754083246,1.7,23,S,Pearl & Hermes,NWHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+NWHI-1071a,Halimeda sp.,Chlorophyta,0.580023594,1.5,23,S,Pearl & Hermes,NWHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Av 34c,Avrainvillea sp.,Chlorophyta,3.73,1.72,24,S,Oahu,MHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Av 34a,Avrainvillea sp.,Chlorophyta,2.95,2.23,24,S,Oahu,MHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Ha 11b,Halimeda sp.,Chlorophyta,2.75,1.77,24,S,Oahu,MHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Ha 11a,Halimeda sp.,Chlorophyta,2.06,3.12,24,S,Oahu,MHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Ha 35c,Halimeda sp.,Chlorophyta,1.75,3.01,24,S,Oahu,MHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Ha 11c,Halimeda sp.,Chlorophyta,1.72,3.06,24,S,Oahu,MHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Ha 35a,Halimeda sp.,Chlorophyta,1.71,4.01,24,S,Oahu,MHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+NWHI-1072c,Halimeda sp.,Chlorophyta,1.695362491,2.7,24,S,Pearl & Hermes,NWHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+NWHI-1072b,Halimeda sp.,Chlorophyta,1.610421917,3.0,24,S,Pearl & Hermes,NWHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+NWHI-1072a,Halimeda sp.,Chlorophyta,1.548018805,2.7,24,S,Pearl & Hermes,NWHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Ha 35b,Halimeda sp.,Chlorophyta,1.50,3.38,24,S,Oahu,MHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+NWHI-1073b,Microdictyon sp.,Chlorophyta,2.009040683,2.2,25,S,Pearl & Hermes,NWHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+NWHI-1073c,Microdictyon sp.,Chlorophyta,1.988351075,2.2,25,S,Pearl & Hermes,NWHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+NWHI-1073a,Microdictyon sp.,Chlorophyta,1.945373901,2.5,25,S,Pearl & Hermes,NWHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+NWHI-1073a,Microdictyon sp.,Chlorophyta,1.945373901,2.5,25,S,Pearl & Hermes,NWHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+NWHI-1073b,Microdictyon sp.,Chlorophyta,2.009040683,2.2,25,S,Pearl & Hermes,NWHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+NWHI-1073c,Microdictyon sp.,Chlorophyta,1.988351075,2.2,25,S,Pearl & Hermes,NWHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+HK 27,H. kanaloana,Chlorophyta,3.41,0.48,27,S,Maui,MHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+HK 30,H. kanaloana,Chlorophyta,2.98,2.18,27,S,Maui,MHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+HK90-4,H. kanaloana,Chlorophyta,2.88,2.38,27,S,Maui,MHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+HK 26,H. kanaloana,Chlorophyta,2.80,-1.45,27,S,Maui,MHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+HK90-2,H. kanaloana,Chlorophyta,2.77,2.56,27,S,Maui,MHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+HK 32,H. kanaloana,Chlorophyta,2.71,-1.12,27,S,Maui,MHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+HK90-3,H. kanaloana,Chlorophyta,2.52,2.00,27,S,Maui,MHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+HK90-1,H. kanaloana,Chlorophyta,2.52,2.33,27,S,Maui,MHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+HK 33,H. kanaloana,Chlorophyta,2.48,0.19,27,S,Maui,MHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+HK 35,H. kanaloana,Chlorophyta,2.34,1.87,27,S,Maui,MHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+HK 34,H. kanaloana,Chlorophyta,2.31,1.90,27,S,Maui,MHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+HK90-5,H. kanaloana,Chlorophyta,2.29,2.28,27,S,Maui,MHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Ha90-10,H. kanaloana,Chlorophyta,2.28,2.65,27,S,Maui,MHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+HK 38,H. kanaloana,Chlorophyta,2.16,2.79,27,S,Maui,MHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Ha90-6,H. kanaloana,Chlorophyta,2.13,2.52,27,S,Maui,MHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+HK 21,H. kanaloana,Chlorophyta,1.98,2.46,27,S,Maui,MHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+HK 37,H. kanaloana,Chlorophyta,1.96,2.71,27,S,Maui,MHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+HK 24,H. kanaloana,Chlorophyta,1.96,2.17,27,S,Maui,MHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+HK 28,H. kanaloana,Chlorophyta,1.93,2.71,27,S,Maui,MHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+HK 22,H. kanaloana,Chlorophyta,1.83,2.63,27,S,Maui,MHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+HK 29,H. kanaloana,Chlorophyta,1.76,2.97,27,S,Maui,MHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Ha90-8,H. kanaloana,Chlorophyta,1.73,2.93,27,S,Maui,MHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Ha90-7,H. kanaloana,Chlorophyta,1.61,2.66,27,S,Maui,MHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Ha90-9,H. kanaloana,Chlorophyta,1.59,2.45,27,S,Maui,MHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+HK 25,H. kanaloana,Chlorophyta,1.43,3.13,27,S,Maui,MHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+HK 36,H. kanaloana,Chlorophyta,1.41,3.58,27,S,Maui,MHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+HK 31,H. kanaloana,Chlorophyta,1.18,3.82,27,S,Maui,MHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+AV 73-2,Avrainvillea sp.,Chlorophyta,3.29,1.29,30,S,Oahu,MHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+AV 73-1,Avrainvillea sp.,Chlorophyta,3.09,0.85,30,S,Oahu,MHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+AV 73-3,Avrainvillea sp.,Chlorophyta,2.90,0.20,30,S,Oahu,MHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+NWHI-694a,Caulerpa sp.,Chlorophyta,1.783004552,3.9,30,S,Lisianski,NWHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+NWHI-694b,Caulerpa sp.,Chlorophyta,1.777953378,3.4,30,S,Lisianski,NWHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+NWHI-694c,Caulerpa sp.,Chlorophyta,1.710254875,3.6,30,S,Lisianski,NWHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+K30-L,H. kanaloana,Chlorophyta,3.51,2.29,30,S,Maui,MHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+K30-E,H. kanaloana,Chlorophyta,3.39,2.29,30,S,Maui,MHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+K30-B,H. kanaloana,Chlorophyta,3.06,2.56,30,S,Maui,MHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+K30-C,H. kanaloana,Chlorophyta,3.04,3.01,30,S,Maui,MHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+K30-D,H. kanaloana,Chlorophyta,2.98,2.91,30,S,Maui,MHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+K30-I,H. kanaloana,Chlorophyta,2.95,3.35,30,S,Maui,MHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+K30-H,H. kanaloana,Chlorophyta,2.92,2.44,30,S,Maui,MHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+K30-A,H. kanaloana,Chlorophyta,2.75,2.56,30,S,Maui,MHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+K30-K,H. kanaloana,Chlorophyta,2.66,2.91,30,S,Maui,MHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+HK 30-2,H. kanaloana,Chlorophyta,2.56,2.47,30,S,Maui,MHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+HK 30-4,H. kanaloana,Chlorophyta,2.40,1.97,30,S,Maui,MHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+HK 30-1,H. kanaloana,Chlorophyta,2.39,2.72,30,S,Maui,MHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+HK 30-5,H. kanaloana,Chlorophyta,2.36,1.92,30,S,Maui,MHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+HK 30-3,H. kanaloana,Chlorophyta,2.24,2.23,30,S,Maui,MHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+K230-4,H. kanaloana,Chlorophyta,2.17,2.05,30,S,Maui,MHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+HK K 30-3,H. kanaloana,Chlorophyta,2.16,1.85,30,S,Maui,MHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+HK K 30-4,H. kanaloana,Chlorophyta,2.13,2.71,30,S,Maui,MHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+K230-2,H. kanaloana,Chlorophyta,2.13,1.86,30,S,Maui,MHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+K30-F,H. kanaloana,Chlorophyta,2.11,1.25,30,S,Maui,MHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+K230-5,H. kanaloana,Chlorophyta,2.09,2.48,30,S,Maui,MHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+K30-J,H. kanaloana,Chlorophyta,2.08,2.29,30,S,Maui,MHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+K230-1,H. kanaloana,Chlorophyta,2.04,2.22,30,S,Maui,MHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+HK K 30-2,H. kanaloana,Chlorophyta,1.84,3.34,30,S,Maui,MHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+K30-G,H. kanaloana,Chlorophyta,1.81,2.40,30,S,Maui,MHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+HK K 30-1,H. kanaloana,Chlorophyta,1.72,3.18,30,S,Maui,MHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+HK K 30-5,H. kanaloana,Chlorophyta,1.62,2.43,30,S,Maui,MHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+K230-3,H. kanaloana,Chlorophyta,1.53,2.07,30,S,Maui,MHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+NWHI-693a,Dasya sp.,Rhodophyta,2.276093226,3.2,30,S,Lisianski,NWHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+NWHI-693b,Dasya sp.,Rhodophyta,2.207013227,3.3,30,S,Lisianski,NWHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+NWHI-693c,Dasya sp.,Rhodophyta,2.136769078,3.6,30,S,Lisianski,NWHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+AV 90C,Avrainvillea sp.,Chlorophyta,5.264664936,0.95,38,M,Oahu,MHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+AV 90B,Avrainvillea sp.,Chlorophyta,5.190964571,0.80,38,M,Oahu,MHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+AV 90A,Avrainvillea sp.,Chlorophyta,5.06371209,1.19,38,M,Oahu,MHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+K-AV6,Avrainvillea sp.,Chlorophyta,4.872757955,1.87,38,M,Oahu,MHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+K-AV4,Avrainvillea sp.,Chlorophyta,4.778826091,1.42,38,M,Oahu,MHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+K-AV3,Avrainvillea sp.,Chlorophyta,4.606820551,2.22,38,M,Oahu,MHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+K-AV2,Avrainvillea sp.,Chlorophyta,4.543896814,0.31,38,M,Oahu,MHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+K-AV1,Avrainvillea sp.,Chlorophyta,4.331896101,1.26,38,M,Oahu,MHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+K-AV7,Avrainvillea sp.,Chlorophyta,4.052698153,1.72,38,M,Oahu,MHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+K-AV5,Avrainvillea sp.,Chlorophyta,3.969041541,0.99,38,M,Oahu,MHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+HA 91C,Halimeda sp.,Chlorophyta,2.587431247,1.26,38,M,Oahu,MHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+HA 91B,Halimeda sp.,Chlorophyta,2.425156467,0.98,38,M,Oahu,MHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+HA 91A,Halimeda sp.,Chlorophyta,2.353566276,1.68,38,M,Oahu,MHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+K-H4,Halimeda sp.,Chlorophyta,1.740490509,1.53,38,M,Oahu,MHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+K-H2,Halimeda sp.,Chlorophyta,1.504377403,1.46,38,M,Oahu,MHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+K-H3,Halimeda sp.,Chlorophyta,1.452652008,3.35,38,M,Oahu,MHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+K-H1,Halimeda sp.,Chlorophyta,1.440772654,1.30,38,M,Oahu,MHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+127B,H. kanaloana,Chlorophyta,1.912478326,2.15,39,M,Maui,MHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+127A,H. kanaloana,Chlorophyta,1.821563138,3.22,39,M,Maui,MHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+127C,H. kanaloana,Chlorophyta,1.718908103,2.41,39,M,Maui,MHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+127E,H. kanaloana,Chlorophyta,1.600328496,2.82,39,M,Maui,MHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+127D,H. kanaloana,Chlorophyta,1.560774677,3.36,39,M,Maui,MHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+AV683,Avrainvillea sp.,Chlorophyta,5.452414038,1.19,40,M,Oahu,MHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+AV699,Avrainvillea sp.,Chlorophyta,5.444243454,1.07,40,M,Oahu,MHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+AV694,Avrainvillea sp.,Chlorophyta,5.354780371,1.42,40,M,Oahu,MHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+AV685,Avrainvillea sp.,Chlorophyta,5.344461261,1.62,40,M,Oahu,MHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+AV661,Avrainvillea sp.,Chlorophyta,5.291622032,1.06,40,M,Oahu,MHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+AV668,Avrainvillea sp.,Chlorophyta,5.146734589,1.25,40,M,Oahu,MHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+AV681,Avrainvillea sp.,Chlorophyta,5.040117993,1.18,40,M,Oahu,MHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+AV684,Avrainvillea sp.,Chlorophyta,4.934736283,1.21,40,M,Oahu,MHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+AV696,Avrainvillea sp.,Chlorophyta,4.743196953,1.53,40,M,Oahu,MHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+AV682,Avrainvillea sp.,Chlorophyta,4.725416164,1.41,40,M,Oahu,MHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+AV691,Avrainvillea sp.,Chlorophyta,4.684553301,1.56,40,M,Oahu,MHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+AV687,Avrainvillea sp.,Chlorophyta,4.684315684,1.30,40,M,Oahu,MHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+AV692,Avrainvillea sp.,Chlorophyta,4.663960355,1.86,40,M,Oahu,MHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+AV697,Avrainvillea sp.,Chlorophyta,4.514119342,1.75,40,M,Oahu,MHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+AV666,Avrainvillea sp.,Chlorophyta,4.476943338,0.95,40,M,Oahu,MHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+AV667,Avrainvillea sp.,Chlorophyta,4.455295175,1.71,40,M,Oahu,MHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+AV686,Avrainvillea sp.,Chlorophyta,4.345669497,1.72,40,M,Oahu,MHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Ha 15a,Halimeda sp.,Chlorophyta,2.663983906,3.81,40,M,Oahu,MHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Ha 2b,Halimeda sp.,Chlorophyta,1.729589628,2.25,40,M,Oahu,MHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Ha 2c,Halimeda sp.,Chlorophyta,1.703745484,4.68,40,M,Oahu,MHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Ha 15b,Halimeda sp.,Chlorophyta,1.515889856,2.70,40,M,Oahu,MHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Ha 2a,Halimeda sp.,Chlorophyta,1.407196706,2.20,40,M,Oahu,MHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+NWHI-154-1,Distromium sp.,Phaeophyceae,1.311687324,1.90,44,M,Nihoa,NWHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+NWHI-220,Caulerpa sp.,Chlorophyta,1.313645621,5.80,45,M,Johnston Atoll,Pacfic,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+NWHI-222,Caulerpa sp.,Chlorophyta,1.078673924,4.50,46,M,Johnston Atoll,Pacfic,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+NWHI-223,Caulerpa sp.,Chlorophyta,1.860208122,5.70,46,M,Johnston Atoll,Pacfic,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+NWHI-224,Halimeda sp.,Chlorophyta,0.750859951,3.60,46,M,Johnston Atoll,NWHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+D1 UO,Udotea sp.,Chlorophyta,0.98107649,2.46,47,M,Oahu,MHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+D1 UM,Udotea sp.,Chlorophyta,0.793302559,2.50,47,M,Oahu,MHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+D1 UR,Udotea sp.,Chlorophyta,0.721761133,3.15,47,M,Oahu,MHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+D1 UP,Udotea sp.,Chlorophyta,0.578994527,3.01,47,M,Oahu,MHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+D1 UN,Udotea sp.,Chlorophyta,0.456241527,3.91,47,M,Oahu,MHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+D1 UJ,Udotea sp.,Chlorophyta,0.416185774,3.22,47,M,Oahu,MHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+D1 UJ,Udotea sp.,Chlorophyta,0.416185774,3.22,47,M,Oahu,MHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+D1 UM,Udotea sp.,Chlorophyta,0.793302559,2.50,47,M,Oahu,MHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+D1 UN,Udotea sp.,Chlorophyta,0.456241527,3.91,47,M,Oahu,MHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+D1 UO,Udotea sp.,Chlorophyta,0.98107649,2.46,47,M,Oahu,MHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+D1 UP,Udotea sp.,Chlorophyta,0.578994527,3.01,47,M,Oahu,MHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+D1 UR,Udotea sp.,Chlorophyta,0.721761133,3.15,47,M,Oahu,MHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+AV61210,Avrainvillea sp.,Chlorophyta,5.744226521,1.25,48,M,Oahu,MHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+AV6126,Avrainvillea sp.,Chlorophyta,5.486720678,1.11,48,M,Oahu,MHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+AV6129,Avrainvillea sp.,Chlorophyta,5.402018359,0.86,48,M,Oahu,MHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+AV6123,Avrainvillea sp.,Chlorophyta,5.371286182,1.02,48,M,Oahu,MHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+AV6124,Avrainvillea sp.,Chlorophyta,5.345731761,1.52,48,M,Oahu,MHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+AV61213,Avrainvillea sp.,Chlorophyta,5.286930283,1.15,48,M,Oahu,MHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+AV6125,Avrainvillea sp.,Chlorophyta,5.25716386,0.69,48,M,Oahu,MHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+AV6122,Avrainvillea sp.,Chlorophyta,5.216651702,1.38,48,M,Oahu,MHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+AV6121,Avrainvillea sp.,Chlorophyta,5.213658799,1.52,48,M,Oahu,MHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+AV6128,Avrainvillea sp.,Chlorophyta,4.556278168,1.70,48,M,Oahu,MHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+AV61211,Avrainvillea sp.,Chlorophyta,4.388373317,1.31,48,M,Oahu,MHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+AV6127,Avrainvillea sp.,Chlorophyta,4.322416535,2.18,48,M,Oahu,MHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+AV61212,Avrainvillea sp.,Chlorophyta,4.137637164,2.25,48,M,Oahu,MHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+P4-188 AV1,Avrainvillea sp.,Chlorophyta,4.834861712,0.88,51,M,Oahu,MHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+P4-188 AV5,Avrainvillea sp.,Chlorophyta,4.663942891,0.65,51,M,Oahu,MHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+P4-188 AV4,Avrainvillea sp.,Chlorophyta,4.583482231,0.99,51,M,Oahu,MHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+P4-188 AV6,Avrainvillea sp.,Chlorophyta,4.139120424,1.54,51,M,Oahu,MHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+P4-188 AV3,Avrainvillea sp.,Chlorophyta,4.005765153,0.87,51,M,Oahu,MHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+P4-188 AV2,Avrainvillea sp.,Chlorophyta,3.859609767,1.50,51,M,Oahu,MHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+P4-188 UD17,Udotea sp.,Chlorophyta,1.549178502,2.47,51,M,Oahu,MHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+P4-188 UD16,Udotea sp.,Chlorophyta,1.499788718,2.31,51,M,Oahu,MHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+P4-188 UD15,Udotea sp.,Chlorophyta,1.357019849,2.42,51,M,Oahu,MHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+P4-188 UD13,Udotea sp.,Chlorophyta,0.932016627,2.42,51,M,Oahu,MHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+P4-188 UD18,Udotea sp.,Chlorophyta,0.557292744,2.85,51,M,Oahu,MHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+P4-188 UD14,Udotea sp.,Chlorophyta,0.42953689,2.99,51,M,Oahu,MHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+P4-188 UD13,Udotea sp.,Chlorophyta,0.932016627,2.42,51,M,Oahu,MHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+P4-188 UD14,Udotea sp.,Chlorophyta,0.42953689,2.99,51,M,Oahu,MHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+P4-188 UD15,Udotea sp.,Chlorophyta,1.357019849,2.42,51,M,Oahu,MHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+P4-188 UD16,Udotea sp.,Chlorophyta,1.499788718,2.31,51,M,Oahu,MHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+P4-188 UD17,Udotea sp.,Chlorophyta,1.549178502,2.47,51,M,Oahu,MHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+P4-188 UD18,Udotea sp.,Chlorophyta,0.557292744,2.85,51,M,Oahu,MHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+NWHI-957a,Codium sp.,Chlorophyta,0.844614595,4.3,52,M,Pearl & Hermes,NWHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+NWHI-957b,Codium sp.,Chlorophyta,0.907721579,4.3,52,M,Pearl & Hermes,NWHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+NWHI-957c,Codium sp.,Chlorophyta,1.04081394,4.5,52,M,Pearl & Hermes,NWHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+NWHI-957c,Codium sp.,Chlorophyta,1.04081394,4.5,52,M,Pearl & Hermes,NWHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+NWHI-957b,Codium sp.,Chlorophyta,0.907721579,4.3,52,M,Pearl & Hermes,NWHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+NWHI-957a,Codium sp.,Chlorophyta,0.844614595,4.3,52,M,Pearl & Hermes,NWHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+NWHI-419,Dasya sp.,Rhodophyta,0.756696766,2.80,52,M,Kure,NWHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+NWHI-466,Caulerpa sp.,Chlorophyta,2.331373917,2.40,54,M,Pioneer,NWHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+COA-D2,Codium sp.,Chlorophyta,1.299151889,3.72,54,M,Oahu,MHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+COA-D2,Codium sp.,Chlorophyta,1.299151889,3.72,54,M,Oahu,MHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+NWHI-465,Halimeda sp.,Chlorophyta,1.791755921,2.00,54,M,Pioneer,NWHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+NWHI-467,Microdictyon sp.,Chlorophyta,0.980009751,2.60,54,M,Pioneer,NWHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+NWHI-467,Microdictyon sp.,Chlorophyta,0.980009751,2.60,54,M,Pioneer,NWHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+NWHI-90,Codium sp.,Chlorophyta,1.269064206,4.90,55,M,Midway,NWHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+NWHI-90,Codium sp.,Chlorophyta,1.269064206,4.90,55,M,Midway,NWHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+NWHI-92,Microdictyon sp.,Chlorophyta,1.4395792,2.40,55,M,Midway,NWHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+NWHI-100,Microdictyon sp.,Chlorophyta,1.244738963,2.70,55,M,Lisianski,NWHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+NWHI-100,Microdictyon sp.,Chlorophyta,1.244738963,2.70,55,M,Lisianski,NWHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+NWHI-92,Microdictyon sp.,Chlorophyta,1.4395792,2.40,55,M,Midway,NWHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+NWHI-91,Padina sp.,Phaeophyceae,1.028376595,3.90,55,M,Midway,NWHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+NWHI-317,Codium sp.,Chlorophyta,0.674306205,4.30,55,M,Midway,NWHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+NWHI-317,Codium sp.,Chlorophyta,0.674306205,4.30,55,M,Midway,NWHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+NWHI-843c,Halimeda sp.,Chlorophyta,1.828674966,2.5,55,M,Lisianski,NWHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+NWHI-843a,Halimeda sp.,Chlorophyta,1.726378937,2.7,55,M,Lisianski,NWHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+NWHI-186-1,Halimeda sp.,Chlorophyta,1.433350695,2.80,55,M,FFS,NWHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+NWHI-843b,Halimeda sp.,Chlorophyta,1.400869274,2.3,55,M,Lisianski,NWHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+NWHI-228-1,Halimeda sp.,Chlorophyta,0.813791304,3.70,55,M,Johnston Atoll,NWHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+NWHI-848a,Microdictyon sp.,Chlorophyta,1.089015152,1.8,55,M,Lisianski,NWHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+NWHI-848b,Microdictyon sp.,Chlorophyta,1.079669473,5.2,55,M,Lisianski,NWHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+NWHI-848c,Microdictyon sp.,Chlorophyta,1.068972293,2.4,55,M,Lisianski,NWHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+NWHI-185,Distromium sp.,Phaeophyceae,0.812449475,3.40,55,M,FFS,NWHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+NWHI-848a,Microdictyon sp.,Chlorophyta,1.089015152,1.8,55,M,Lisianski,NWHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+NWHI-848b,Microdictyon sp.,Chlorophyta,1.079669473,5.2,55,M,Lisianski,NWHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+NWHI-848c,Microdictyon sp.,Chlorophyta,1.068972293,2.4,55,M,Lisianski,NWHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+NWHI-278,Codium sp.,Chlorophyta,1.223879755,4.70,55,M,Pearl & Hermes,NWHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+NWHI-278,Codium sp.,Chlorophyta,1.223879755,4.70,55,M,Pearl & Hermes,NWHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+NWHI-275,Dasya sp.,Rhodophyta,1.137939278,6.30,55,M,Pearl & Hermes,NWHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+NWHI-279,Padina sp.,Phaeophyceae,0.58434681,3.40,55,M,Pearl & Hermes,NWHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+NWHI-251,Codium sp.,Chlorophyta,0.756985764,2.70,56,M,Lisianski,NWHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+NWHI-252,Codium sp.,Chlorophyta,0.909713391,4.00,56,M,Lisianski,NWHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+NWHI-252,Codium sp.,Chlorophyta,0.909713391,4.00,56,M,Lisianski,NWHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+NWHI-251,Codium sp.,Chlorophyta,0.756985764,2.70,56,M,Lisianski,NWHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+NWHI-86,Codium sp.,Chlorophyta,1.180313589,4.50,56,M,Pearl & Hermes,NWHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+NWHI-87,Codium sp.,Chlorophyta,0.604842427,4.40,56,M,Pearl & Hermes,NWHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+NWHI-86,Codium sp.,Chlorophyta,1.180313589,4.50,56,M,Pearl & Hermes,NWHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+NWHI-87,Codium sp.,Chlorophyta,0.604842427,4.40,56,M,Pearl & Hermes,NWHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+NWHI-85,Halimeda sp.,Chlorophyta,1.92642788,2.80,56,M,Pearl & Hermes,NWHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+NWHI-384,Microdictyon sp.,Chlorophyta,1.015054185,3.00,57,M,Kure,NWHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+NWHI-386,Dasya sp.,Rhodophyta,1.98249864,4.80,57,M,Kure,NWHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+NWHI-384,Microdictyon sp.,Chlorophyta,1.015054185,3.00,57,M,Kure,NWHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+NWHI-387,Padina sp.,Phaeophyceae,0.772313297,4.70,57,M,Kure,NWHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+NWHI-385,Ulva/Umbraulva,Chlorophyta,0.419195582,4.10,57,M,Kure,NWHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+NWHI-77,Codium sp.,Chlorophyta,0.505482252,3.00,58,M,Pearl & Hermes,NWHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+NWHI-104,Codium sp.,Chlorophyta,1.557554852,1.80,58,M,Lisianski,NWHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+NWHI-104,Codium sp.,Chlorophyta,1.557554852,1.80,58,M,Lisianski,NWHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+NWHI-77,Codium sp.,Chlorophyta,0.505482252,3.00,58,M,Pearl & Hermes,NWHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+NWHI-84,Halimeda sp.,Chlorophyta,0.22824418,1.90,58,M,Pearl & Hermes,NWHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+NWHI-80,Microdictyon sp.,Chlorophyta,1.120559199,2.70,58,M,Pearl & Hermes,NWHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+NWHI-79,Dasya sp.,Rhodophyta,3.573984613,3.90,58,M,Pearl & Hermes,NWHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+NWHI-80,Microdictyon sp.,Chlorophyta,1.120559199,2.70,58,M,Pearl & Hermes,NWHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+NWHI-82,Padina sp.,Phaeophyceae,0.56126212,2.70,58,M,Pearl & Hermes,NWHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+NWHI-83,Padina sp.,Phaeophyceae,0.56335034,3.80,58,M,Pearl & Hermes,NWHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+NWHI-200-1,Caulerpa sp.,Chlorophyta,1.764549208,3.30,58,M,Laysan,NWHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+NWHI-202-1,Microdictyon sp.,Chlorophyta,0.75776336,1.50,58,M,Laysan,NWHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+NWHI-198,Distromium sp.,Phaeophyceae,0.689185399,3.50,58,M,Laysan,NWHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+NWHI-201-1,Distromium sp.,Phaeophyceae,0.875994535,3.50,58,M,Laysan,NWHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+NWHI-202-1,Microdictyon sp.,Chlorophyta,0.75776336,1.50,58,M,Laysan,NWHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+NWHI-249,Codium sp.,Chlorophyta,0.976531737,2.90,59,M,Lisianski,NWHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+NWHI-249,Codium sp.,Chlorophyta,0.976531737,2.90,59,M,Lisianski,NWHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+NWHI-247,Halimeda sp.,Chlorophyta,1.37823053,2.50,59,M,Lisianski,NWHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+NWHI-105,Caulerpa sp.,Chlorophyta,2.555831266,3.30,59,M,Gardner,NWHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+NWHI-284,Padina sp.,Phaeophyceae,0.692066598,4.40,59,M,Pearl & Hermes,NWHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+D1 AA,Avrainvillea sp.,Chlorophyta,4.304201387,2.76,60,M,Oahu,MHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+D1 AD,Avrainvillea sp.,Chlorophyta,4.209493558,2.10,60,M,Oahu,MHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+D1 AF,Avrainvillea sp.,Chlorophyta,4.0988531,1.69,60,M,Oahu,MHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+D1 AC,Avrainvillea sp.,Chlorophyta,3.853019144,2.22,60,M,Oahu,MHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+D1 AE,Avrainvillea sp.,Chlorophyta,3.74738987,2.74,60,M,Oahu,MHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+D1 AB,Avrainvillea sp.,Chlorophyta,3.697712455,3.01,60,M,Oahu,MHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+D1 UL,Udotea sp.,Chlorophyta,0.542664295,3.19,60,M,Oahu,MHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+D1 UI,Udotea sp.,Chlorophyta,0.371386778,3.25,60,M,Oahu,MHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+D1 UI,Udotea sp.,Chlorophyta,0.371386778,3.25,60,M,Oahu,MHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+D1 UL,Udotea sp.,Chlorophyta,0.542664295,3.19,60,M,Oahu,MHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+NWHI-66,Halimeda sp.,Chlorophyta,0.28604177,2.80,61,M,Nihoa,NWHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+NWHI-68,Halimeda sp.,Chlorophyta,0.182471237,2.10,61,M,FFS,NWHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+AV-15A,Avrainvillea sp.,Chlorophyta,4.520617802,-0.08,61,M,Oahu,MHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+AV-15B,Avrainvillea sp.,Chlorophyta,4.205155202,0.62,61,M,Oahu,MHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+AV-16C,Avrainvillea sp.,Chlorophyta,4.161626578,1.73,61,M,Oahu,MHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+AV-16B,Avrainvillea sp.,Chlorophyta,4.158942123,1.50,61,M,Oahu,MHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+AV-16A,Avrainvillea sp.,Chlorophyta,3.680193647,1.66,61,M,Oahu,MHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+AV-15C,Avrainvillea sp.,Chlorophyta,3.593465338,1.33,61,M,Oahu,MHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+NWHI-227-1,Caulerpa sp.,Chlorophyta,0.880441618,5.20,61,M,Johnston Atoll,Pacfic,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+NWHI-206-1,Codium sp.,Chlorophyta,0.57654316,1.30,61,M,Laysan,NWHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+NWHI-206-1,Codium sp.,Chlorophyta,0.57654316,1.30,61,M,Laysan,NWHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+NWHI-205-1,Halimeda sp.,Chlorophyta,1.164330218,2.60,61,M,Laysan,NWHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+NWHI-209-1,Halimeda sp.,Chlorophyta,1.10566591,3.40,61,M,Laysan,NWHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+NWHI-212-1,Halimeda sp.,Chlorophyta,0.330874268,1.10,61,M,Laysan,NWHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+NWHI-329,Microdictyon sp.,Chlorophyta,0.926470588,-0.60,61,M,FFS,NWHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+NWHI-203-1,Distromium sp.,Phaeophyceae,0.608010042,4.10,61,M,Laysan,NWHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+NWHI-210-1,Distromium sp.,Phaeophyceae,1.855925763,0.40,61,M,Laysan,NWHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+MHI-192,Distromium sp.,Phaeophyceae,2.400131514,3.0,61,M,Niihau,MHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+NWHI-329,Microdictyon sp.,Chlorophyta,0.926470588,-0.60,61,M,FFS,NWHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+NWHI-208,Padina sp.,Phaeophyceae,0.44617858,3.90,61,M,Laysan,NWHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+P4-188 HD1,Halimeda sp.,Chlorophyta,1.847395171,1.21,62,M,Oahu,MHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+P4-188 HD2,Halimeda sp.,Chlorophyta,1.808882699,1.45,62,M,Oahu,MHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+P4-188 HD3,Halimeda sp.,Chlorophyta,1.619461287,1.47,62,M,Oahu,MHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+P4-188 HD6,Halimeda sp.,Chlorophyta,0.903458235,2.46,62,M,Oahu,MHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+P4-188 HD5,Halimeda sp.,Chlorophyta,0.843367623,2.45,62,M,Oahu,MHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+P4-188 HD4,Halimeda sp.,Chlorophyta,0.78549332,2.01,62,M,Oahu,MHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+NWHI-74,Codium sp.,Chlorophyta,0.606345035,2.90,62,M,FFS,NWHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+NWHI-74,Codium sp.,Chlorophyta,0.606345035,2.90,62,M,FFS,NWHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+NWHI-175-1,Caulerpa sp.,Chlorophyta,1.774412735,4.30,63,M,FFS,NWHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+NWHI-373,Microdictyon sp.,Chlorophyta,1.142591252,2.60,63,M,Pearl & Hermes,NWHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+NWHI-373,Microdictyon sp.,Chlorophyta,1.142591252,2.60,63,M,Pearl & Hermes,NWHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+NWHI-372,Ulva/Umbraulva,Chlorophyta,1.968204389,5.30,63,M,Pearl & Hermes,NWHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+NWHI-656,Cladophora sp.,Chlorophyta,1.128936423,2.5,64,M,FFS,NWHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+NWHI-272,Cladophora sp.,Chlorophyta,1.108439627,4.20,64,M,Lisianski,NWHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+NWHI-656,Cladophora sp.,Chlorophyta,1.128936423,2.5,64,M,FFS,NWHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+NWHI-272,Cladophora sp.,Chlorophyta,1.108439627,4.20,64,M,Lisianski,NWHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+NWHI-271,Codium sp.,Chlorophyta,1.014801887,2.40,64,M,Lisianski,NWHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+NWHI-162-1,Codium sp.,Chlorophyta,1.104549896,4.20,64,M,Nihoa,NWHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+NWHI-162-1,Codium sp.,Chlorophyta,1.104549896,4.20,64,M,Nihoa,NWHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+NWHI-271,Codium sp.,Chlorophyta,1.014801887,2.40,64,M,Lisianski,NWHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+NWHI-219-1,Halimeda sp.,Chlorophyta,0.595056604,4.30,64,M,Johnston Atoll,NWHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+NWHI-655c,Microdictyon sp.,Chlorophyta,1.202541828,0.3,64,M,FFS,NWHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+NWHI-655b,Microdictyon sp.,Chlorophyta,1.19499324,2.5,64,M,FFS,NWHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+NWHI-273,Microdictyon sp.,Chlorophyta,0.74201733,1.50,64,M,Lisianski,NWHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+NWHI-655b,Microdictyon sp.,Chlorophyta,1.19499324,2.5,64,M,FFS,NWHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+NWHI-655c,Microdictyon sp.,Chlorophyta,1.202541828,0.3,64,M,FFS,NWHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+NWHI-273,Microdictyon sp.,Chlorophyta,0.74201733,1.50,64,M,Lisianski,NWHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+NWHI-184,Ulva/Umbraulva,Chlorophyta,0.337972778,3.50,64,M,FFS,NWHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+NWHI-655a,Microdictyon sp.,Chlorophyta,1.094431709,-0.3,64,M,FFS,NWHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+NWHI-102,Halimeda sp.,Chlorophyta,2.283217779,4.40,64,M,Lisianski,NWHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+NWHI-303,Codium sp.,Chlorophyta,0.840739851,4.70,65,M,Midway,NWHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+NWHI-303,Codium sp.,Chlorophyta,0.840739851,4.70,65,M,Midway,NWHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+D1 HG,Halimeda sp.,Chlorophyta,0.537931334,2.07,65,M,Oahu,MHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+D1 HJ,Halimeda sp.,Chlorophyta,0.485924478,2.14,65,M,Oahu,MHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+D1 HH,Halimeda sp.,Chlorophyta,0.429189466,2.80,65,M,Oahu,MHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+D1 HI,Halimeda sp.,Chlorophyta,0.259650836,2.86,65,M,Oahu,MHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+D1 HF,Halimeda sp.,Chlorophyta,0.207035942,3.02,65,M,Oahu,MHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+D1 UK,Udotea sp.,Chlorophyta,0.501969571,3.62,66,M,Oahu,MHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+D1 UH,Udotea sp.,Chlorophyta,0.364017573,3.27,66,M,Oahu,MHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+D1 UG,Udotea sp.,Chlorophyta,0.286495951,3.74,66,M,Oahu,MHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+D1 UG,Udotea sp.,Chlorophyta,0.286495951,3.74,66,M,Oahu,MHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+D1 UH,Udotea sp.,Chlorophyta,0.364017573,3.27,66,M,Oahu,MHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+D1 UK,Udotea sp.,Chlorophyta,0.501969571,3.62,66,M,Oahu,MHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+AV-18A,Avrainvillea sp.,Chlorophyta,4.512410945,0.75,67,M,Oahu,MHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+AV-18B,Avrainvillea sp.,Chlorophyta,4.323853093,1.53,67,M,Oahu,MHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+AV-18C,Avrainvillea sp.,Chlorophyta,4.221757366,1.00,67,M,Oahu,MHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+NWHI-216,Codium sp.,Chlorophyta,0.860405275,3.50,67,M,FFS,NWHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+NWHI-216,Codium sp.,Chlorophyta,0.860405275,3.50,67,M,FFS,NWHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+NWHI-215-1,Halimeda sp.,Chlorophyta,1.032879841,3.60,67,M,FFS,NWHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+NWHI-225-1,Halimeda sp.,Chlorophyta,0.708114013,3.80,67,M,Johnston Atoll,NWHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+NWHI-625a,Cladophora sp.,Chlorophyta,1.252599016,3.1,68,M,FFS,NWHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+NWHI-625b,Cladophora sp.,Chlorophyta,0.977639627,3.0,68,M,FFS,NWHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+NWHI-625c,Cladophora sp.,Chlorophyta,0.910949991,3.2,68,M,FFS,NWHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+NWHI-625a,Cladophora sp.,Chlorophyta,1.252599016,3.1,68,M,FFS,NWHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+NWHI-625b,Cladophora sp.,Chlorophyta,0.977639627,3.0,68,M,FFS,NWHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+NWHI-625c,Cladophora sp.,Chlorophyta,0.910949991,3.2,68,M,FFS,NWHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+NWHI-621b,Halimeda sp.,Chlorophyta,1.001123373,1.6,68,M,FFS,NWHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+NWHI-621a,Halimeda sp.,Chlorophyta,0.836004362,0.3,68,M,FFS,NWHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+NWHI-621c,Halimeda sp.,Chlorophyta,0.57807309,0.8,68,M,FFS,NWHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+NWHI-333,Caulerpa sp.,Chlorophyta,2.918477779,4.00,69,M,FFS,NWHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+NWHI-322,Codium sp.,Chlorophyta,1.078182331,1.80,69,M,Pearl & Hermes,NWHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+NWHI-322,Codium sp.,Chlorophyta,1.078182331,1.80,69,M,Pearl & Hermes,NWHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+P4-189 HB-9,Halimeda sp.,Chlorophyta,1.962696138,3.89,69,M,Molokai,MHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+P4-189 HB-11,Halimeda sp.,Chlorophyta,1.521232936,3.68,69,M,Molokai,MHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+P4-189 HB-7,Halimeda sp.,Chlorophyta,1.342474939,4.35,69,M,Molokai,MHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+P4-189 HB-12,Halimeda sp.,Chlorophyta,1.164749697,4.24,69,M,Molokai,MHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+P4-189 HB-8,Halimeda sp.,Chlorophyta,1.088183509,4.07,69,M,Molokai,MHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+P4-189 HB-10,Halimeda sp.,Chlorophyta,0.731046717,4.89,69,M,Molokai,MHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+P4-188 UD9,Udotea sp.,Chlorophyta,1.660217031,1.29,70,M,Oahu,MHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+P4-188 UD8,Udotea sp.,Chlorophyta,0.925543188,2.13,70,M,Oahu,MHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+P4-188 UD7,Udotea sp.,Chlorophyta,0.452507207,2.86,70,M,Oahu,MHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+P4-188 UD10,Udotea sp.,Chlorophyta,0.320287151,3.97,70,M,Oahu,MHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+MHI-180,Distromium sp.,Phaeophyceae,1.332416402,3.3,70,M,Niihau,MHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+P4-188 UD10,Udotea sp.,Chlorophyta,0.320287151,3.97,70,M,Oahu,MHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+P4-188 UD7,Udotea sp.,Chlorophyta,0.452507207,2.86,70,M,Oahu,MHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+P4-188 UD8,Udotea sp.,Chlorophyta,0.925543188,2.13,70,M,Oahu,MHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+P4-188 UD9,Udotea sp.,Chlorophyta,1.660217031,1.29,70,M,Oahu,MHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+NWHI-376,Caulerpa sp.,Chlorophyta,2.209590171,4.80,70,M,Pearl & Hermes,NWHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+NWHI-377,Codium sp.,Chlorophyta,0.648664095,4.20,70,M,Pearl & Hermes,NWHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+NWHI-377,Codium sp.,Chlorophyta,0.648664095,4.20,70,M,Pearl & Hermes,NWHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+NWHI-375,Halimeda sp.,Chlorophyta,1.43197132,5.30,70,M,Pearl & Hermes,NWHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+NWHI-379,Microdictyon sp.,Chlorophyta,0.958158794,3.30,70,M,Pearl & Hermes,NWHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+NWHI-378,Dasya sp.,Rhodophyta,1.905331937,5.40,70,M,Pearl & Hermes,NWHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+NWHI-379,Microdictyon sp.,Chlorophyta,0.958158794,3.30,70,M,Pearl & Hermes,NWHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+NWHI-380,Ulva/Umbraulva,Chlorophyta,0.609024361,5.30,70,M,Pearl & Hermes,NWHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+P4-190 UV3-1,Ulva/Umbraulva,Chlorophyta,0.886011445,4.70,71,M,Maui,MHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+P4-190 UV3-2,Ulva/Umbraulva,Chlorophyta,0.985244043,4.62,71,M,Maui,MHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+P4-190 UV3-3,Ulva/Umbraulva,Chlorophyta,1.026741983,4.94,71,M,Maui,MHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+P4-190 UV3-4,Ulva/Umbraulva,Chlorophyta,1.081911062,5.40,71,M,Maui,MHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+P4-190 UV3-5,Ulva/Umbraulva,Chlorophyta,1.088544427,4.96,71,M,Maui,MHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+P4-190 UV3-6,Ulva/Umbraulva,Chlorophyta,1.093277039,4.84,71,M,Maui,MHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+NWHI-1043a,Caulerpa sp.,Chlorophyta,1.911144205,3.9,75,M,Pearl & Hermes,NWHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+NWHI-1043b,Caulerpa sp.,Chlorophyta,2.125016346,5.2,75,M,Pearl & Hermes,NWHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+NWHI-1043c,Caulerpa sp.,Chlorophyta,2.435260969,5.2,75,M,Pearl & Hermes,NWHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+NWHI-1049a,Ulva/Umbraulva,Chlorophyta,0.730663653,5.3,75,M,Pearl & Hermes,NWHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+NWHI-1049c,Ulva/Umbraulva,Chlorophyta,0.563817308,5.2,75,M,Pearl & Hermes,NWHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+NWHI-674a,Cladophora sp.,Chlorophyta,1.58317812,4.1,77,M,FFS,NWHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+NWHI-674b,Cladophora sp.,Chlorophyta,1.679319071,3.5,77,M,FFS,NWHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+NWHI-674c,Cladophora sp.,Chlorophyta,1.685431593,3.5,77,M,FFS,NWHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+NWHI-682c,Cladophora sp.,Chlorophyta,2.450719233,3.4,77,M,FFS,NWHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+NWHI-682c,Cladophora sp.,Chlorophyta,2.450719233,3.4,77,M,FFS,NWHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+NWHI-674c,Cladophora sp.,Chlorophyta,1.685431593,3.5,77,M,FFS,NWHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+NWHI-674b,Cladophora sp.,Chlorophyta,1.679319071,3.5,77,M,FFS,NWHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+NWHI-674a,Cladophora sp.,Chlorophyta,1.58317812,4.1,77,M,FFS,NWHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+P4-233-1B,Halimeda sp.,Chlorophyta,0.970903679,1.70,77,M,Maui,MHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+D1 HC3B,Halimeda sp.,Chlorophyta,0.332411116,1.68,78,M,Oahu,MHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+D1 HE,Halimeda sp.,Chlorophyta,0.302267584,1.18,78,M,Oahu,MHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+D1 HC,Halimeda sp.,Chlorophyta,0.299067739,1.74,78,M,Oahu,MHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+D1 HA,Halimeda sp.,Chlorophyta,0.255118876,1.78,78,M,Oahu,MHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+D1 HD,Halimeda sp.,Chlorophyta,0.228028088,1.44,78,M,Oahu,MHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+D1 UC2E,Udotea sp.,Chlorophyta,1.419907792,1.98,78,M,Oahu,MHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+D1 UC2F,Udotea sp.,Chlorophyta,0.65237088,3.21,78,M,Oahu,MHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+D1 UC2B,Udotea sp.,Chlorophyta,0.604591456,3.77,78,M,Oahu,MHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+D1 UC2A,Udotea sp.,Chlorophyta,0.593818376,2.20,78,M,Oahu,MHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+D1 UC2C,Udotea sp.,Chlorophyta,0.436439456,3.91,78,M,Oahu,MHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+D1 UC3A,Udotea sp.,Chlorophyta,0.433034714,3.10,78,M,Oahu,MHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+D1 UC2D,Udotea sp.,Chlorophyta,0.338372711,3.71,78,M,Oahu,MHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+D1 UC2A,Udotea sp.,Chlorophyta,0.593818376,2.20,78,M,Oahu,MHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+D1 UC2B,Udotea sp.,Chlorophyta,0.604591456,3.77,78,M,Oahu,MHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+D1 UC2C,Udotea sp.,Chlorophyta,0.436439456,3.91,78,M,Oahu,MHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+D1 UC2D,Udotea sp.,Chlorophyta,0.338372711,3.71,78,M,Oahu,MHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+D1 UC2E,Udotea sp.,Chlorophyta,1.419907792,1.98,78,M,Oahu,MHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+D1 UC2F,Udotea sp.,Chlorophyta,0.65237088,3.21,78,M,Oahu,MHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+D1 UC3A,Udotea sp.,Chlorophyta,0.433034714,3.10,78,M,Oahu,MHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+NWHI-360,Cladophora sp.,Chlorophyta,1.975525874,2.50,79,M,Pioneer,NWHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+NWHI-360,Cladophora sp.,Chlorophyta,1.975525874,2.50,79,M,Pioneer,NWHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+NWHI-363,Dasya sp.,Rhodophyta,2.376420966,4.80,79,M,Pioneer,NWHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+NWHI-362,Ulva/Umbraulva,Chlorophyta,0.878546241,5.80,79,M,Pioneer,NWHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+NWHI-365,Ulva/Umbraulva,Chlorophyta,1.13559,5.80,79,M,Pioneer,NWHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+P4-189 HB-1,Halimeda sp.,Chlorophyta,2.336671399,2.34,80,M,Molokai,MHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+P4-189 HB-4,Halimeda sp.,Chlorophyta,1.812583918,0.86,80,M,Molokai,MHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+P4-189 HB-6,Halimeda sp.,Chlorophyta,1.811334619,4.34,80,M,Molokai,MHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+P4-189 HB-2,Halimeda sp.,Chlorophyta,1.234711329,4.78,80,M,Molokai,MHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+P4-189 HB-5,Halimeda sp.,Chlorophyta,1.0077475,4.73,80,M,Molokai,MHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+P4-189 HB-3,Halimeda sp.,Chlorophyta,0.80355684,2.82,80,M,Molokai,MHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+P4-189 HA-14,Halimeda sp.,Chlorophyta,0.400246949,2.13,80,M,Molokai,MHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+P4-189 HA-13,Halimeda sp.,Chlorophyta,0.306449168,1.43,80,M,Molokai,MHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+P4-189 HA-16,Halimeda sp.,Chlorophyta,0.260506553,1.84,80,M,Molokai,MHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+P4-189 HA-18,Halimeda sp.,Chlorophyta,0.255587876,1.81,80,M,Molokai,MHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+P4-189 HA-17,Halimeda sp.,Chlorophyta,0.244322871,1.79,80,M,Molokai,MHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+P4-189 HA-15,Halimeda sp.,Chlorophyta,0.208678766,1.93,80,M,Molokai,MHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+NWHI-477,Padina sp.,Phaeophyceae,0.714897963,6.80,80,M,Pioneer,NWHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+P4-189 UV1-1,Ulva/Umbraulva,Chlorophyta,1.161272083,6.03,80,M,Molokai,MHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+P4-189 UV1-2,Ulva/Umbraulva,Chlorophyta,1.256204636,8.47,80,M,Molokai,MHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+P4-189 UV1-3,Ulva/Umbraulva,Chlorophyta,1.041482204,6.38,80,M,Molokai,MHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+P4-189 UV1-4,Ulva/Umbraulva,Chlorophyta,1.493100834,5.10,80,M,Molokai,MHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+P4-189 UV1-5,Ulva/Umbraulva,Chlorophyta,0.963315523,5.53,80,M,Molokai,MHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+P4-189 UV1-6,Ulva/Umbraulva,Chlorophyta,1.157961595,5.61,80,M,Molokai,MHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+NWHI-237,Padina sp.,Phaeophyceae,1.096852035,2.30,81,M,FFS,NWHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+NWHI-340,Cladophora sp.,Chlorophyta,1.680166814,2.80,82,M,FFS,NWHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+NWHI-342,Cladophora sp.,Chlorophyta,1.707433291,3.20,82,M,FFS,NWHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+NWHI-342,Cladophora sp.,Chlorophyta,1.707433291,3.20,82,M,FFS,NWHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+NWHI-340,Cladophora sp.,Chlorophyta,1.680166814,2.80,82,M,FFS,NWHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+P4-190 HK6,H. kanaloana,Chlorophyta,2.678542719,2.21,82,M,Maui,MHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+P4-190 HK5,H. kanaloana,Chlorophyta,2.5883006,1.40,82,M,Maui,MHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+P4-190 HK3,H. kanaloana,Chlorophyta,2.376712108,1.88,82,M,Maui,MHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+P4-190 HK1,H. kanaloana,Chlorophyta,2.127931883,2.17,82,M,Maui,MHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+P4-190 HK2,H. kanaloana,Chlorophyta,1.933058979,2.26,82,M,Maui,MHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+P4-190 HK4,H. kanaloana,Chlorophyta,1.801134118,2.05,82,M,Maui,MHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+NWHI-341,Microdictyon sp.,Chlorophyta,0.810850656,0.60,82,M,FFS,NWHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+NWHI-341,Microdictyon sp.,Chlorophyta,0.810850656,0.60,82,M,FFS,NWHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+NWHI-330,Ulva/Umbraulva,Chlorophyta,1.638250408,2.40,83,M,FFS,NWHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+NWHI-356,Cladophora sp.,Chlorophyta,3.060139419,3.20,84,M,Pioneer,NWHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+NWHI-356,Cladophora sp.,Chlorophyta,3.060139419,3.20,84,M,Pioneer,NWHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+P5-736 57,Codium sp.,Chlorophyta,1.150697707,2.56,84,M,Maui,MHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+P5-736 57,Codium sp.,Chlorophyta,1.150697707,2.56,84,M,Maui,MHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+NWHI-355,Microdictyon sp.,Chlorophyta,0.857279693,0.80,84,M,Pioneer,NWHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+NWHI-268-a,Dasya sp.,Rhodophyta,1.13459511,3.60,84,M,Lisianski,NWHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+NWHI-355,Microdictyon sp.,Chlorophyta,0.857279693,0.80,84,M,Pioneer,NWHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+P5-736 56,Ulva/Umbraulva,Chlorophyta,2.235372532,3.37,84,M,Maui,MHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+NWHI-256-a,Ulva/Umbraulva,Chlorophyta,1.697267399,4.00,84,M,Lisianski,NWHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+P4-233-4C,Halimeda sp.,Chlorophyta,0.269399954,2.80,85,M,Maui,MHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+P4-233-5,Halimeda sp.,Chlorophyta,0.234652786,2.30,85,M,Maui,MHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+P5-734 37,Distromium sp.,Phaeophyceae,1.347673369,3.14,85,M,Maui,MHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+P5-736 53,Ulva/Umbraulva,Chlorophyta,0.681111772,4.93,85,M,Maui,MHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+P5-736 47,Codium sp.,Chlorophyta,1.985667171,3.65,87,M,Maui,MHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+P5-736 47,Codium sp.,Chlorophyta,1.985667171,3.65,87,M,Maui,MHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+P4-188 HA2,Halimeda sp.,Chlorophyta,0.48011449,1.69,87,M,Oahu,MHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+P4-188 HA5,Halimeda sp.,Chlorophyta,0.310791352,1.83,87,M,Oahu,MHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+P4-188 HA3,Halimeda sp.,Chlorophyta,0.285823,2.36,87,M,Oahu,MHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+P4-188 HA4,Halimeda sp.,Chlorophyta,0.279756892,1.73,87,M,Oahu,MHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+P4-188 HA6,Halimeda sp.,Chlorophyta,0.188118651,2.93,87,M,Oahu,MHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+P4-188 HA1,Halimeda sp.,Chlorophyta,0.152593292,2.47,87,M,Oahu,MHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+P4-188 UD4,Udotea sp.,Chlorophyta,1.139869442,1.89,87,M,Oahu,MHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+P4-188 UD3,Udotea sp.,Chlorophyta,0.575916473,2.78,87,M,Oahu,MHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+P4-188 UD2,Udotea sp.,Chlorophyta,0.510992119,3.00,87,M,Oahu,MHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+P4-188 UD1,Udotea sp.,Chlorophyta,0.502269206,3.54,87,M,Oahu,MHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+P4-188 UD6,Udotea sp.,Chlorophyta,0.411044917,2.81,87,M,Oahu,MHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+P4-188 UD5,Udotea sp.,Chlorophyta,0.385697029,3.55,87,M,Oahu,MHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+P4-188 UD1,Udotea sp.,Chlorophyta,0.502269206,3.54,87,M,Oahu,MHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+P4-188 UD2,Udotea sp.,Chlorophyta,0.510992119,3.00,87,M,Oahu,MHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+P4-188 UD3,Udotea sp.,Chlorophyta,0.575916473,2.78,87,M,Oahu,MHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+P4-188 UD4,Udotea sp.,Chlorophyta,1.139869442,1.89,87,M,Oahu,MHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+P4-188 UD5,Udotea sp.,Chlorophyta,0.385697029,3.55,87,M,Oahu,MHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+P4-188 UD6,Udotea sp.,Chlorophyta,0.411044917,2.81,87,M,Oahu,MHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+P5-736 51,Ulva/Umbraulva,Chlorophyta,0.459119641,5.94,87,M,Maui,MHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+NWHI-358,Cladophora sp.,Chlorophyta,0.75425014,-0.30,88,M,Pioneer,NWHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+NWHI-358,Cladophora sp.,Chlorophyta,0.75425014,-0.30,88,M,Pioneer,NWHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+NWHI-232,Codium sp.,Chlorophyta,1.876842822,3.40,88,M,FFS,NWHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+NWHI-232,Codium sp.,Chlorophyta,1.876842822,3.40,88,M,FFS,NWHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+NWHI-359,Microdictyon sp.,Chlorophyta,0.817847464,2.40,88,M,Pioneer,NWHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+NWHI-359,Microdictyon sp.,Chlorophyta,0.817847464,2.40,88,M,Pioneer,NWHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+NWHI-446,Halimeda sp.,Chlorophyta,1.484812828,4.50,88,M,Kure,NWHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+NWHI-448,Microdictyon sp.,Chlorophyta,2.982473611,4.10,88,M,Kure,NWHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+NWHI-448,Microdictyon sp.,Chlorophyta,2.982473611,4.10,88,M,Kure,NWHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+NWHI-445,Ulva/Umbraulva,Chlorophyta,1.401129268,4.60,88,M,Kure,NWHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+P5-736 85,Cladophora sp.,Chlorophyta,2.062099517,3.11,89,M,Maui,MHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+P5-736 85,Cladophora sp.,Chlorophyta,2.062099517,3.11,89,M,Maui,MHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+P5-736 95,Distromium sp.,Phaeophyceae,1.417652831,3.27,89,M,Maui,MHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+P5-734 9,Halimeda sp.,Chlorophyta,0.653831163,2.16,90,M,Maui,MHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+NWHI-420,Dasya sp.,Rhodophyta,1.507124119,4.40,90,M,Kure,NWHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+P5-734 8,Ulva/Umbraulva,Chlorophyta,1.449306779,3.58,90,M,Maui,MHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+NWHI-426,Ulva/Umbraulva,Chlorophyta,1.072767741,4.60,90,M,Kure,NWHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+NWHI-461,Cladophora sp.,Chlorophyta,1.296824186,3.80,90,M,Pioneer,NWHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+NWHI-461,Cladophora sp.,Chlorophyta,1.296824186,3.80,90,M,Pioneer,NWHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+NWHI-394,Codium sp.,Chlorophyta,1.25345072,5.50,91,M,Kure,NWHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+NWHI-396,Codium sp.,Chlorophyta,0.689808086,4.90,91,M,Kure,NWHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+NWHI-403,Codium sp.,Chlorophyta,0.854958004,3.60,91,M,Kure,NWHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+NWHI-431,Codium sp.,Chlorophyta,0.695704028,5.1,91,M,Salmon,NWHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+NWHI-433,Codium sp.,Chlorophyta,1.530332486,4.60,91,M,Salmon,NWHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+NWHI-348,Codium sp.,Chlorophyta,1.559040937,1.10,91,M,FFS,NWHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+NWHI-348,Codium sp.,Chlorophyta,1.559040937,1.10,91,M,FFS,NWHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+NWHI-433,Codium sp.,Chlorophyta,1.530332486,4.60,91,M,Salmon,NWHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+NWHI-394,Codium sp.,Chlorophyta,1.25345072,5.50,91,M,Kure,NWHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+NWHI-403,Codium sp.,Chlorophyta,0.854958004,3.60,91,M,Kure,NWHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+NWHI-431,Codium sp.,Chlorophyta,0.695704028,5.1,91,M,Salmon,NWHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+NWHI-396,Codium sp.,Chlorophyta,0.689808086,4.90,91,M,Kure,NWHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+NWHI-430,Microdictyon sp.,Chlorophyta,1.383736087,4.50,91,M,Salmon,NWHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+NWHI-393,Dasya sp.,Rhodophyta,1.131718018,2.90,91,M,Kure,NWHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+NWHI-424,Dasya sp.,Rhodophyta,1.34258335,5.00,91,M,Kure,NWHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+NWHI-432,Dasya sp.,Rhodophyta,1.08548847,4.90,91,M,Salmon,NWHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+NWHI-437,Dasya sp.,Rhodophyta,2.224072895,2.70,91,M,Salmon,NWHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+NWHI-395,Distromium sp.,Phaeophyceae,1.329126405,5.00,91,M,Kure,NWHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+NWHI-337,Distromium sp.,Phaeophyceae,1.337699157,3.10,91,M,FFS,NWHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+NWHI-352,Distromium sp.,Phaeophyceae,1.010836164,3.80,91,M,FFS,NWHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+NWHI-430,Microdictyon sp.,Chlorophyta,1.383736087,4.50,91,M,Salmon,NWHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+NWHI-351,Padina sp.,Phaeophyceae,0.539784086,2.70,91,M,FFS,NWHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+NWHI-336,Ulva/Umbraulva,Chlorophyta,1.749220995,3.70,91,M,FFS,NWHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+NWHI-397,Ulva/Umbraulva,Chlorophyta,1.724052637,4.80,91,M,Kure,NWHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+P5-734 24a,Codium sp.,Chlorophyta,0.711673767,3.58,92,M,Maui,MHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+P5-734 24b,Codium sp.,Chlorophyta,0.892812092,3.23,92,M,Maui,MHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+P5-734 27a,Codium sp.,Chlorophyta,0.852962313,3.25,92,M,Maui,MHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+P5-734 27b,Codium sp.,Chlorophyta,1.467652257,2.25,92,M,Maui,MHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+P5-734 27b,Codium sp.,Chlorophyta,1.467652257,2.25,92,M,Maui,MHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+P5-734 24b,Codium sp.,Chlorophyta,0.892812092,3.23,92,M,Maui,MHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+P5-734 27a,Codium sp.,Chlorophyta,0.852962313,3.25,92,M,Maui,MHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+P5-734 24a,Codium sp.,Chlorophyta,0.711673767,3.58,92,M,Maui,MHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+P5-734 2,Halimeda sp.,Chlorophyta,1.206849462,0.89,92,M,Maui,MHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+P5-734 30,Halimeda sp.,Chlorophyta,0.854225984,1.34,92,M,Maui,MHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+P5-734 6,Halimeda sp.,Chlorophyta,0.775643099,2.17,92,M,Maui,MHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+P5-734 20,Halimeda sp.,Chlorophyta,0.21386652,1.91,92,M,Maui,MHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+P5-734 21,Distromium sp.,Phaeophyceae,1.647665839,3.88,92,M,Maui,MHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+P5-734 1,Ulva/Umbraulva,Chlorophyta,1.365061496,3.46,92,M,Maui,MHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+P5-734 29,Ulva/Umbraulva,Chlorophyta,1.468930846,3.82,92,M,Maui,MHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+ULB-D2,Ulva/Umbraulva,Chlorophyta,1.748363543,3.39,92,M,Oahu,MHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+P4-190 UV2-13,Ulva/Umbraulva,Chlorophyta,1.140793416,5.33,94,M,Maui,MHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+P4-190 UV2-14,Ulva/Umbraulva,Chlorophyta,2.755474702,3.81,94,M,Maui,MHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+P4-190 UV2-15,Ulva/Umbraulva,Chlorophyta,1.114690794,3.89,94,M,Maui,MHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+P4-190 UV2-16,Ulva/Umbraulva,Chlorophyta,2.864182645,3.61,94,M,Maui,MHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+P4-190 UV2-17,Ulva/Umbraulva,Chlorophyta,2.583442472,3.35,94,M,Maui,MHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+P4-190 UV2-18,Ulva/Umbraulva,Chlorophyta,3.088449604,3.56,94,M,Maui,MHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+NWHI-765a,Cladophora sp.,Chlorophyta,1.652194321,4.0,98,M,Lisianski,NWHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+NWHI-765b,Cladophora sp.,Chlorophyta,1.742516427,4.3,98,M,Lisianski,NWHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+NWHI-765c,Cladophora sp.,Chlorophyta,1.566198318,4.3,98,M,Lisianski,NWHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+NWHI-839a,Cladophora sp.,Chlorophyta,1.485100147,4.6,98,M,Lisianski,NWHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+NWHI-839b,Cladophora sp.,Chlorophyta,1.595013742,4.4,98,M,Lisianski,NWHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+NWHI-839c,Cladophora sp.,Chlorophyta,1.394693362,4.6,98,M,Lisianski,NWHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+NWHI-765b,Cladophora sp.,Chlorophyta,1.742516427,4.3,98,M,Lisianski,NWHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+NWHI-765a,Cladophora sp.,Chlorophyta,1.652194321,4.0,98,M,Lisianski,NWHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+NWHI-839b,Cladophora sp.,Chlorophyta,1.595013742,4.4,98,M,Lisianski,NWHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+NWHI-765c,Cladophora sp.,Chlorophyta,1.566198318,4.3,98,M,Lisianski,NWHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+NWHI-839a,Cladophora sp.,Chlorophyta,1.485100147,4.6,98,M,Lisianski,NWHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+NWHI-839c,Cladophora sp.,Chlorophyta,1.394693362,4.6,98,M,Lisianski,NWHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+P5-736 67,Halimeda sp.,Chlorophyta,0.621750947,1.85,104,M,Maui,MHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+P5-736 79,Halimeda sp.,Chlorophyta,0.604779004,2.73,104,M,Maui,MHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+P5-736 65,Ulva/Umbraulva,Chlorophyta,2.325499883,3.06,104,M,Maui,MHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+P5-738 112a,Codium sp.,Chlorophyta,1.081850789,-0.39,109,M,Maui,MHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+P5-738 112b,Codium sp.,Chlorophyta,1.493183041,0.18,109,M,Maui,MHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+P5-738 112b,Codium sp.,Chlorophyta,1.493183041,0.18,109,M,Maui,MHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+P5-738 112a,Codium sp.,Chlorophyta,1.081850789,-0.39,109,M,Maui,MHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+P5-738 103,Halimeda sp.,Chlorophyta,1.174537668,0.23,109,M,Maui,MHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+P5-738 111,Halimeda sp.,Chlorophyta,0.935362406,0.96,109,M,Maui,MHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+P5-736 100,Halimeda sp.,Chlorophyta,1.07806389,0.05,111,M,Maui,MHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+P4-190 UV1-10,Ulva/Umbraulva,Chlorophyta,2.483678257,3.65,113,M,Maui,MHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+P4-190 UV1-11,Ulva/Umbraulva,Chlorophyta,3.21156386,4.15,113,M,Maui,MHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+P4-190 UV1-12,Ulva/Umbraulva,Chlorophyta,2.681011934,3.59,113,M,Maui,MHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+P5-738 108a,Codium sp.,Chlorophyta,1.718702394,-0.01,117,M,Maui,MHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+P5-738 108c,Codium sp.,Chlorophyta,1.390882825,1.60,117,M,Maui,MHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+P5-738 78,Codium sp.,Chlorophyta,1.789632701,-0.38,117,M,Maui,MHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+P5-738 78,Codium sp.,Chlorophyta,1.789632701,-0.38,117,M,Maui,MHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+P5-738 108a,Codium sp.,Chlorophyta,1.718702394,-0.01,117,M,Maui,MHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+P5-738 108c,Codium sp.,Chlorophyta,1.390882825,1.60,117,M,Maui,MHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+P5-738 109,Halimeda sp.,Chlorophyta,0.398156521,1.76,117,M,Maui,MHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+P4-232 3F,Halimeda sp.,Chlorophyta,0.282970681,2.10,102,M,Maui,MHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+P4-232 4D,Halimeda sp.,Chlorophyta,0.247341845,2.90,102,M,Maui,MHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+P4-232 3B,Halimeda sp.,Chlorophyta,0.230984817,2.60,102,M,Maui,MHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+P4-232 3A,Halimeda sp.,Chlorophyta,0.220164141,2.00,102,M,Maui,MHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+P4-232 4C,Halimeda sp.,Chlorophyta,0.152718078,3.20,102,M,Maui,MHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+P4-232 3C,Ulva/Umbraulva,Chlorophyta,2.096721844,4.10,102,M,Maui,MHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+P4-232 3D,Ulva/Umbraulva,Chlorophyta,2.797546012,4.20,102,M,Maui,MHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+P4-232 3E,Ulva/Umbraulva,Chlorophyta,2.436575407,4.10,102,M,Maui,MHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+AV2 WE1,Avrainvillea sp.,Chlorophyta,3.57,0.50,intertidal,S,Oahu,MHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+AV2 SE3,Avrainvillea sp.,Chlorophyta,3.52,-0.08,intertidal,S,Oahu,MHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+AV SE3,Avrainvillea sp.,Chlorophyta,3.46,-1.66,intertidal,S,Oahu,MHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+AV2 WE2,Avrainvillea sp.,Chlorophyta,3.44,0.34,intertidal,S,Oahu,MHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+AV2 C5,Avrainvillea sp.,Chlorophyta,3.43,0.74,intertidal,S,Oahu,MHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+AV2 SE4,Avrainvillea sp.,Chlorophyta,3.36,1.10,intertidal,S,Oahu,MHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+AV SE2,Avrainvillea sp.,Chlorophyta,3.33,0.56,intertidal,S,Oahu,MHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+AV2 WE4b,Avrainvillea sp.,Chlorophyta,3.22,0.73,intertidal,S,Oahu,MHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+AV2 SE1,Avrainvillea sp.,Chlorophyta,3.20,-1.58,intertidal,S,Oahu,MHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+AV C3,Avrainvillea sp.,Chlorophyta,3.20,1.49,intertidal,S,Oahu,MHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+AV2 WE4a,Avrainvillea sp.,Chlorophyta,3.17,0.57,intertidal,S,Oahu,MHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+AV2 C3,Avrainvillea sp.,Chlorophyta,3.10,1.00,intertidal,S,Oahu,MHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+AV WE1,Avrainvillea sp.,Chlorophyta,3.10,1.95,intertidal,S,Oahu,MHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+AV WE5,Avrainvillea sp.,Chlorophyta,3.09,2.16,intertidal,S,Oahu,MHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+AV SE5,Avrainvillea sp.,Chlorophyta,3.08,0.29,intertidal,S,Oahu,MHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+AV SEC5,Avrainvillea sp.,Chlorophyta,3.07,1.85,intertidal,S,Oahu,MHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+AV2 C1,Avrainvillea sp.,Chlorophyta,3.02,0.86,intertidal,S,Oahu,MHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+AV2 C2,Avrainvillea sp.,Chlorophyta,3.01,0.89,intertidal,S,Oahu,MHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+AV WE3,Avrainvillea sp.,Chlorophyta,2.96,1.90,intertidal,S,Oahu,MHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+AV C6,Avrainvillea sp.,Chlorophyta,2.92,2.58,intertidal,S,Oahu,MHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+AV2 C4,Avrainvillea sp.,Chlorophyta,2.91,0.48,intertidal,S,Oahu,MHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+AV C2,Avrainvillea sp.,Chlorophyta,2.81,3.16,intertidal,S,Oahu,MHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+AV SEC1,Avrainvillea sp.,Chlorophyta,2.74,2.81,intertidal,S,Oahu,MHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+AV2 WE3,Avrainvillea sp.,Chlorophyta,2.70,0.87,intertidal,S,Oahu,MHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+AV2 SE2,Avrainvillea sp.,Chlorophyta,2.66,1.11,intertidal,S,Oahu,MHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+AV2 SE5a,Avrainvillea sp.,Chlorophyta,2.49,0.40,intertidal,S,Oahu,MHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+AV2 C6b,Avrainvillea sp.,Chlorophyta,2.43,1.46,intertidal,S,Oahu,MHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+AV2 C6a,Avrainvillea sp.,Chlorophyta,2.42,1.65,intertidal,S,Oahu,MHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+AV WE2,Avrainvillea sp.,Chlorophyta,2.23,2.38,intertidal,S,Oahu,MHI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
