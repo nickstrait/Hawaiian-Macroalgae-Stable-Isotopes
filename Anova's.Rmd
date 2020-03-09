@@ -1,0 +1,89 @@
+
+```{r}
+region.anova.N15 <- aov(N15 ~ Region, data = nitrogen.data)
+region.anova.per <- aov(Percent ~ Region, data = nitrogen.data)
+summary(region.anova.N15)
+summary(region.anova.per)
+plot(region.anova.N15)
+plot(region.anova.per)
+```
+
+```{r}
+MHI.zone.N15 <- aov(N15 ~ Zone, data = MainHI)
+MHI.zone.per <- aov(Percent ~ Zone, data = MainHI)
+summary(MHI.zone.N15)
+summary(MHI.zone.per)
+plot(MHI.zone.N15)
+plot(MHI.zone.per)
+```
+
+```{r}
+MHI.Loc.N15 <- aov(N15 ~ Location, data = MainHI)
+MHI.loc.per <- aov(Percent ~ Location, data = MainHI)
+summary(MHI.Loc.N15)
+summary(MHI.loc.per)
+plot(MHI.Loc.N15)
+plot(MHI.loc.per)
+```
+
+```{r}
+MHI.depth.N15 <- aov(N15 ~ Depth, data = nitrogen.data)
+MHI.depth.per <- aov(Percent ~ Depth, data = nitrogen.data)
+summary(MHI.depth.N15)
+summary(MHI.depth.per)
+plot(MHI.depth.N15)
+plot(MHI.depth.per)
+```
+
+```{r}
+MHI.gen.N15 <- aov(N15 ~ Genus, data = MainHI)
+MHI.gen.per <- aov(Percent ~ Genus, data = MainHI)
+summary(MHI.gen.N15)
+summary(MHI.gen.per)
+plot(MHI.gen.N15)
+plot(MHI.gen.per)
+```
+
+```{r}
+NWHI.zone.N15 <- aov(N15 ~ Zone, data = NwestHI)
+NWHI.zone.per <- aov(Percent ~ Zone, data = NwestHI)
+summary(NWHI.zone.N15)
+summary(NWHI.zone.per)
+plot(NWHI.zone.N15)
+plot(NWHI.zone.per)
+
+## No significance between zones for
+```
+
+```{r}
+NWHI.loc.N15 <- aov(N15 ~ Location, data = NwestHI)
+NWHI.loc.per <- aov(Percent ~ Location, data = NwestHI)
+summary(NWHI.loc.N15)
+summary(NWHI.loc.per)
+plot(NWHI.loc.N15)
+plot(NWHI.loc.per)
+```
+
+```{r}
+NWHI.gen.N15 <- aov(N15 ~ Genus, data = NwestHI)
+NWHI.gen.per <- aov(Percent ~ Genus, data = NwestHI)
+summary(NWHI.gen.N15)
+summary(NWHI.gen.per)
+plot(NWHI.gen.N15)
+plot(NWHI.gen.per)
+```
+
+```{r}
+NWHI.depth.N15 <- aov(N15 ~ Depth, data = NwestHI)
+NWHI.depth.per <- aov(Percent ~ Depth, data = NwestHI)
+summary(NWHI.depth.N15)
+summary(NWHI.depth.per)
+plot(NWHI.depth.N15)
+plot(NWHI.depth.per)
+```
+
+```{r}
+MImeso.depth.n15 <- aov(N15 ~ Depth, data = MHI.meso)
+summary(MImeso.depth.n15)
+```
+
