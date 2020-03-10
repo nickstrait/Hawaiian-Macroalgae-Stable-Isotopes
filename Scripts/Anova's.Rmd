@@ -1,5 +1,7 @@
 
 ```{r}
+region.lm.N15 <- lm(N15 ~ -1 + Region, data = nitrogen.data)
+summary(region.lm.N15)
 region.anova.N15 <- aov(N15 ~ Region, data = nitrogen.data)
 region.anova.per <- aov(Percent ~ Region, data = nitrogen.data)
 summary(region.anova.N15)
@@ -52,7 +54,7 @@ summary(NWHI.zone.per)
 plot(NWHI.zone.N15)
 plot(NWHI.zone.per)
 
-## No significance between zones for
+## No significance between zones
 ```
 
 ```{r}
