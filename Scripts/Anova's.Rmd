@@ -1,20 +1,31 @@
 
 ```{r}
-region.lm.N15 <- lm(N15 ~ -1 + Region, data = nitrogen.data)
+library(MASS)
+region.lm.N15 <- lm(N15 ~ Region, data = nitrogen.data)
 summary(region.lm.N15)
 region.anova.N15 <- aov(N15 ~ Region, data = nitrogen.data)
+region_lm_per <- lm(Percent ~ Region, data = nitrogen.data)
+summary(region_lm_per)
 region.anova.per <- aov(Percent ~ Region, data = nitrogen.data)
 summary(region.anova.N15)
 summary(region.anova.per)
+TukeyHSD(region.anova.N15)
+TukeyHSD(region.anova.per)
 plot(region.anova.N15)
 plot(region.anova.per)
 ```
 
 ```{r}
 MHI.zone.N15 <- aov(N15 ~ Zone, data = MainHI)
+MHI_zone_lm_N15 <- lm(N15 ~ Zone, data = MainHI)
 MHI.zone.per <- aov(Percent ~ Zone, data = MainHI)
+MHI_zone_lm_per <- lm(Percent ~ Zone, data = MainHI)
+
+summary(MHI_zone_lm_N15)
+summary(MHI_zone_lm_per)
 summary(MHI.zone.N15)
 summary(MHI.zone.per)
+
 plot(MHI.zone.N15)
 plot(MHI.zone.per)
 ```
@@ -22,17 +33,29 @@ plot(MHI.zone.per)
 ```{r}
 MHI.Loc.N15 <- aov(N15 ~ Location, data = MainHI)
 MHI.loc.per <- aov(Percent ~ Location, data = MainHI)
+MHI_loc_lm_N15 <- lm(N15 ~ Location, data = MainHI)
+MHI_loc_lm_per <- lm(Percent ~ Location, data = MainHI)
+
 summary(MHI.Loc.N15)
 summary(MHI.loc.per)
+summary(MHI_loc_lm_N15)
+summary(MHI_loc_lm_per)
+
 plot(MHI.Loc.N15)
 plot(MHI.loc.per)
 ```
 
 ```{r}
-MHI.depth.N15 <- aov(N15 ~ Depth, data = nitrogen.data)
-MHI.depth.per <- aov(Percent ~ Depth, data = nitrogen.data)
+MHI.depth.N15 <- aov(N15 ~ Depth, data = MainHI)
+MHI.depth.per <- aov(Percent ~ Depth, data = MainHI)
+MHI_depth_lm_N15 <- lm(N15 ~ Depth, data = MainHI)
+MHI_depth_lm_per <- lm(Percent ~ Depth, data = MainHI)
+
 summary(MHI.depth.N15)
 summary(MHI.depth.per)
+summary(MHI_depth_lm_N15)
+summary(MHI_depth_lm_per)
+
 plot(MHI.depth.N15)
 plot(MHI.depth.per)
 ```
@@ -40,11 +63,56 @@ plot(MHI.depth.per)
 ```{r}
 MHI.gen.N15 <- aov(N15 ~ Genus, data = MainHI)
 MHI.gen.per <- aov(Percent ~ Genus, data = MainHI)
+MHI_gen_lm_N15 <- lm(N15 ~ Genus, data = MainHI)
+MHI_gen_lm_per <- lm(Percent ~ Genus, data = MainHI)
+
 summary(MHI.gen.N15)
 summary(MHI.gen.per)
+summary(MHI_gen_lm_N15)
+summary(MHI_gen_lm_per)
+
 plot(MHI.gen.N15)
 plot(MHI.gen.per)
 ```
+
+```{r}
+MHI_phy_lm_N15 <- lm(N15 ~ Division, data = MainHI)
+MHI_phy_lm_per <- lm(Percent ~ Division, data = MainHI)
+summary(MHI_phy_lm_N15)
+summary(MHI_phy_lm_per)
+```
+
+```{r}
+MHI_N15_mod1 <- lm(N15 ~ Genus + Location + Zone, data = MainHI)
+MHI_N15_mod2 <- lm(N15 ~ Genus + Location + Zone + Depth + Division, data = MainHI)
+MHI_N15_mod3 <- lm(N15 ~ Genus * Location * Zone * Division * Depth, data = MainHI)
+MHI_N15_mod4 <- lm(N15 ~ Genus * Location * Zone * Depth, data = MainHI)
+MHI_N15_mod5 <- lm(N15 ~ Genus * Location * Depth, data = MainHI)
+summary(MHI_N15_mod1)
+summary(MHI_N15_mod2)
+summary(MHI_N15_mod3)
+stepAIC(MHI_N15_mod3)
+stepAIC(MHI_N15_mod2)
+AIC(MHI_N15_mod1)
+AIC(MHI_N15_mod2)
+AIC(MHI_N15_mod3)
+AIC(MHI_N15_mod4)
+AIC(MHI_N15_mod5)
+
+
+MHI_N15_mod4 <- aov(N15 ~ Genus * Location * Zone * Depth * Division, data = MainHI)
+
+stepAIC(MHI_N15_best_aov)
+
+MHI_N15_best_aov <- aov(N15 ~ Genus + Location + Zone + Depth + Genus:Location + Location:Zone + Genus:Depth + Location:Depth, data = MainHI)
+
+summary(lm(N15 ~ Genus + Location + Zone + Depth + Genus:Location + Location:Zone + Genus:Depth + Location:Depth, data = MainHI))
+```
+
+```{r}
+summary(lm(N15 ~ Genus, data = MHI.shlw))
+```
+
 
 ```{r}
 NWHI.zone.N15 <- aov(N15 ~ Zone, data = NwestHI)
