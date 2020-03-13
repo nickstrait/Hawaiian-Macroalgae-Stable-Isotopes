@@ -48,13 +48,12 @@ ggplot(NwestHI, aes(x=Location, y=Percent, fill=Location)) + geom_violin(trim = 
 ```{r}
 #Plots of shallow MHI
 
-ggplot(MHI.shlw, aes(x=Division, y=N15, fill=Genus)) + geom_violin(trim = FALSE)
+ggplot(MHI.shlw, aes(x=Genus, y=N15, fill=Genus)) + geom_violin(trim = FALSE)
 
-ggplot(MHI.shlw, aes(x=Division, y=Percent, fill=Genus)) + geom_violin(trim = FALSE)
+ggplot(MHI.shlw, aes(x=Genus, y=Percent, fill=Genus)) + geom_violin(trim = FALSE)
 
-ggplot(MHI.shlw, aes(x=Location, y=N15, fill=Genus)) + geom_violin(trim = FALSE)
+ggplot(MHI.shlw, aes(x= Location, y=N15, fill=Genus)) + geom_violin(trim = FALSE)
 
-ggplot(MHI.shlw, aes(x=Location, y=Percent, fill=Location)) + geom_violin(trim = FALSE)
 ```
 
 ```{r}

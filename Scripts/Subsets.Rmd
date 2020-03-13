@@ -19,6 +19,16 @@ NwestHI <- subset(nitrogen.data, Region == "NWHI")
 MHI.shlw <- subset(MainHI, Zone == "S")
 MHI.meso <- subset(MainHI, Zone == "M")
 
+Oahu <- subset(MainHI, Location =="Oahu")
+Maui <- subset(MainHI, Location =="Maui")
+Niihau <- subset(MainHI, Location =="Niihau")
+Molokai.meso <- subset(MainHI, Location =="Molokai")
+Oahu.shlw <- subset(MHI.shlw, Location =="Oahu")
+Maui.shlw <- subset(MHI.shlw, Location == "Maui")
+Oahu.meso <- subset(MHI.meso, Location =="Oahu")
+Maui.meso <- subset(MHI.meso, Location =="Maui")
+
+
 #NWHI subset by zone
 NWHI.shlw <- subset(NwestHI, Zone =="S")
 NWHI.meso <- subset(NwestHI, Zone =="M")
