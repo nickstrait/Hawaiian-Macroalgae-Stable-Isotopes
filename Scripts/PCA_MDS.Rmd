@@ -1,0 +1,23 @@
+```{r}
+library(dplyr)
+library(vegan)
+library(dummies)
+library(ggfortify)
+N15_pca <- rda(N15.matrix, scale = TRUE)
+N15_pca
+N15_mds <- metaMDS(percent.matrix)
+N15_rda <- rda(N15.matrix ~ ., data =  factors.matrix)
+N15_rda
+RsquareAdj(N15_rda)
+
+ggbiplot(N15_rda)
+
+plot(N15_rda, display = "sp", scaling = 1)
+orditorp(N15_rda, display = "sp", cex = 0.5, scaling = 1, col = "blue")
+text(N15_rda, display = 'cn', col = 'red')
+```
+
+```{r}
+
+```
+

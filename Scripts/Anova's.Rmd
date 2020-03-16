@@ -1,18 +1,23 @@
 
 ```{r}
+library(ggplot2)
+library(gridExtra)
+library(scatterplot3d)
 library(MASS)
-region.lm.N15 <- lm(N15 ~ Region, data = nitrogen.data)
+region.lm.N15 <- lm(N15 ~ Region, data = nitrogen_data)
 summary(region.lm.N15)
-region.anova.N15 <- aov(N15 ~ Region, data = nitrogen.data)
-region_lm_per <- lm(Percent ~ Region, data = nitrogen.data)
+region.anova.N15 <- aov(N15 ~ Region, data = nitrogen_data)
+region_lm_per <- lm(Percent ~ Region, data = nitrogen_data)
 summary(region_lm_per)
-region.anova.per <- aov(Percent ~ Region, data = nitrogen.data)
+region.anova.per <- aov(Percent ~ Region, data = nitrogen_data)
 summary(region.anova.N15)
 summary(region.anova.per)
 TukeyHSD(region.anova.N15)
 TukeyHSD(region.anova.per)
 plot(region.anova.N15)
 plot(region.anova.per)
+
+#Regions are different, except for NWHI and Johnston Atoll for percent
 ```
 
 ```{r}
@@ -32,53 +37,47 @@ plot(MHI.zone.N15)
 plot(MHI.zone.per)
 ```
 
-
-
 ```{r}
-MHI_N15_mod1 <- lm(N15 ~ Genus + Location + Zone, data = MainHI)
-MHI_N15_mod2 <- lm(N15 ~ Genus + Location + Zone + Depth + Division, data = MainHI)
-MHI_N15_mod3 <- lm(N15 ~ Genus * Location * Zone * Division * Depth, data = MainHI)
-MHI_N15_mod4 <- lm(N15 ~ Genus * Location * Zone * Depth, data = MainHI)
-MHI_N15_mod5 <- lm(N15 ~ Genus * Location * Depth, data = MainHI)
-summary(MHI_N15_mod1)
-summary(MHI_N15_mod2)
-summary(MHI_N15_mod3)
-stepAIC(MHI_N15_mod3)
-stepAIC(MHI_N15_mod2)
-AIC(MHI_N15_mod1)
-AIC(MHI_N15_mod2)
-AIC(MHI_N15_mod3)
-AIC(MHI_N15_mod4)
-AIC(MHI_N15_mod5)
+MHIshlw_N15_aov <- aov(N15 ~ Genus + Location + as.factor(Depth), data = MHI.shlw)
+MHIshlw_per_aov <- aov(Percent ~ Genus + Location + as.factor(Depth), data = MHI.shlw)
+MHImeso_N15_aov <- aov(N15 ~ Genus + Location + as.factor(Depth), data = MHI.meso)
+MHImeso_per_aov <- aov(Percent ~ Genus + Location + as.factor(Depth), data = MHI.meso)
+summary(MHIshlw_N15_aov)
+summary(MHIshlw_per_aov)
+summary(MHImeso_N15_aov)
+summary(MHImeso_per_aov)
+
+## Location is not important for shallow water samples, but was important for mesophotic N15. 
 
 
-MHI_N15_mod4 <- aov(N15 ~ Genus * Location * Zone * Depth * Division, data = MainHI)
+#Need to run Tukeys to determine differences in factors 
 
-stepAIC(MHI_N15_best_aov)
 
-MHI_N15_best_aov <- aov(N15 ~ Genus + Location + Zone + Depth + Genus:Location + Location:Zone + Genus:Depth + Location:Depth, data = MainHI)
 
-summary(lm(N15 ~ Genus + Location + Zone + Depth + Genus:Location + Location:Zone + Genus:Depth + Location:Depth, data = MainHI))
+ggplot(data = MHI.shlw, aes(x = Depth, y = N15)) + geom_point(aes(color = Genus)) + geom_smooth(aes(linetype = Genus, color = Genus), method = 'loess')
 ```
 
 ```{r}
-MHI_shlw_n15_Gen_aov <- aov(N15 ~ Genus, data = MHI.shlw)
-summary(MHI_shlw_n15_Gen_aov)
-summary(lm(N15 ~ Genus, data = MHI.shlw))
-summary(aov(Percent ~ Genus, data = MHI.shlw))
-summary(aov(N15 ~ Location, data = MHI.shlw))
+#subset MHI into location by zone
 
-summary(aov(N15 ~ Genus, data = Oahu.shlw))
-summary(aov(Percent ~ Genus, data = Oahu.shlw))
-summary(aov(Percent ~ Genus, data = Maui.shlw))
-summary(aov(N15 ~ Genus, data = Maui.shlw))
+summary(aov(N15 ~ Genus + Depth, data = Oahu.meso))
+summary(aov(Percent ~ Genus +Depth, data = Oahu.meso))
+summary(aov(N15 ~ Genus + Depth, data = Maui.meso))
+summary(aov(Percent ~ Genus +Depth, data = Maui.meso))
+summary(aov(N15 ~ Genus + Depth, data = Molokai))
+summary(aov(Percent ~ Genus +Depth, data = Molokai))
 
-summary(aov(N15 ~ Zone, data = Oahu))
-summary(aov(N15 ~ Zone, data = Maui))
+ggplot(data = Oahu.meso, aes(x = Depth, y = N15)) + geom_point(aes(color = Genus)) + geom_smooth(aes(linetype = Genus, color = Genus), method = 'loess')
 ```
 
 
+
+
 ```{r}
+summary(aov(N15 ~ Genus + Location + Depth, data = shallow))
+summary(aov(N15 ~ Genus + Location + Depth, data = mesophotic))
+
+
 NWHI.zone.N15 <- aov(N15 ~ Zone, data = NwestHI)
 NWHI.zone.per <- aov(Percent ~ Zone, data = NwestHI)
 summary(NWHI.zone.N15)
@@ -86,7 +85,7 @@ summary(NWHI.zone.per)
 plot(NWHI.zone.N15)
 plot(NWHI.zone.per)
 
-## No significance between zones
+## No significance between zones for percent
 ```
 
 ```{r}
