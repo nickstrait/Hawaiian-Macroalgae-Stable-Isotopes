@@ -34,3 +34,10 @@ NWHI.shlw <- subset(NwestHI, Zone =="S")
 NWHI.meso <- subset(NwestHI, Zone =="M")
 ```
 
+```{r}
+write.csv(MHI.shlw, ".\\MHI.shlw.csv")
+write.csv(MHI.meso, ".\\MHI.meso.csv")
+write.csv(NWHI.shlw, ".\\NWHI.shlw.csv")
+write.csv(NWHI.meso, ".\\NWHI.meso.csv")
+```
+

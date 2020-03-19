@@ -14,6 +14,7 @@ summary(region.anova.N15)
 summary(region.anova.per)
 TukeyHSD(region.anova.N15)
 TukeyHSD(region.anova.per)
+TukeyHSD(aov(N15 ~ Region * Division, data = nitrogen_data))
 plot(region.anova.N15)
 plot(region.anova.per)
 
@@ -51,6 +52,7 @@ summary(MHImeso_per_aov)
 
 
 #Need to run Tukeys to determine differences in factors 
+TukeyHSD(aov(N15 ~ Genus + Location, data = MHI.meso))
 
 
 

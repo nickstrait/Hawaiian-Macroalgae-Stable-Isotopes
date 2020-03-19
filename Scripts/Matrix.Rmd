@@ -25,9 +25,16 @@ percent.matrix[1:5, 1:5]
 ```
 
 ```{r}
-cols_to_keep = c('Depth', 'Location', 'Region', 'Zone', 'Division')
+cols_to_keep = c('Depth', 'Location', 'Region', 'Zone', 'Division', 'Exact Depth')
 factors.matrix = aggregate(nitrogen_data[ ,cols_to_keep], by = list(nitrogen_data$ID), function(x) x[1])
 row.names(factors.matrix) = factors.matrix[ , 1]
 factors.matrix = factors.matrix[ , -1]
 head(factors.matrix)
 ```
+
+```{r}
+write.csv(N15.matrix, ".\\N15.matrix.csv")
+write.csv(percent.matrix, ".\\percent.matrix.csv")
+write.csv(factors.matrix, ".\\factors.matrix.csv")
+```
+
