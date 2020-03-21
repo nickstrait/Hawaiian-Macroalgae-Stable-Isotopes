@@ -1,9 +1,9 @@
 ```{r}
 #shallow water subset
-shallow <- subset(nitrogen_data, Zone == "S")
+shallow <- subset(nitrogen_data, Zone == "Shallow")
 
 #mesophotic subset
-mesophotic <- subset(nitrogen_data, Zone == "M")
+mesophotic <- subset(nitrogen_data, Zone == "Mesophotic")
 ```
 
 ```{r}
@@ -16,8 +16,8 @@ NwestHI <- subset(nitrogen_data, Region == "NWHI")
 
 ```{r}
 #MHI subsets
-MHI.shlw <- subset(MainHI, Zone == "S")
-MHI.meso <- subset(MainHI, Zone == "M")
+MHI.shlw <- subset(MainHI, Zone == "Shallow")
+MHI.meso <- subset(MainHI, Zone == "Mesophotic")
 
 Oahu <- subset(MainHI, Location =="Oahu")
 Maui <- subset(MainHI, Location =="Maui")
@@ -33,6 +33,11 @@ Maui.meso <- subset(MHI.meso, Location =="Maui")
 NWHI.shlw <- subset(NwestHI, Zone =="S")
 NWHI.meso <- subset(NwestHI, Zone =="M")
 ```
+
+```{r}
+Halimeda.MHI <- subset(MainHI, Genus =="Halimeda sp.")
+```
+
 
 ```{r}
 write.csv(MHI.shlw, ".\\MHI.shlw.csv")

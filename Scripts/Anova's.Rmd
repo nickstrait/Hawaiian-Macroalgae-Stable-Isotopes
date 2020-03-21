@@ -10,11 +10,10 @@ region.anova.N15 <- aov(N15 ~ Region, data = nitrogen_data)
 region_lm_per <- lm(Percent ~ Region, data = nitrogen_data)
 summary(region_lm_per)
 region.anova.per <- aov(Percent ~ Region, data = nitrogen_data)
+
 summary(region.anova.N15)
 summary(region.anova.per)
-TukeyHSD(region.anova.N15)
-TukeyHSD(region.anova.per)
-TukeyHSD(aov(N15 ~ Region * Division, data = nitrogen_data))
+
 plot(region.anova.N15)
 plot(region.anova.per)
 
@@ -43,6 +42,7 @@ MHIshlw_N15_aov <- aov(N15 ~ Genus + Location + as.factor(Depth), data = MHI.shl
 MHIshlw_per_aov <- aov(Percent ~ Genus + Location + as.factor(Depth), data = MHI.shlw)
 MHImeso_N15_aov <- aov(N15 ~ Genus + Location + as.factor(Depth), data = MHI.meso)
 MHImeso_per_aov <- aov(Percent ~ Genus + Location + as.factor(Depth), data = MHI.meso)
+
 summary(MHIshlw_N15_aov)
 summary(MHIshlw_per_aov)
 summary(MHImeso_N15_aov)
@@ -51,33 +51,41 @@ summary(MHImeso_per_aov)
 ## Location is not important for shallow water samples, but was important for mesophotic N15. 
 
 
-#Need to run Tukeys to determine differences in factors 
-TukeyHSD(aov(N15 ~ Genus + Location, data = MHI.meso))
-
-
-
-ggplot(data = MHI.shlw, aes(x = Depth, y = N15)) + geom_point(aes(color = Genus)) + geom_smooth(aes(linetype = Genus, color = Genus), method = 'loess')
+TukeyHSD(MHImeso_N15_aov)
 ```
 
 ```{r}
 #subset MHI into location by zone
 
+summary(aov(N15 ~ Genus + Depth, data = Oahu.shlw))
+summary(aov(Percent ~ Genus + Depth, data = Oahu.shlw))
 summary(aov(N15 ~ Genus + Depth, data = Oahu.meso))
 summary(aov(Percent ~ Genus +Depth, data = Oahu.meso))
-summary(aov(N15 ~ Genus + Depth, data = Maui.meso))
-summary(aov(Percent ~ Genus +Depth, data = Maui.meso))
-summary(aov(N15 ~ Genus + Depth, data = Molokai))
-summary(aov(Percent ~ Genus +Depth, data = Molokai))
+TukeyHSD(aov(Percent ~ Genus +Depth, data = Oahu.meso))
 
-ggplot(data = Oahu.meso, aes(x = Depth, y = N15)) + geom_point(aes(color = Genus)) + geom_smooth(aes(linetype = Genus, color = Genus), method = 'loess')
+summary(aov(N15 ~ Genus * Depth, data = Maui.shlw))
+summary(aov(Percent ~ Genus * Depth, data = Maui.shlw))
+TukeyHSD(aov(Percent ~ Genus * Depth, data = Maui.shlw))
+
+summary(aov(N15 ~ Genus + Depth, data = Maui.meso))
+summary(aov(Percent ~ Genus + Depth, data = Maui.meso))
+TukeyHSD(aov(N15 ~ Genus + Depth, data = Maui.meso))
+TukeyHSD(aov(Percent ~ Genus + Depth, data = Maui.meso))
+
+summary(aov(N15 ~ Genus + Depth, data = Molokai.meso))
+summary(aov(Percent ~ Genus +Depth, data = Molokai.meso))
+```
+
+```{r}
+## MHI Halimeda
+summary(aov(N15 ~ Location + Zone + Depth, data = Halimeda.MHI))
+summary(aov(Percent ~ Location + Zone + Depth, data = Halimeda.MHI))
+TukeyHSD(aov(N15 ~ Location, data = Halimeda.MHI))
 ```
 
 
 
-
 ```{r}
-summary(aov(N15 ~ Genus + Location + Depth, data = shallow))
-summary(aov(N15 ~ Genus + Location + Depth, data = mesophotic))
 
 
 NWHI.zone.N15 <- aov(N15 ~ Zone, data = NwestHI)

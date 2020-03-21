@@ -4,8 +4,6 @@ library(ggplot2)
 ggplot(nitrogen_data, aes(x=Region, y=N15, fill=Region)) + geom_violin(trim = FALSE)
 ggplot(nitrogen_data, aes(x=Region, y=Percent, fill=Region)) + geom_violin(trim = FALSE)
 
-ggplot(nitrogen_data, aes(x=Region, y=N15, fill=Division)) + geom_violin(trim = FALSE)
-ggplot(nitrogen_data, aes(x=Region, y=Percent, fill=Region)) + geom_violin(trim = FALSE)
 
 #Plots of shallow N15 and %N by region
 
@@ -34,4 +32,30 @@ ggplot(MHI.shlw, aes(x=as.factor(Depth), y=N15, fill=Depth)) + geom_violin(trim 
 ggplot(MHI.shlw, aes(x=as.factor(Depth), y=Percent, fill=Depth)) + geom_violin(trim = FALSE)
 ```
 
+```{r}
+ggplot(MHI.meso, aes(x=Location, y=N15, fill=Location)) + geom_violin(trim = FALSE)
+ggplot(MHI.meso, aes(x=Location, y=Percent, fill=Location)) + geom_violin(trim = FALSE)
+```
+
+```{r}
+ggplot(Oahu.shlw, aes(x=Genus, y=N15, fill=Genus)) + geom_violin(trim = FALSE)
+ggplot(Oahu.shlw, aes(x=Genus, y=Percent, fill=Genus)) + geom_violin(trim = FALSE)
+```
+
+```{r}
+ggplot(Maui.shlw, aes(x=Depth, y=N15, fill=Genus)) + geom_violin(trim = FALSE)
+ggplot(Maui.shlw, aes(x=Depth, y=Percent, fill=Genus)) + geom_violin(trim = FALSE)
+ggplot(Maui.meso, aes(x=Depth, y=N15, fill=Genus)) + geom_violin(trim = FALSE)
+ggplot(Maui.meso, aes(x=Depth, y=Percent, fill=Genus)) + geom_violin(trim = FALSE)
+```
+
+```{r}
+ggplot(Molokai.meso, aes(x=Depth, y=N15, fill=Genus)) + geom_violin(trim = FALSE)
+ggplot(Molokai.meso, aes(x=Depth, y=Percent, fill=Genus)) + geom_violin(trim = FALSE)
+```
+
+```{r}
+ggplot(Halimeda.MHI, aes(x=Location, y=N15, fill=Depth)) + geom_violin(trim = FALSE)
+ggplot(Halimeda.MHI, aes(x=Location, y=Percent, fill=Depth)) + geom_violin(trim = FALSE)
+```
 
