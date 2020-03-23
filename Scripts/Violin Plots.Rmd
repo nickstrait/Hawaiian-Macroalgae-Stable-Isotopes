@@ -38,15 +38,26 @@ ggplot(MHI.meso, aes(x=Location, y=Percent, fill=Location)) + geom_violin(trim =
 ```
 
 ```{r}
-ggplot(Oahu.shlw, aes(x=Genus, y=N15, fill=Genus)) + geom_violin(trim = FALSE)
-ggplot(Oahu.shlw, aes(x=Genus, y=Percent, fill=Genus)) + geom_violin(trim = FALSE)
+ggplot(Oahu, aes(x=Zone, y=N15, fill=Zone)) + geom_violin(trim = FALSE)
+ggplot(Oahu, aes(x=Zone, y=Percent, fill=Zone)) + geom_violin(trim = FALSE)
+
+ggplot(Maui, aes(x=Zone, y=N15, fill=Zone)) + geom_violin(trim = FALSE)
+ggplot(Maui, aes(x=Zone, y=Percent, fill=Zone)) + geom_violin(trim = FALSE)
 ```
 
 ```{r}
-ggplot(Maui.shlw, aes(x=Depth, y=N15, fill=Genus)) + geom_violin(trim = FALSE)
-ggplot(Maui.shlw, aes(x=Depth, y=Percent, fill=Genus)) + geom_violin(trim = FALSE)
-ggplot(Maui.meso, aes(x=Depth, y=N15, fill=Genus)) + geom_violin(trim = FALSE)
-ggplot(Maui.meso, aes(x=Depth, y=Percent, fill=Genus)) + geom_violin(trim = FALSE)
+ggplot(Oahu, aes(x=Zone, y=N15, fill=Genus)) + geom_violin(trim = FALSE)
+ggplot(Oahu, aes(x=Zone, y=Percent, fill=Genus)) + geom_violin(trim = FALSE)
+
+ggplot(Oahu, aes(x=Depth, y=N15, fill=Depth)) + geom_violin(trim = FALSE)
+ggplot(Oahu, aes(x=Depth, y=Percent, fill=Depth)) + geom_violin(trim = FALSE)
+
+
+ggplot(Maui, aes(x=Zone, y=N15, fill=Genus)) + geom_violin(trim = FALSE)
+ggplot(Maui, aes(x=Zone, y=Percent, fill=Genus)) + geom_violin(trim = FALSE)
+
+ggplot(Maui, aes(x=Depth, y=N15, fill=Depth)) + geom_violin(trim = FALSE)
+ggplot(Maui, aes(x=Depth, y=Percent, fill=Depth)) + geom_violin(trim = FALSE)
 ```
 
 ```{r}
@@ -55,7 +66,7 @@ ggplot(Molokai.meso, aes(x=Depth, y=Percent, fill=Genus)) + geom_violin(trim = F
 ```
 
 ```{r}
-ggplot(Halimeda.MHI, aes(x=Location, y=N15, fill=Depth)) + geom_violin(trim = FALSE)
-ggplot(Halimeda.MHI, aes(x=Location, y=Percent, fill=Depth)) + geom_violin(trim = FALSE)
+ggplot(Halimeda.MHI, aes(x=Location, y=N15, fill=Zone)) + geom_violin(trim = FALSE)
+ggplot(Halimeda.MHI, aes(x=Location, y=Percent, fill=Zone)) + geom_violin(trim = FALSE)
 ```
 

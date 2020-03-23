@@ -43,34 +43,28 @@ MHIshlw_per_aov <- aov(Percent ~ Genus + Location + as.factor(Depth), data = MHI
 MHImeso_N15_aov <- aov(N15 ~ Genus + Location + as.factor(Depth), data = MHI.meso)
 MHImeso_per_aov <- aov(Percent ~ Genus + Location + as.factor(Depth), data = MHI.meso)
 
+
 summary(MHIshlw_N15_aov)
 summary(MHIshlw_per_aov)
 summary(MHImeso_N15_aov)
 summary(MHImeso_per_aov)
 
+
+
 ## Location is not important for shallow water samples, but was important for mesophotic N15. 
 
 
-TukeyHSD(MHImeso_N15_aov)
 ```
 
 ```{r}
-#subset MHI into location by zone
+#subset MHI into location 
+summary(aov(N15 ~ Genus + Zone + Depth, data = Oahu))
+summary(aov(Percent ~ Genus + Zone + Depth, data = Oahu))
 
-summary(aov(N15 ~ Genus + Depth, data = Oahu.shlw))
-summary(aov(Percent ~ Genus + Depth, data = Oahu.shlw))
-summary(aov(N15 ~ Genus + Depth, data = Oahu.meso))
-summary(aov(Percent ~ Genus +Depth, data = Oahu.meso))
-TukeyHSD(aov(Percent ~ Genus +Depth, data = Oahu.meso))
+summary(aov(N15 ~ Genus + Zone + Depth, data = Maui))
+summary(aov(Percent ~ Genus + Zone + Depth, data = Maui))
 
-summary(aov(N15 ~ Genus * Depth, data = Maui.shlw))
-summary(aov(Percent ~ Genus * Depth, data = Maui.shlw))
-TukeyHSD(aov(Percent ~ Genus * Depth, data = Maui.shlw))
 
-summary(aov(N15 ~ Genus + Depth, data = Maui.meso))
-summary(aov(Percent ~ Genus + Depth, data = Maui.meso))
-TukeyHSD(aov(N15 ~ Genus + Depth, data = Maui.meso))
-TukeyHSD(aov(Percent ~ Genus + Depth, data = Maui.meso))
 
 summary(aov(N15 ~ Genus + Depth, data = Molokai.meso))
 summary(aov(Percent ~ Genus +Depth, data = Molokai.meso))
@@ -81,6 +75,11 @@ summary(aov(Percent ~ Genus +Depth, data = Molokai.meso))
 summary(aov(N15 ~ Location + Zone + Depth, data = Halimeda.MHI))
 summary(aov(Percent ~ Location + Zone + Depth, data = Halimeda.MHI))
 TukeyHSD(aov(N15 ~ Location, data = Halimeda.MHI))
+
+summary(aov(N15 ~ Location + Depth, data = Halimeda.meso.mhi))
+summary(aov(N15 ~ Location + Depth, data = Halimeda.shlw.mhi))
+
+TukeyHSD(aov(N15 ~ Location + Depth, data = Halimeda.meso.mhi))
 ```
 
 

@@ -36,6 +36,8 @@ NWHI.meso <- subset(NwestHI, Zone =="M")
 
 ```{r}
 Halimeda.MHI <- subset(MainHI, Genus =="Halimeda sp.")
+Halimeda.meso.mhi <- subset(Halimeda.MHI, Zone == "Mesophotic")
+Halimeda.shlw.mhi <- subset(Halimeda.MHI, Zone == "Shallow")
 ```
 
 
