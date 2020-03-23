@@ -5,7 +5,11 @@ ggplot(nitrogen_data, aes(x=Region, y=N15, fill=Region)) + geom_violin(trim = FA
 ggplot(nitrogen_data, aes(x=Region, y=Percent, fill=Region)) + geom_violin(trim = FALSE)
 
 
-#Plots of shallow N15 and %N by region
+ggplot(nitrogen_data, aes(x=Zone, y=N15, fill=Zone)) + geom_violin(trim = FALSE)
+ggplot(nitrogen_data, aes(x=Zone, y=Percent, fill=Zone)) + geom_violin(trim = FALSE)
+
+ggplot(nitrogen_data, aes(x=Zone, y=N15, fill=Genus)) + geom_violin(trim = FALSE)
+ggplot(nitrogen_data, aes(x=Zone, y=Percent, fill=Genus)) + geom_violin(trim = FALSE)
 
 ```
 

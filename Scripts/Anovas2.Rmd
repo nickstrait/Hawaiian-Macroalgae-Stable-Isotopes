@@ -1,0 +1,35 @@
+```{r}
+Genus_aov_n15 <- aov(N15 ~ Genus, data = nitrogen_data)
+summary(Genus_aov_n15)
+Genus_aov_per <- aov(Percent ~ Genus, data = nitrogen_data)
+summary(Genus_aov_per)
+plot(Genus_aov_n15)
+plot(Genus_aov_per)
+TukeyHSD(Genus_aov_n15)
+
+```
+
+```{r}
+kruskal.test(N15 ~ as.factor(Genus), data = nitrogen_data)
+kruskal.test(Percent ~ as.factor(Genus), data = nitrogen_data)
+```
+
+```{r}
+summary(aov(N15 ~ Genus, data = shallow))
+plot(aov(N15 ~ Genus, data = shallow))
+summary(aov(Percent ~ Genus, data = shallow))
+plot(aov(Percent ~ Genus, data = shallow))
+
+summary(aov(N15 ~ Genus, data = mesophotic))
+plot(aov(N15 ~ Genus, data = mesophotic))
+summary(aov(Percent ~ Genus, data = mesophotic))
+plot(aov(Percent ~ Genus, data = mesophotic))
+```
+
+```{r}
+summary(aov(N15 ~ Zone, data = nitrogen_data))
+summary(aov(Percent ~ Zone, data = nitrogen_data))
+plot(aov(Percent ~ Zone, data = nitrogen_data))
+plot(aov(N15 ~ Zone, data = nitrogen_data))
+```
+
