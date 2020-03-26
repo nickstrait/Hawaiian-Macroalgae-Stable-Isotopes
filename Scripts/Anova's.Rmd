@@ -4,11 +4,8 @@ library(ggplot2)
 library(gridExtra)
 library(scatterplot3d)
 library(MASS)
-region.lm.N15 <- lm(N15 ~ Region, data = nitrogen_data)
-summary(region.lm.N15)
+
 region.anova.N15 <- aov(N15 ~ Region, data = nitrogen_data)
-region_lm_per <- lm(Percent ~ Region, data = nitrogen_data)
-summary(region_lm_per)
 region.anova.per <- aov(Percent ~ Region, data = nitrogen_data)
 
 summary(region.anova.N15)
@@ -17,61 +14,26 @@ summary(region.anova.per)
 plot(region.anova.N15)
 plot(region.anova.per)
 
-#Regions are different, except for NWHI and Johnston Atoll for percent
+summary(aov(N15 ~ Zone, data = nitrogen_data))
+summary(aov(Percent ~ Zone, data = nitrogen_data))
+
+summary(aov(N15 ~ Zone * Region, data = nitrogen_data))
+TukeyHSD(aov(N15 ~ Zone * Region, data = nitrogen_data))
+summary(aov(Percent ~ Zone * Region, data = nitrogen_data))
+TukeyHSD(aov(Percent ~ Zone * Region, data = nitrogen_data))
+```
+```{r}
+summary(aov(N15 ~ Genus * Region, nitrogen_data))
+TukeyHSD(aov(N15 ~ Genus * Region, nitrogen_data))
+summary(aov(Percent ~ Genus * Region, nitrogen_data))
+TukeyHSD(aov(Percent ~ Genus * Region, nitrogen_data))
 ```
 
-```{r}
-MHI.zone.N15 <- aov(N15 ~ Zone, data = MainHI)
-MHI_zone_lm_N15 <- lm(N15 ~ Zone, data = MainHI)
-MHI.zone.per <- aov(Percent ~ Zone, data = MainHI)
-MHI_zone_lm_per <- lm(Percent ~ Zone, data = MainHI)
 
-summary(MHI_zone_lm_N15)
-summary(MHI_zone_lm_per)
-summary(MHI.zone.N15)
-summary(MHI.zone.per)
 
-## Differences between zones
-
-plot(MHI.zone.N15)
-plot(MHI.zone.per)
-```
 
 ```{r}
-MHIshlw_N15_aov <- aov(N15 ~ Genus + Location + as.factor(Depth), data = MHI.shlw)
-MHIshlw_per_aov <- aov(Percent ~ Genus + Location + as.factor(Depth), data = MHI.shlw)
-MHImeso_N15_aov <- aov(N15 ~ Genus + Location + as.factor(Depth), data = MHI.meso)
-MHImeso_per_aov <- aov(Percent ~ Genus + Location + as.factor(Depth), data = MHI.meso)
-
-
-summary(MHIshlw_N15_aov)
-summary(MHIshlw_per_aov)
-summary(MHImeso_N15_aov)
-summary(MHImeso_per_aov)
-
-
-
-## Location is not important for shallow water samples, but was important for mesophotic N15. 
-
-
-```
-
-```{r}
-#subset MHI into location 
-summary(aov(N15 ~ Genus + Zone + Depth, data = Oahu))
-summary(aov(Percent ~ Genus + Zone + Depth, data = Oahu))
-
-summary(aov(N15 ~ Genus + Zone + Depth, data = Maui))
-summary(aov(Percent ~ Genus + Zone + Depth, data = Maui))
-
-
-
-summary(aov(N15 ~ Genus + Depth, data = Molokai.meso))
-summary(aov(Percent ~ Genus +Depth, data = Molokai.meso))
-```
-
-```{r}
-## MHI Halimeda
+##MHI Halimeda
 summary(aov(N15 ~ Location + Zone + Depth, data = Halimeda.MHI))
 summary(aov(Percent ~ Location + Zone + Depth, data = Halimeda.MHI))
 TukeyHSD(aov(N15 ~ Location, data = Halimeda.MHI))
@@ -82,50 +44,4 @@ summary(aov(N15 ~ Location + Depth, data = Halimeda.shlw.mhi))
 TukeyHSD(aov(N15 ~ Location + Depth, data = Halimeda.meso.mhi))
 ```
 
-
-
-```{r}
-
-
-NWHI.zone.N15 <- aov(N15 ~ Zone, data = NwestHI)
-NWHI.zone.per <- aov(Percent ~ Zone, data = NwestHI)
-summary(NWHI.zone.N15)
-summary(NWHI.zone.per)
-plot(NWHI.zone.N15)
-plot(NWHI.zone.per)
-
-## No significance between zones for percent
-```
-
-```{r}
-NWHI.loc.N15 <- aov(N15 ~ Location, data = NwestHI)
-NWHI.loc.per <- aov(Percent ~ Location, data = NwestHI)
-summary(NWHI.loc.N15)
-summary(NWHI.loc.per)
-plot(NWHI.loc.N15)
-plot(NWHI.loc.per)
-```
-
-```{r}
-NWHI.gen.N15 <- aov(N15 ~ Genus, data = NwestHI)
-NWHI.gen.per <- aov(Percent ~ Genus, data = NwestHI)
-summary(NWHI.gen.N15)
-summary(NWHI.gen.per)
-plot(NWHI.gen.N15)
-plot(NWHI.gen.per)
-```
-
-```{r}
-NWHI.depth.N15 <- aov(N15 ~ Depth, data = NwestHI)
-NWHI.depth.per <- aov(Percent ~ Depth, data = NwestHI)
-summary(NWHI.depth.N15)
-summary(NWHI.depth.per)
-plot(NWHI.depth.N15)
-plot(NWHI.depth.per)
-```
-
-```{r}
-MImeso.depth.n15 <- aov(N15 ~ Depth, data = MHI.meso)
-summary(MImeso.depth.n15)
-```
 
