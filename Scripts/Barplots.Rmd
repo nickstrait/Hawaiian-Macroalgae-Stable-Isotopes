@@ -1,27 +1,23 @@
 ```{r}
 library(ggplot2)
 
-ggplot(nitrogen_data, aes(x=Genus, y=Percent, fill=Genus)) + 
+ggplot(best_shlw, aes(x=Genus, y=average_N15, fill=Region)) + 
    geom_bar(stat="identity", position=position_dodge()) +
-  geom_errorbar(aes(ymin=Percent-SD_per, ymax=Percent+SD_per), width=.2,
-                 position=position_dodge(.9))
+  geom_errorbar(aes(ymin=average_N15-SD_N15, ymax=average_N15+SD_N15), width=.2, position=position_dodge(.9))+ scale_fill_manual(values = c("red2", 'forestgreen')) + labs(y= expression(paste(delta^{15}, 'N (‰)'), x = 'Genus'))
 
-ggplot(MHI_sh_avg, aes(x=Location, y=N15, fill=Genus)) + 
+ggplot(best_shlw, aes(x=Genus, y=average_per, fill=Region)) + 
    geom_bar(stat="identity", position=position_dodge()) +
-  geom_errorbar(aes(ymin=N15-SD_n15, ymax=N15+SD_n15), width=.2,
-                 position=position_dodge(.9))
+  geom_errorbar(aes(ymin=average_per-SD_per, ymax=average_per+SD_per), width=.2, position=position_dodge(.9))+ scale_fill_manual(values = c("red2", 'forestgreen')) + labs(y= expression(paste('N (%)'), x = 'Genus'))
 ```
 
 ```{r}
-ggplot(MHI_m_avg, aes(x=Location, y=Percent, fill=Genus)) + 
+ggplot(best_meso, aes(x=Genus, y=average_N15, fill=Region)) + 
    geom_bar(stat="identity", position=position_dodge()) +
-  geom_errorbar(aes(ymin=Percent-SD_per, ymax=Percent+SD_per), width=.2,
-                 position=position_dodge(.9))
+  geom_errorbar(aes(ymin=average_N15-SD_N15, ymax=average_N15+SD_N15), width=.2, position=position_dodge(.9))+ scale_fill_manual(values = c("red2", 'forestgreen')) + labs(y= expression(paste(delta^{15}, 'N (‰)'), x = 'Genus'))
 
-ggplot(MHI_m_avg, aes(x=Location, y=N15, fill=Genus)) + 
+ggplot(best_meso, aes(x=Genus, y=average_per, fill=Region)) + 
    geom_bar(stat="identity", position=position_dodge()) +
-  geom_errorbar(aes(ymin=N15-SD_n15, ymax=N15+SD_n15), width=.2,
-                 position=position_dodge(.9))
+  geom_errorbar(aes(ymin=average_per-SD_per, ymax=average_per+SD_per), width=.2, position=position_dodge(.9))+ scale_fill_manual(values = c("red2", 'forestgreen')) + labs(y= expression(paste('N (%)'), x = 'Genus'))
 ```
 
 ```{r}

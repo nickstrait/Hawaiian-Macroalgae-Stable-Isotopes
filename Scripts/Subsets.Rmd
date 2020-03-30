@@ -35,9 +35,16 @@ NWHI.meso <- subset(NwestHI, Zone =="M")
 ```
 
 ```{r}
-Halimeda.MHI <- subset(MainHI, Genus =="Halimeda sp.")
-Halimeda.meso.mhi <- subset(Halimeda.MHI, Zone == "Mesophotic")
-Halimeda.shlw.mhi <- subset(Halimeda.MHI, Zone == "Shallow")
+Halimeda <- subset(all_halimeda, Genus == "Halimeda sp.")
+Halimeda_MHI <- subset(Halimeda, Region == "MHI")
+Hali_MHI_shlw <- subset(Halimeda_MHI, Zone == "Shallow")
+Hali_MHI_meso <- subset(Halimeda_MHI, Zone == "Mesophotic")
+Halimeda_NWHI <- subset(Halimeda, Region == "NWHI")
+```
+
+```{r}
+best_shlw <- subset(best_genera, Zone == "Shallow")
+best_meso <- subset(best_genera, Zone == "Mesophotic")
 ```
 
 

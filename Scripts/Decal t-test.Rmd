@@ -1,0 +1,8 @@
+```{r}
+t.test(decal$`Udotea-reg`, decal$`Udotea-decal`, paired = TRUE)
+```
+
+```{r}
+t.test(decal$`Halimeda-reg`, decal$`Halimdea-decal`, paired = TRUE)
+```
+

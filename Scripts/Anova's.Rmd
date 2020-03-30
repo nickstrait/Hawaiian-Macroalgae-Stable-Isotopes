@@ -44,4 +44,36 @@ summary(aov(N15 ~ Location + Depth, data = Halimeda.shlw.mhi))
 TukeyHSD(aov(N15 ~ Location + Depth, data = Halimeda.meso.mhi))
 ```
 
+```{r}
+#Halimeda sp vs kanaloana
+summary(aov(N15 ~ Genus, data = all_halimeda))
+summary(aov(Percent ~ Genus, data = all_halimeda))
+```
+
+```{r}
+# Halimeda in MHI & NWHI
+summary(aov(N15 ~ Zone + Location, data = Halimeda_MHI))
+summary(aov(Percent ~ Zone + Location, data = Halimeda_MHI))
+
+summary(aov(N15 ~ Zone + Location, data = Halimeda_NWHI))
+summary(aov(Percent ~ Zone + Location, data = Halimeda_NWHI))
+```
+
+```{r}
+# Best genera
+summary(aov(N15 ~ Zone + Region, data = Halimeda))
+summary(aov(Percent ~ Zone + Region, data = Halimeda))
+
+summary(aov(N15 ~ Genus * Region , data = best_shlw))
+summary(aov(Percent ~ Genus * Region, data = best_meso))
+```
+
+```{r}
+# Avrainvillea
+summary(aov(N15 ~ Genus, data = MainHI))
+summary(aov(Percent ~ Genus, data = MainHI))
+
+summary(aov(N15 ~ Zone, data = Avrainvillea))
+summary(aov(Percent ~ Zone, data = Avrainvillea))
+```
 
