@@ -1,0 +1,16 @@
+```{r}
+t.test(decal$`Udotea-reg`, decal$`Udotea-decal`, paired = TRUE)
+```
+
+```{r}
+t.test(decal$`Halimeda-reg`, decal$`Halimdea-decal`, paired = TRUE)
+```
+
+```{r}
+t.test(decalcified_percent$`Udotea-reg`, decalcified_percent$`Udotea-decal`, paired = TRUE)
+```
+
+```{r}
+t.test(decalcified_percent$`Halimeda-reg`, decalcified_percent$`Halimdea-decal`, paired = TRUE)
+```
+
