@@ -1,15 +1,18 @@
 ```{r}
 library(ggplot2)
 
-ggplot(nitrogen_data, aes(x=Region, y=N15, fill=Region)) + geom_violin(trim = FALSE) + scale_fill_manual(values = c("red2", 'forestgreen')) + labs(y= expression(paste(delta^{15}, 'N (‰)'), x = 'Region'))
-ggplot(nitrogen_data, aes(x=Region, y=Percent, fill=Region)) + geom_violin(trim = FALSE)+ scale_fill_manual(values = c("red2", 'forestgreen')) + labs(y= 'N (%)', x = 'Region')
+ggplot(nitrogen_data, aes(x=Region, y=N15, fill=Region)) + geom_violin() + scale_fill_manual(values = c("red2", 'forestgreen')) + labs(y= expression(paste(delta^{15}, 'N (‰)'), x = 'Region'))
+ggplot(nitrogen_data, aes(x=Region, y=Percent, fill=Region)) + geom_violin()+ scale_fill_manual(values = c("red2", 'forestgreen')) + labs(y= 'N (%)', x = 'Region')
 
 
-ggplot(nitrogen_data, aes(x=Region, y=N15, fill=Zone)) + geom_violin(trim = FALSE)+scale_fill_manual(values = c('darkblue', "deepskyblue1")) + labs(y= expression(paste(delta^{15}, 'N (‰)'), x = 'Region'))
-ggplot(nitrogen_data, aes(x=Region, y=Percent, fill=Zone)) + geom_violin(trim = FALSE) +scale_fill_manual(values = c('darkblue', "deepskyblue1"))+ labs(y= 'N (%)', x = 'Region')
+ggplot(nitrogen_data, aes(x=Region, y=N15, fill=Zone)) + geom_violin()+scale_fill_manual(values = c('darkblue', "deepskyblue1")) + labs(y= expression(paste(delta^{15}, 'N (‰)'), x = 'Region'))
+ggplot(nitrogen_data, aes(x=Region, y=Percent, fill=Zone)) + geom_violin() +scale_fill_manual(values = c('darkblue', "deepskyblue1"))+ labs(y= 'N (%)', x = 'Region')
 
 
 ```
+
+
+Code below here was for exploratory purposes
 
 ```{r}
 #plot of Zones across the MHI
