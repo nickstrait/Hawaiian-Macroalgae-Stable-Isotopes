@@ -10,6 +10,10 @@ ggplot(nitrogen_data, aes(x=Region, y=Percent, fill=Zone)) + geom_violin() +scal
 
 
 ```
+```{r}
+ggplot(all_halimeda, aes(x=Genus, y=N15, fill=Zone)) + geom_violin() + scale_fill_manual(values = c('darkblue', "deepskyblue1")) + labs(y= expression(paste(delta^{15}, 'N (‰)'), x = 'Genus'))
+ggplot(all_halimeda, aes(x=Genus, y=Percent, fill=Zone)) + geom_violin()+ scale_fill_manual(values = c('darkblue', "deepskyblue1")) + labs(y= 'N (%)', x = 'Genus')
+```
 
 
 Code below here was for exploratory purposes

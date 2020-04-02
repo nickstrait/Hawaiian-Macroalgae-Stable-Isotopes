@@ -29,25 +29,49 @@ summary(aov(Percent ~ Genus * Region, nitrogen_data))
 TukeyHSD(aov(Percent ~ Genus * Region, nitrogen_data))
 ```
 
+```{r}
+#ANOVAs to determine if location is important
+
+summary(aov(N15 ~ Location + Zone + Genus, data = nitrogen_data))
+summary(aov(Percent ~ Location + Zone + Genus, data = nitrogen_data))
+
+summary(aov(N15 ~ Location + Zone + Genus, data = MainHI))
+summary(aov(Percent ~ Location + Zone + Genus, data = MainHI))
+
+summary(aov(N15 ~ Location + Zone + Genus, data = NwestHI))
+summary(aov(Percent ~ Location + Zone + Genus, data = NwestHI))
+```
 
 
 
 ```{r}
-##MHI Halimeda
-summary(aov(N15 ~ Location + Zone + Depth, data = Halimeda.MHI))
-summary(aov(Percent ~ Location + Zone + Depth, data = Halimeda.MHI))
-TukeyHSD(aov(N15 ~ Location, data = Halimeda.MHI))
+## Halimeda sp.
+summary(aov(N15 ~ Region + Zone + Location, data = Halimeda))
+summary(aov(Percent ~Region + Zone + Location, data = Halimeda))
 
-summary(aov(N15 ~ Location + Depth, data = Halimeda.meso.mhi))
-summary(aov(N15 ~ Location + Depth, data = Halimeda.shlw.mhi))
+summary(aov(N15 ~  Zone + Location, data = Halimeda_MHI))
+summary(aov(Percent ~ Zone + Location, data = Halimeda_MHI))
 
-TukeyHSD(aov(N15 ~ Location + Depth, data = Halimeda.meso.mhi))
+summary(aov(N15 ~ Location, data = Hali_MHI_shlw))
+summary(aov(Percent ~ Location, data = Hali_MHI_shlw))
+
+summary(aov(N15 ~ Location, data = Hali_MHI_meso))
+summary(aov(Percent ~ Location, data = Hali_MHI_meso))
+
+summary(aov(N15 ~  Zone + Location, data = Halimeda_NWHI))
+summary(aov(Percent ~ Zone + Location, data = Halimeda_NWHI))
 ```
 
 ```{r}
 #Halimeda sp vs kanaloana
 summary(aov(N15 ~ Genus, data = all_halimeda))
 summary(aov(Percent ~ Genus, data = all_halimeda))
+
+summary(aov(N15 ~ Genus, data = all_halimeda_shlw))
+summary(aov(Percent ~ Genus, data = all_halimeda_shlw))
+
+summary(aov(N15 ~ Genus, data = all_halimeda_meso))
+summary(aov(Percent ~ Genus, data = all_halimeda_meso))
 ```
 
 ```{r}

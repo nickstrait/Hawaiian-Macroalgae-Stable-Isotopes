@@ -42,6 +42,9 @@ Halimeda_MHI <- subset(Halimeda, Region == "MHI")
 Hali_MHI_shlw <- subset(Halimeda_MHI, Zone == "Shallow")
 Hali_MHI_meso <- subset(Halimeda_MHI, Zone == "Mesophotic")
 Halimeda_NWHI <- subset(Halimeda, Region == "NWHI")
+all_MHI <- subset(all_halimeda, Region == "MHI")
+all_halimeda_shlw <- subset(all_MHI, Zone == "Shallow")
+all_halimeda_meso <- subset(all_MHI, Zone == "Mesophotic")
 ```
 
 ```{r}
