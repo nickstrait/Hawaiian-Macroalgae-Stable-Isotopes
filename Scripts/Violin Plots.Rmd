@@ -1,16 +1,36 @@
 ```{r}
 library(ggplot2)
 
-ggplot(nitrogen_data, aes(x=Region, y=N15, fill=Region)) + geom_violin() + scale_fill_manual(values = c("red2", 'forestgreen')) + labs(y= expression(paste(delta^{15}, 'N (‰)'), x = 'Region'))
+# Region Violin Plots
+
+ggplot(nitrogen_data, aes(x=Region, y=N15, fill=Region)) + geom_violin() + 
+scale_fill_manual(values = c("red2", 'forestgreen')) + 
+labs(y= expression(paste(delta^{15}, 'N (‰)'), x = 'Region'))
+ggsave("N15 ~ Region.png", dpi=300)
+
 ggplot(nitrogen_data, aes(x=Region, y=Percent, fill=Region)) + geom_violin()+ scale_fill_manual(values = c("red2", 'forestgreen')) + labs(y= 'N (%)', x = 'Region')
+ggsave("Percent ~ Region.png", dpi=300)
 
 
-ggplot(nitrogen_data, aes(x=Region, y=N15, fill=Zone)) + geom_violin()+scale_fill_manual(values = c('darkblue', "deepskyblue1")) + labs(y= expression(paste(delta^{15}, 'N (‰)'), x = 'Region'))
-ggplot(nitrogen_data, aes(x=Region, y=Percent, fill=Zone)) + geom_violin() +scale_fill_manual(values = c('darkblue', "deepskyblue1"))+ labs(y= 'N (%)', x = 'Region')
+# Region split up by zone violin plots
 
+ggplot(Violin_plots, aes(x=Region, y=N15, fill=Zone)) + 
+geom_violin() + 
+scale_fill_manual(values = c("deepskyblue1", 'darkblue'), labels = c('Shallow', 'Mesophotic')) + 
+labs(y= expression(paste(delta^{15}, 'N (‰)'), x = 'Region'))
+ggsave("N15 ~ Region-Zone.png", dpi=300)
+
+ggplot(Violin_plots, aes(x=Region, y=Percent, fill=Zone)) + geom_violin() +
+scale_fill_manual(values = c("deepskyblue1", 'darkblue'), labels = c('Shallow', 'Mesophotic')) +
+labs(y= 'N (%)', x = 'Region')
+ggsave("Percent ~ Region-Zone.png", dpi=300)
 
 ```
+
+
 ```{r}
+# Halimeda sp. vs kanaloana violin plots
+
 ggplot(all_halimeda, aes(x=Genus, y=N15, fill=Zone)) + geom_violin() + scale_fill_manual(values = c('darkblue', "deepskyblue1")) + labs(y= expression(paste(delta^{15}, 'N (‰)'), x = 'Genus'))
 ggplot(all_halimeda, aes(x=Genus, y=Percent, fill=Zone)) + geom_violin()+ scale_fill_manual(values = c('darkblue', "deepskyblue1")) + labs(y= 'N (%)', x = 'Genus')
 ```

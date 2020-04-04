@@ -21,22 +21,13 @@ NwestHI <- subset(nitrogen_data, Region == "NWHI")
 MHI.shlw <- subset(MainHI, Zone == "Shallow")
 MHI.meso <- subset(MainHI, Zone == "Mesophotic")
 
-Oahu <- subset(MainHI, Location =="Oahu")
-Maui <- subset(MainHI, Location =="Maui")
-Niihau <- subset(MainHI, Location =="Niihau")
-Molokai.meso <- subset(MainHI, Location =="Molokai")
-Oahu.shlw <- subset(MHI.shlw, Location =="Oahu")
-Maui.shlw <- subset(MHI.shlw, Location == "Maui")
-Oahu.meso <- subset(MHI.meso, Location =="Oahu")
-Maui.meso <- subset(MHI.meso, Location =="Maui")
-
-
 #NWHI subset
 NWHI.shlw <- subset(NwestHI, Zone =="S")
 NWHI.meso <- subset(NwestHI, Zone =="M")
 ```
 
 ```{r}
+#Halimeda subsets
 Halimeda <- subset(all_halimeda, Genus == "Halimeda sp.")
 Halimeda_MHI <- subset(Halimeda, Region == "MHI")
 Hali_MHI_shlw <- subset(Halimeda_MHI, Zone == "Shallow")
@@ -48,15 +39,22 @@ all_halimeda_meso <- subset(all_MHI, Zone == "Mesophotic")
 ```
 
 ```{r}
-best_shlw <- subset(best_genera, Zone == "Shallow")
-best_meso <- subset(best_genera, Zone == "Mesophotic")
-```
+# Subsets of best genera that overlap zones
 
+best_MHI <- subset(best_genera, Region == "MHI")
+best_NWHI <- subset(best_genera, Region == "NWHI")
+```
 
 ```{r}
-write.csv(MHI.shlw, ".\\MHI.shlw.csv")
-write.csv(MHI.meso, ".\\MHI.meso.csv")
-write.csv(NWHI.shlw, ".\\NWHI.shlw.csv")
-write.csv(NWHI.meso, ".\\NWHI.meso.csv")
+#subsets of averages for bar plots
+best_avg_MHI <- subset(best_averages, Region == "MHI")
+best_avg_NWHI <- subset(best_averages, Region == "NWHI")
 ```
+
+```{r}
+#subset of spatial data by zone
+spatial_data_meso <- subset(spatial_data, Zone == "Mesophotic")
+spatial_data_shlw <- subset(spatial_data, Zone == "Shallow")
+```
+
 

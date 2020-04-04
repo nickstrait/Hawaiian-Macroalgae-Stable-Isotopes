@@ -5,6 +5,8 @@ library(gridExtra)
 library(scatterplot3d)
 library(MASS)
 
+# Zone 1 are shallow water depths and Zone 2 is mesophotic
+
 region.anova.N15 <- aov(N15 ~ Region, data = nitrogen_data)
 region.anova.per <- aov(Percent ~ Region, data = nitrogen_data)
 
@@ -22,12 +24,8 @@ TukeyHSD(aov(N15 ~ Zone * Region, data = nitrogen_data))
 summary(aov(Percent ~ Zone * Region, data = nitrogen_data))
 TukeyHSD(aov(Percent ~ Zone * Region, data = nitrogen_data))
 ```
-```{r}
-summary(aov(N15 ~ Genus * Region, nitrogen_data))
-TukeyHSD(aov(N15 ~ Genus * Region, nitrogen_data))
-summary(aov(Percent ~ Genus * Region, nitrogen_data))
-TukeyHSD(aov(Percent ~ Genus * Region, nitrogen_data))
-```
+
+
 
 ```{r}
 #ANOVAs to determine if location is important
@@ -45,7 +43,7 @@ summary(aov(Percent ~ Location + Zone + Genus, data = NwestHI))
 
 
 ```{r}
-## Halimeda sp.
+## Halimeda sp.ANOVAs, looking to see if location matters for a single genus
 summary(aov(N15 ~ Region + Zone + Location, data = Halimeda))
 summary(aov(Percent ~Region + Zone + Location, data = Halimeda))
 
@@ -74,30 +72,36 @@ summary(aov(N15 ~ Genus, data = all_halimeda_meso))
 summary(aov(Percent ~ Genus, data = all_halimeda_meso))
 ```
 
-```{r}
-# Halimeda in MHI & NWHI
-summary(aov(N15 ~ Zone + Location, data = Halimeda_MHI))
-summary(aov(Percent ~ Zone + Location, data = Halimeda_MHI))
 
-summary(aov(N15 ~ Zone + Location, data = Halimeda_NWHI))
-summary(aov(Percent ~ Zone + Location, data = Halimeda_NWHI))
+```{r}
+# Best genera for overlapping mesophotic and shallow zones
+summary(aov(N15 ~ Genus + Zone + Region, data = best_genera))
+summary(aov(Percent ~ Genus + Zone + Region, data = best_genera))
+
+summary(aov(N15 ~ Genus * Zone, data = best_MHI))
+summary(aov(Percent ~ Genus * Zone, data = best_MHI))
+TukeyHSD(aov(N15 ~ Genus * Zone, data = best_MHI))
+TukeyHSD(aov(Percent ~ Genus * Zone, data = best_MHI))
+
+summary(aov(N15 ~ Genus * Zone, data = best_NWHI))
+summary(aov(Percent ~ Genus * Zone, data = best_NWHI))
+TukeyHSD(aov(N15 ~ Genus * Zone, data = best_NWHI))
+TukeyHSD(aov(Percent ~ Genus * Zone, data = best_NWHI))
 ```
 
 ```{r}
-# Best genera
-summary(aov(N15 ~ Zone + Region, data = Halimeda))
-summary(aov(Percent ~ Zone + Region, data = Halimeda))
-
-summary(aov(N15 ~ Genus * Region , data = best_shlw))
-summary(aov(Percent ~ Genus * Region, data = best_meso))
+#Anova's of best genera spatially distributed in shallow depths across the archipelago
+summary(aov(N15 ~ Genus + Region + Location, data = spatial_data_shlw))
+TukeyHSD(aov(N15 ~ Genus + Region + Location, data = spatial_data_shlw))
+summary(aov(Percent ~ Genus + Region + Location, data = spatial_data_shlw))
+TukeyHSD(aov(Percent ~ Genus + Region + Location, data = spatial_data_shlw))
 ```
 
 ```{r}
-# Avrainvillea
-summary(aov(N15 ~ Genus, data = MainHI))
-summary(aov(Percent ~ Genus, data = MainHI))
-
-summary(aov(N15 ~ Zone, data = Avrainvillea))
-summary(aov(Percent ~ Zone, data = Avrainvillea))
+#Anova's of best genera spatially distributed in mesophotic depths across the archipelago
+summary(aov(N15 ~ Genus + Region + Location, data = spatial_data_meso))
+TukeyHSD(aov(N15 ~ Genus + Region + Location, data = spatial_data_meso))
+summary(aov(Percent ~ Genus + Region + Location, data = spatial_data_meso))
+TukeyHSD(aov(Percent ~ Genus + Region + Location, data = spatial_data_meso))
 ```
 

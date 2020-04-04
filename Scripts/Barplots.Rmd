@@ -1,26 +1,34 @@
 ```{r}
 library(ggplot2)
 
-ggplot(best_shlw, aes(x=Genus, y=average_N15, fill=Region)) + 
-   geom_bar(stat="identity", position=position_dodge()) +
-  geom_errorbar(aes(ymin=average_N15-SD_N15, ymax=average_N15+SD_N15), width=.2, position=position_dodge(.9))+ scale_fill_manual(values = c("red2", 'forestgreen')) + labs(y= expression(paste(delta^{15}, 'N (‰)'), x = 'Genus'))
+#MHI best genera distribution over depth
 
-ggplot(best_shlw, aes(x=Genus, y=average_per, fill=Region)) + 
-   geom_bar(stat="identity", position=position_dodge()) +
-  geom_errorbar(aes(ymin=average_per-SD_per, ymax=average_per+SD_per), width=.2, position=position_dodge(.9))+ scale_fill_manual(values = c("red2", 'forestgreen')) + labs(y= expression(paste('N (%)'), x = 'Genus'))
+ggplot(best_avg_MHI, aes(x=Genus, y=average_N15, fill=Zone)) + geom_bar(stat="identity", position=position_dodge()) + geom_errorbar(aes(ymin=average_N15-SD_N15, ymax=average_N15+SD_N15), width=.2, position=position_dodge(.9), color = "grey44")+ 
+scale_fill_manual(values = c("deepskyblue1", 'darkblue'), labels = c('Shallow', 'Mesophotic')) + 
+labs(y= expression(paste(delta^{15}, 'N (‰)'), x = 'Genus'))+ theme(axis.text.x = element_text(face = "italic"))
+ggsave("N15 ~ Avg. Genus-MHI.png", dpi=300)
+
+ggplot(best_avg_MHI, aes(x=Genus, y=average_per, fill=Zone)) + geom_bar(stat="identity", position=position_dodge()) +
+geom_errorbar(aes(ymin=average_per-SD_per, ymax=average_per+SD_per), width=.2, position=position_dodge(.9), color = "grey44")+ 
+scale_fill_manual(values = c("deepskyblue1", 'darkblue'), labels = c('Shallow', 'Mesophotic')) + 
+labs(y= expression(paste('N (%)'), x = 'Genus')) + 
+theme(axis.text.x = element_text(face = "italic"))
+ggsave("Percent ~ Avg. Genus-MHI.png", dpi=300)
 ```
 
 ```{r}
-ggplot(best_meso, aes(x=Genus, y=average_N15, fill=Region)) + 
-   geom_bar(stat="identity", position=position_dodge()) +
-  geom_errorbar(aes(ymin=average_N15-SD_N15, ymax=average_N15+SD_N15), width=.2, position=position_dodge(.9))+ scale_fill_manual(values = c("red2", 'forestgreen')) + labs(y= expression(paste(delta^{15}, 'N (‰)'), x = 'Genus'))
+# NWHI best genera distribution over depth
 
-ggplot(best_meso, aes(x=Genus, y=average_per, fill=Region)) + 
-   geom_bar(stat="identity", position=position_dodge()) +
-  geom_errorbar(aes(ymin=average_per-SD_per, ymax=average_per+SD_per), width=.2, position=position_dodge(.9))+ scale_fill_manual(values = c("red2", 'forestgreen')) + labs(y= expression(paste('N (%)'), x = 'Genus'))
-```
+ggplot(best_avg_NWHI, aes(x=Genus, y=average_N15, fill=Zone)) + geom_bar(stat="identity", position=position_dodge()) + geom_errorbar(aes(ymin=average_N15-SD_N15, ymax=average_N15+SD_N15), width=.2, position=position_dodge(.9), color = "grey44")+ 
+scale_fill_manual(values = c("deepskyblue1", 'darkblue'), labels = c('Shallow', 'Mesophotic')) + 
+labs(y= expression(paste(delta^{15}, 'N (‰)'), x = 'Genus'))+ theme(axis.text.x = element_text(face = "italic"))
+ggsave("N15 ~ Avg. Genus-NWHI.png", dpi=300)
 
-```{r}
-
+ggplot(best_avg_NWHI, aes(x=Genus, y=average_per, fill=Zone)) + geom_bar(stat="identity", position=position_dodge()) +
+geom_errorbar(aes(ymin=average_per-SD_per, ymax=average_per+SD_per), width=.2, position=position_dodge(.9), color = "grey44")+ 
+scale_fill_manual(values = c("deepskyblue1", 'darkblue'), labels = c('Shallow', 'Mesophotic')) + 
+labs(y= expression(paste('N (%)'), x = 'Genus')) + 
+theme(axis.text.x = element_text(face = "italic"))
+ggsave("Percent ~ Avg. Genus-NWHI.png", dpi=300)
 ```
 
