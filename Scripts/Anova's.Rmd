@@ -90,18 +90,17 @@ TukeyHSD(aov(Percent ~ Genus * Zone, data = best_NWHI))
 ```
 
 ```{r}
-#Anova's of best genera spatially distributed in shallow depths across the archipelago
-summary(aov(N15 ~ Genus + Region + Location, data = spatial_data_shlw))
-TukeyHSD(aov(N15 ~ Genus + Region + Location, data = spatial_data_shlw))
-summary(aov(Percent ~ Genus + Region + Location, data = spatial_data_shlw))
-TukeyHSD(aov(Percent ~ Genus + Region + Location, data = spatial_data_shlw))
+#Anova's of  spatial distribution in shallow depths across the archipelago
+summary(aov(N15 ~  Location, data = shallow))
+
+summary(aov(Percent ~  Location, data = shallow))
 ```
 
 ```{r}
-#Anova's of best genera spatially distributed in mesophotic depths across the archipelago
-summary(aov(N15 ~ Genus + Region + Location, data = spatial_data_meso))
-TukeyHSD(aov(N15 ~ Genus + Region + Location, data = spatial_data_meso))
-summary(aov(Percent ~ Genus + Region + Location, data = spatial_data_meso))
-TukeyHSD(aov(Percent ~ Genus + Region + Location, data = spatial_data_meso))
+#Anova's of  spatial distribution in mesophotic depths across the archipelago
+summary(aov(N15 ~  Location, data = mesophotic))
+
+summary(aov(Percent ~  Location, data = mesophotic))
+
 ```
 

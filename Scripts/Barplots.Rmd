@@ -5,14 +5,22 @@ library(ggplot2)
 
 ggplot(best_avg_MHI, aes(x=Genus, y=average_N15, fill=Zone)) + geom_bar(stat="identity", position=position_dodge()) + geom_errorbar(aes(ymin=average_N15-SD_N15, ymax=average_N15+SD_N15), width=.2, position=position_dodge(.9), color = "grey44")+ 
 scale_fill_manual(values = c("deepskyblue1", 'darkblue'), labels = c('Shallow', 'Mesophotic')) + 
-labs(y= expression(paste(delta^{15}, 'N (‰)'), x = 'Genus'))+ theme(axis.text.x = element_text(face = "italic"))
+labs(y= expression(paste(delta^{15}, 'N (‰)'), x = 'Genus'))+ theme(axis.text.x = element_text(face = "italic")) +
+theme(axis.title = element_text(size = 15)) + 
+theme(axis.text = element_text(size = 12)) + 
+theme(legend.title =  element_text(size = 15)) + 
+theme(legend.text = element_text(size = 12))
 ggsave("N15 ~ Avg. Genus-MHI.png", dpi=300)
 
 ggplot(best_avg_MHI, aes(x=Genus, y=average_per, fill=Zone)) + geom_bar(stat="identity", position=position_dodge()) +
 geom_errorbar(aes(ymin=average_per-SD_per, ymax=average_per+SD_per), width=.2, position=position_dodge(.9), color = "grey44")+ 
 scale_fill_manual(values = c("deepskyblue1", 'darkblue'), labels = c('Shallow', 'Mesophotic')) + 
 labs(y= expression(paste('N (%)'), x = 'Genus')) + 
-theme(axis.text.x = element_text(face = "italic"))
+theme(axis.text.x = element_text(face = "italic")) +
+theme(axis.title = element_text(size = 15)) + 
+theme(axis.text = element_text(size = 12)) + 
+theme(legend.title =  element_text(size = 15)) + 
+theme(legend.text = element_text(size = 12))
 ggsave("Percent ~ Avg. Genus-MHI.png", dpi=300)
 ```
 
@@ -21,14 +29,22 @@ ggsave("Percent ~ Avg. Genus-MHI.png", dpi=300)
 
 ggplot(best_avg_NWHI, aes(x=Genus, y=average_N15, fill=Zone)) + geom_bar(stat="identity", position=position_dodge()) + geom_errorbar(aes(ymin=average_N15-SD_N15, ymax=average_N15+SD_N15), width=.2, position=position_dodge(.9), color = "grey44")+ 
 scale_fill_manual(values = c("deepskyblue1", 'darkblue'), labels = c('Shallow', 'Mesophotic')) + 
-labs(y= expression(paste(delta^{15}, 'N (‰)'), x = 'Genus'))+ theme(axis.text.x = element_text(face = "italic"))
-ggsave("N15 ~ Avg. Genus-NWHI.png", dpi=300)
+labs(y= expression(paste(delta^{15}, 'N (‰)'), x = 'Genus'))+ theme(axis.text.x = element_text(face = "italic")) +
+theme(axis.title = element_text(size = 15)) + 
+theme(axis.text = element_text(size = 12)) + 
+theme(legend.title =  element_text(size = 15)) + 
+theme(legend.text = element_text(size = 12))
+ggsave("N15 ~ Avg. Genus-NWHI.png", width = 7, height = 4.5, dpi=300)
 
 ggplot(best_avg_NWHI, aes(x=Genus, y=average_per, fill=Zone)) + geom_bar(stat="identity", position=position_dodge()) +
 geom_errorbar(aes(ymin=average_per-SD_per, ymax=average_per+SD_per), width=.2, position=position_dodge(.9), color = "grey44")+ 
 scale_fill_manual(values = c("deepskyblue1", 'darkblue'), labels = c('Shallow', 'Mesophotic')) + 
 labs(y= expression(paste('N (%)'), x = 'Genus')) + 
-theme(axis.text.x = element_text(face = "italic"))
-ggsave("Percent ~ Avg. Genus-NWHI.png", dpi=300)
+theme(axis.text.x = element_text(face = "italic"))+
+theme(axis.title = element_text(size = 15)) + 
+theme(axis.text = element_text(size = 12)) + 
+theme(legend.title =  element_text(size = 15)) + 
+theme(legend.text = element_text(size = 12))
+ggsave("Percent ~ Avg. Genus-NWHI.png", width = 7, height = 4.5, dpi=300)
 ```
 
