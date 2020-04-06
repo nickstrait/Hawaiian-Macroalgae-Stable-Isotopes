@@ -2,18 +2,18 @@
 
 ```{r}
 #shallow water subset
-shallow <- subset(nitrogen_data, Zone == "Shallow")
+shallow <- subset(all_nitrogen_data, Zone == "Shallow")
 
 #mesophotic subset
-mesophotic <- subset(nitrogen_data, Zone == "Mesophotic")
+mesophotic <- subset(all_nitrogen_data, Zone == "Mesophotic")
 ```
 
 ```{r}
 #MHI subset
-MainHI <- subset(nitrogen_data, Region == "MHI")
+MainHI <- subset(all_nitrogen_data, Region == "MHI")
 
 #NWHI subset
-NwestHI <- subset(nitrogen_data, Region == "NWHI")
+NwestHI <- subset(all_nitrogen_data, Region == "NWHI")
 ```
 
 ```{r}

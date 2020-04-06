@@ -3,7 +3,7 @@ library(ggplot2)
 
 # Region Violin Plots
 
-ggplot(nitrogen_data, aes(x=Region, y=N15, fill=Region)) + geom_violin() + 
+ggplot(all_nitrogen_data, aes(x=Region, y=N15, fill=Region)) + geom_violin() + 
 scale_fill_manual(values = c("red2", 'forestgreen')) + 
 labs(y= expression(paste(delta^{15}, 'N (‰)'), x = 'Region')) +
 theme(axis.title = element_text(size = 15)) + 
@@ -12,7 +12,7 @@ theme(legend.title =  element_text(size = 15)) +
 theme(legend.text = element_text(size = 12))
 ggsave("N15 ~ Region.png", dpi=300)
 
-ggplot(nitrogen_data, aes(x=Region, y=Percent, fill=Region)) + geom_violin()+ scale_fill_manual(values = c("red2", 'forestgreen')) + labs(y= 'N (%)', x = 'Region') +
+ggplot(all_nitrogen_data, aes(x=Region, y=Percent, fill=Region)) + geom_violin()+ scale_fill_manual(values = c("red2", 'forestgreen')) + labs(y= 'N (%)', x = 'Region') +
 theme(axis.title = element_text(size = 15)) + 
 theme(axis.text = element_text(size = 12)) + 
 theme(legend.title =  element_text(size = 15)) + 
@@ -44,6 +44,9 @@ theme(legend.text = element_text(size = 12))
 ggsave("Percent ~ Region-Zone.png", dpi=300)
 ```
 
+
+
+Code below here was for exploratory purposes
 
 ```{r}
 # Halimeda sp. vs kanaloana violin plots

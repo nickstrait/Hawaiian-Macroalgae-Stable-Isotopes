@@ -7,8 +7,8 @@ library(MASS)
 
 # Zone 1 are shallow water depths and Zone 2 is mesophotic
 
-region.anova.N15 <- aov(N15 ~ Region, data = nitrogen_data)
-region.anova.per <- aov(Percent ~ Region, data = nitrogen_data)
+region.anova.N15 <- aov(N15 ~ Region, data = all_nitrogen_data)
+region.anova.per <- aov(Percent ~ Region, data = all_nitrogen_data)
 
 summary(region.anova.N15)
 summary(region.anova.per)
@@ -16,13 +16,13 @@ summary(region.anova.per)
 plot(region.anova.N15)
 plot(region.anova.per)
 
-summary(aov(N15 ~ Zone, data = nitrogen_data))
-summary(aov(Percent ~ Zone, data = nitrogen_data))
+summary(aov(N15 ~ Zone, data = all_nitrogen_data))
+summary(aov(Percent ~ Zone, data = all_nitrogen_data))
 
-summary(aov(N15 ~ Zone * Region, data = nitrogen_data))
-TukeyHSD(aov(N15 ~ Zone * Region, data = nitrogen_data))
-summary(aov(Percent ~ Zone * Region, data = nitrogen_data))
-TukeyHSD(aov(Percent ~ Zone * Region, data = nitrogen_data))
+summary(aov(N15 ~ Zone * Region, data = all_nitrogen_data))
+TukeyHSD(aov(N15 ~ Zone * Region, data = all_nitrogen_data))
+summary(aov(Percent ~ Zone * Region, data = all_nitrogen_data))
+TukeyHSD(aov(Percent ~ Zone * Region, data = all_nitrogen_data))
 ```
 
 
@@ -30,8 +30,8 @@ TukeyHSD(aov(Percent ~ Zone * Region, data = nitrogen_data))
 ```{r}
 #ANOVAs to determine if location is important
 
-summary(aov(N15 ~ Location + Zone + Genus, data = nitrogen_data))
-summary(aov(Percent ~ Location + Zone + Genus, data = nitrogen_data))
+summary(aov(N15 ~ Location + Zone + Genus, data = all_nitrogen_data))
+summary(aov(Percent ~ Location + Zone + Genus, data = all_nitrogen_data))
 
 summary(aov(N15 ~ Location + Zone + Genus, data = MainHI))
 summary(aov(Percent ~ Location + Zone + Genus, data = MainHI))
