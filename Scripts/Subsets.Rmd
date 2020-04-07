@@ -1,4 +1,5 @@
 
+# Run this script before running any of the others
 
 ```{r}
 #shallow water subset
@@ -43,18 +44,13 @@ all_halimeda_meso <- subset(all_MHI, Zone == "Mesophotic")
 
 best_MHI <- subset(best_genera, Region == "MHI")
 best_NWHI <- subset(best_genera, Region == "NWHI")
-```
 
-```{r}
 #subsets of averages for bar plots
 best_avg_MHI <- subset(best_averages, Region == "MHI")
 best_avg_NWHI <- subset(best_averages, Region == "NWHI")
-```
 
-```{r}
 #subset of spatial data by zone
 spatial_data_meso <- subset(spatial_data, Zone == "Mesophotic")
 spatial_data_shlw <- subset(spatial_data, Zone == "Shallow")
 ```
-
 
