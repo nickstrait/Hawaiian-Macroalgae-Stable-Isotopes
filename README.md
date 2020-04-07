@@ -6,4 +6,6 @@ Data for this project is stored in the data folder. best_avgerages.csv and violi
 
 All code is reproducable, so long as the data is imported with the same names. Data was imported from the files section in bottom right of R, not with read.csv.
 
+You will need the following library installed: ggplot2
+
 Acknowledgements: NFWF, Papahānaumokuākea Marine National Monument, NOAA, NSF, NCCOS, NOAA's Undersea Research Center for Hawaii and the Western Pacific. Co-Collaborators from Hawaii: UH Manoa: Alison Sherwood, Celia Smith, PMNM: Randy Kosaki, NOAA: Daniel Wagner
