@@ -1,9 +1,6 @@
 
 ```{r}
-library(ggplot2)
-library(gridExtra)
-library(scatterplot3d)
-library(MASS)
+
 
 # Zone 1 are shallow water depths and Zone 2 is mesophotic
 

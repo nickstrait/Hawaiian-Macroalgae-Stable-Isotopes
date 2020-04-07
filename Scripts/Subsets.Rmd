@@ -49,8 +49,4 @@ best_NWHI <- subset(best_genera, Region == "NWHI")
 best_avg_MHI <- subset(best_averages, Region == "MHI")
 best_avg_NWHI <- subset(best_averages, Region == "NWHI")
 
-#subset of spatial data by zone
-spatial_data_meso <- subset(spatial_data, Zone == "Mesophotic")
-spatial_data_shlw <- subset(spatial_data, Zone == "Shallow")
-```
 

@@ -115,7 +115,7 @@ ggplot(Molokai.meso, aes(x=Depth, y=Percent, fill=Genus)) + geom_violin(trim = F
 ```
 
 ```{r}
-ggplot(Halimeda.MHI, aes(x=Location, y=N15, fill=Zone)) + geom_violin(trim = FALSE)
-ggplot(Halimeda.MHI, aes(x=Location, y=Percent, fill=Zone)) + geom_violin(trim = FALSE)
+ggplot(Halimeda_MHI, aes(x=Location, y=N15, fill=Zone)) + geom_violin(trim = FALSE)
+ggplot(Halimeda_MHI, aes(x=Location, y=Percent, fill=Zone)) + geom_violin(trim = FALSE)
 ```
 
