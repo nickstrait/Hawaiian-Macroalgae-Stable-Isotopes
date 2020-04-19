@@ -23,8 +23,8 @@ MHI.shlw <- subset(MainHI, Zone == "Shallow")
 MHI.meso <- subset(MainHI, Zone == "Mesophotic")
 
 #NWHI subset
-NWHI.shlw <- subset(NwestHI, Zone =="S")
-NWHI.meso <- subset(NwestHI, Zone =="M")
+NWHI.shlw <- subset(NwestHI, Zone =="Shallow")
+NWHI.meso <- subset(NwestHI, Zone =="Mesophotic")
 ```
 
 ```{r}
@@ -45,7 +45,9 @@ all_halimeda_meso <- subset(all_MHI, Zone == "Mesophotic")
 best_MHI <- subset(best_genera, Region == "MHI")
 best_NWHI <- subset(best_genera, Region == "NWHI")
 
+
 #subsets of averages for bar plots
+# Zone 1 are shallow water depths and Zone 2 is mesophotic
 best_avg_MHI <- subset(best_averages, Region == "MHI")
 best_avg_NWHI <- subset(best_averages, Region == "NWHI")
 

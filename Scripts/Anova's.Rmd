@@ -1,9 +1,6 @@
 
 ```{r}
 
-
-# Zone 1 are shallow water depths and Zone 2 is mesophotic
-
 region.anova.N15 <- aov(N15 ~ Region, data = all_nitrogen_data)
 region.anova.per <- aov(Percent ~ Region, data = all_nitrogen_data)
 
@@ -59,8 +56,12 @@ summary(aov(Percent ~ Zone + Location, data = Halimeda_NWHI))
 
 ```{r}
 #Halimeda sp vs kanaloana
-summary(aov(N15 ~ Genus, data = all_halimeda))
-summary(aov(Percent ~ Genus, data = all_halimeda))
+summary(aov(N15 ~ Genus*Zone, data = all_halimeda))
+summary(aov(Percent ~ Genus*Zone, data = all_halimeda))
+
+TukeyHSD(aov(N15 ~ Genus*Zone, data = all_halimeda))
+TukeyHSD(aov(Percent ~ Genus*Zone, data = all_halimeda))
+
 
 summary(aov(N15 ~ Genus, data = all_halimeda_shlw))
 summary(aov(Percent ~ Genus, data = all_halimeda_shlw))
@@ -89,15 +90,30 @@ TukeyHSD(aov(Percent ~ Genus * Zone, data = best_NWHI))
 ```{r}
 #Anova's of  spatial distribution in shallow depths across the archipelago
 summary(aov(N15 ~  Location, data = shallow))
+TukeyHSD(aov(N15 ~  Location, data = shallow))
+#only NWHI that were different from one another were PH and Lisanski
 
 summary(aov(Percent ~  Location, data = shallow))
+TukeyHSD(aov(Percent ~  Location, data = shallow))
+#None of the NWHI differed in terms of percent
+
 ```
 
 ```{r}
 #Anova's of  spatial distribution in mesophotic depths across the archipelago
 summary(aov(N15 ~  Location, data = mesophotic))
-
+TukeyHSD(aov(N15 ~  Location, data = mesophotic))
+#most NWHI did not differ, a few exceptions and Kure differed more often than others
 summary(aov(Percent ~  Location, data = mesophotic))
+TukeyHSD(aov(Percent ~  Location, data = mesophotic))
+#most NWHI did not differ, a few exceptions and Kure differed more often than others
+```
 
+```{r}
+# Anovas looking at Pearl and Hermes to determine if the various sites samples were collected from differ
+summary(aov(N15 ~ Site, data = sites))
+summary(aov(Percent ~ Site, data = sites))
+
+#shows that there is variablity within each location
 ```
 
