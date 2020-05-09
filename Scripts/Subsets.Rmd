@@ -41,14 +41,13 @@ all_halimeda_meso <- subset(all_MHI, Zone == "Mesophotic")
 
 ```{r}
 # Subsets of best genera that overlap zones
-
 best_MHI <- subset(best_genera, Region == "MHI")
 best_NWHI <- subset(best_genera, Region == "NWHI")
-
 
 #subsets of averages for bar plots
 # Zone 1 are shallow water depths and Zone 2 is mesophotic
 best_avg_MHI <- subset(best_averages, Region == "MHI")
 best_avg_NWHI <- subset(best_averages, Region == "NWHI")
+```
 
 
